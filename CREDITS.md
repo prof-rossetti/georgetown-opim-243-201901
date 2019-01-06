@@ -25,3 +25,8 @@ Thanks to all the students who have participated in previous courses, especially
   + [Gantt Chart GIF](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/haymaker/online-gantt-chart.gif)
   + [Example Sprint Board](https://www.atlassian.com/software/jira)
   + [MVP Skateboard vs Car Image](https://i1.wp.com/streetsmartproductmanager.com/wp-content/uploads/2014/03/mvp.jpg?w=500), also h/t IBM Design team for sharing
+
+### GitHub Student Resources
+
+  + https://education.github.com/pack
+  + https://help.github.com/articles/applying-for-a-student-developer-pack/
