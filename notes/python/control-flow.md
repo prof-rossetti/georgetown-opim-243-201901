@@ -1,8 +1,6 @@
-# Python Language Overview
+# Control Flow
 
-## Control Flow
-
-### If Statements
+## If Statements
 
 Reference:
 
@@ -71,6 +69,6 @@ elif True:
 #> "First"
 ```
 
-### Case Statements
+## Case Statements
 
 Python doesn't have "Case" statements. Try to use an "If" statement or a dictionary to accomplish what you are trying to do.

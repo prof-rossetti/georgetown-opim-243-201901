@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Numbers
+# Numbers
 
 Reference: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex.
 
@@ -10,7 +8,7 @@ Reference: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-flo
 0.45 #> 0.45
 ```
 
-### Numeric Operations
+## Numeric Operations
 
 Numeric functions include the usual arithmetic operators:
 

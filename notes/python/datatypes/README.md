@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Datatypes
+# Datatypes
 
 Common Python datatypes include:
 
@@ -12,7 +10,7 @@ Common Python datatypes include:
   + [Lists and Sets](datatypes/lists.md) (Intermediate Concept)
   + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
 
-### Detection
+## Detection
 
 Use the `type()` function to detect the datatype of any object:
 
@@ -44,7 +42,7 @@ isinstance([1,2,3], list) #> True
 isinstance([1,2,3], str) #> False
 ```
 
-### Conversion
+## Conversion
 
 Here are a few examples of how to convert between datatypes:
 

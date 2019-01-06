@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Dictionaries
+# Dictionaries
 
 Reference:
 

@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Strings
+# Strings
 
 Reference: https://docs.python.org/3/library/string.html.
 
@@ -81,7 +79,7 @@ for character in "Hello World":
 #> l
 #> l
 #> o
-#>  
+#>
 #> W
 #> o
 #> r

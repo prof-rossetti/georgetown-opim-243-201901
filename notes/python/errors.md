@@ -1,13 +1,11 @@
-# Python Language Overview
-
-## Errors
+# Errors
 
 Reference:
 
   + https://docs.python.org/3/library/exceptions.html#bltin-exceptions
   + https://docs.python.org/3/tutorial/errors.html
 
-### Raising Errors
+## Raising Errors
 
 ```python
 options = ["rock", "paper", "scissors"]
@@ -22,7 +20,7 @@ else:
 # the choice is yours...
 ```
 
-### Handling Errors
+## Handling Errors
 
 ```python
 try:

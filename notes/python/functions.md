@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Functions
+# Functions
 
 Reference:
 
@@ -25,11 +23,11 @@ If you try to invoke a function before or without defining it, you will see an e
 
 You might see some functions invoked by themselves (e.g. `do_stuff()`) while others are invoked on objects (e.g. `some_object.do_something_else()`). These two approaches illustrate the difference between "functional" and "object-oriented" programming, respectively. To find a comprehensive list of functions available to be called on any given type of object, reference the documentation for that type of object.
 
-### Parameters
+## Parameters (Input Values)
 
 Some functions accept parameters which can be passed to the function during its invocation. A function's parameters must be configured during the function's definition.
 
-#### Single Parameter
+### Single Parameter
 
 Define a function with a parameter:
 
@@ -49,7 +47,7 @@ do_stuff_with_param("HELLO!")
 #> ---------
 ```
 
-#### Multiple Parameters
+### Multiple Parameters
 
 Define a function with multiple parameters:
 
@@ -76,7 +74,7 @@ do_stuff_with_params("HO! HO! HO!", "Santa", "Claus")
 >
 
 
-### Returns
+## Return Values
 
 In order to have a function return some value when invoked, use the `return` keyword:
 

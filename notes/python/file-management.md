@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## File Management
+# File Management
 
 Use Python to read and write file contents, as well as to create and delete files.
 
@@ -15,7 +13,7 @@ See also: [the `csv` module](modules/csv.md) for reading and writing CSV files, 
 
 To setup these examples, create a new directory on your Desktop called "file-mgmt" and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
 
-### Writing Files
+## Writing Files
 
 Write content to file:
 
@@ -38,7 +36,7 @@ with open(file_name, "w") as file: # NOTE: "w" means "open the file for writing"
 #> Goodbye
 ```
 
-### Reading Files
+## Reading Files
 
 Read file contents:
 

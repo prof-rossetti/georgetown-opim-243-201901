@@ -1,8 +1,6 @@
-# Python Language Overview
+# Booleans
 
-## Booleans
-
-### Values
+## Values
 
 Reference: https://docs.python.org/3/library/stdtypes.html#boolean-values.
 
@@ -13,7 +11,7 @@ True #> True
 False #> False
 ```
 
-### Operations
+## Operations
 
 Reference:
 

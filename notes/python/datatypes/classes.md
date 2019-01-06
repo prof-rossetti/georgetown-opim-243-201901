@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Classes
+# Classes
 
 Reference:
 
@@ -12,9 +10,9 @@ A **Class** is a representation of one or more objects which share the same or s
 
 In Python, class definition requires a specific function called `__init__()` to initialize, or create a new member of the object class.
 
-### Usage
+## Usage
 
-#### Definition
+### Definition
 
 To setup this example, create a new directory on your Desktop called `class-time` or something. Inside it, create a new file called `baseball_team.py` and place inside the following contents:
 
@@ -39,7 +37,7 @@ class BaseballTeam():
 
 ```
 
-#### Instantiation
+### Instantiation
 
 After defining an object class, create a new member of that object class. This is called "instantiating", or "initializing", or creating an "instance" of the object class.
 

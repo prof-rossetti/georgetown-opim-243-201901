@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Debugging
+# Debugging
 
 Use the `help()` function to view documentation for a given object or datatype:
 
@@ -8,14 +6,13 @@ Use the `help()` function to view documentation for a given object or datatype:
 help(str)
 ```
 
-
 Use the `dir()` function to see what methods you can call on a given object.
 
 ```py
 dir("Hello")
 ```
 
-### Interactive Console
+## Interactive Console
 
 Various modules and third-party packages offer interactive debugging capabilities:
 

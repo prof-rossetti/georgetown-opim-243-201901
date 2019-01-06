@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Comments
+# Comments
 
 Use comments to convey some message or otherwise prevent code from being executed by the interpreter. Comment by using the `#` sign followed by the commented message:
 

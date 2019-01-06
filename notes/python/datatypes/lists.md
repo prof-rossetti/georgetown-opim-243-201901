@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## Lists
+# Lists
 
 Reference:
   + https://docs.python.org/3/library/stdtypes.html#lists
@@ -103,7 +101,7 @@ arr2 #> [1, 2, 3]
 list(set(["hello", "hello", "hello"])) #> ['hello']
 ```
 
-### Sorting
+## Sorting
 
 Sort a list:
 
@@ -161,7 +159,7 @@ teams = sorted(teams, key=operator.itemgetter('city'))
 teams #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
 ```
 
-### Iteration
+## Iteration
 
 Reference:
 
