@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `math` Module
+# The `math` Module
 
 Reference: https://docs.python.org/3/library/math.html.
 

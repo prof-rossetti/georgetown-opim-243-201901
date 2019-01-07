@@ -31,3 +31,13 @@ except RuntimeError:
 
 #> OOPS - MY ERROR
 ```
+
+```python
+try:
+  100 / 0
+  print("EVERYTHING IS GOING FINE")
+except DivisionByZeroError:
+  print("OOPS - MY ERROR")
+
+#> OOPS - MY ERROR
+```

@@ -43,6 +43,56 @@ To install Python, see one of the following guides, based on your operating syst
   + [Installing Python on Mac OS](installation/on-mac-via-homebrew.md)
   + [Installing Python on Windows OS](installation/on-windows.md)
 
+Install anaconda from source: https://www.anaconda.com/download/#macos then restart terminal and check to see if it is installed:
+
+```sh
+conda --version #> conda 4.5.11
+which conda #> /anaconda3/bin/conda
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Usage
 
 After Python is installed, you should be able to run Python commands from the command-line. Depending on your installation, you will either be running `python` and `pip` (website-downloaded Python on Windows or Mac), or `python3` and `pip3` (Homebrew-installed Python on Mac).

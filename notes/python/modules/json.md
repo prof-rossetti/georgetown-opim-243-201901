@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `json` Module
+# The `json` Module
 
 Reference: https://docs.python.org/3/library/json.html.
 

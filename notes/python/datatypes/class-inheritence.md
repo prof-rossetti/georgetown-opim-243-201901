@@ -1,6 +1,8 @@
 
 # Class Inheritance
 
+> Prerequisite: [Classes](classes.md)
+
 Reference: https://docs.python.org/3.1/tutorial/classes.html#inheritance
 
 It is possible for a class to "inherit" its properties and functionality from its "parent" class while at the same time retaining its own specific characteristics.

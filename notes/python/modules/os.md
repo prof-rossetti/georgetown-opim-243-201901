@@ -1,12 +1,10 @@
-# Python Language Overview
-
-## The `os` Module
+# The `os` Module
 
 Reference: https://docs.python.org/3/library/os.html.
 
 Use the `os` module perform command-line-style file and directory operations, and to access system environment variables.
 
-### Directory Operations
+## Directory Operations
 
 Get current working directory:
 
@@ -38,8 +36,7 @@ List all files in a given directory:
 os.listdir("/path/to/Desktop")
 ```
 
-
-### File Operations
+## File Operations
 
 Detect whether a specific file exists:
 
@@ -53,18 +50,7 @@ Compile file paths by joining a directory with a relative file path:
 os.path.join(os.path.dirname(__file__), "../../some_upstream_file.txt")
 ```
 
-
-
-
-
-
-
-
-
-
-### Accessing Environment Variables
-
-To setup the following examples, follow the [Environment Variables Overview](/notes/software/environment-variables.md) and/or [the `dotenv` package](/notes/programming-languages/python/packages/dotenv.md) notes to set an environment variable named `NYU_INFO_2335`.
+## Environment Variables
 
 Get the entire environment:
 
@@ -82,14 +68,14 @@ print(type(dict(my_env))) #> <class 'dict'>
 print(dict(my_env)) #> 'dict'
 ```
 
-Get a specific environment variable (e.g. `NYU_INFO_2335`, only after you have set it):
+Get a specific environment variable (e.g. `MY_SECRET_MESSAGE`, only after you have set it):
 
 ```py
 # using a dictionary-like approach:
-my_var = os.environ["NYU_INFO_2335"]
+my_var = os.environ["MY_SECRET_MESSAGE"]
 print(my_var) #> SecretPassword123
 
 # using a getter function approach:
-my_var = os.environ.get("NYU_INFO_2335")
+my_var = os.environ.get("MY_SECRET_MESSAGE")
 print(my_var) #> SecretPassword123
 ```

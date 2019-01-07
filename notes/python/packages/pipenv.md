@@ -1,8 +1,6 @@
-# Python Language Overview
+# The `pipenv` Package
 
-## The `pipenv` Package
-
-Pipenv provides an alternative command-line utility for installing third-party Python packages and managing Python versions and package dependencies. The Python community is moving towards using Pipenv as a best practice.
+Pipenv provides an alternative command-line utility for installing third-party Python packages and managing Python versions and package dependencies.
 
 Reference:
 
@@ -13,7 +11,7 @@ Reference:
   + http://docs.python-guide.org/en/latest/starting/install3/win/
   + https://github.com/pypa/pipenv
 
-### Installation
+## Installation
 
 When installing Pipenv, one option is to install it via Pip, almost like you would any other Python package:
 
@@ -31,9 +29,9 @@ However, alternatively, if you have used Homebrew to install Python on Mac OS, t
 brew install pipenv
 ```
 
-### Usage
+## Usage
 
-#### Setup
+### Setup
 
 After installing Pipenv, you will mostly be using it from the root directory of some project repository to manage packages and versions. So navigate to your project directory:
 
@@ -51,7 +49,7 @@ This should create two files in the root directory of your project repository: a
 
 > NOTE: for some Windows users, you might not see these files, but the virtual environment is still created.
 
-#### Installing Project-specific Packages
+### Installing Project-specific Packages
 
 To install a specific package:
 
@@ -61,7 +59,7 @@ pipenv install my_package # where my_package is the name of the package to insta
 
 This will add the package to the project's `Pipfile` and `Pipfile.lock`, and make it available for use by scripts run within the project's virtual environment.
 
-#### Running a Virtual Environment
+### Running a Virtual Environment
 
 From your repository's root directory, enter into a virtual environment with all the specified packages installed and ready to use:
 

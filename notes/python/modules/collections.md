@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `collections` Module
+# The `collections` Module
 
 Reference:
 

@@ -1,6 +1,6 @@
-# Python Language Overview
+# The `pdb` Module
 
-## The `pdb` Module
+> NOTE: In Python 3.7, you should be able to use debugger(), which is equivalent to pdb.set_trace().
 
 Reference: https://docs.python.org/3/library/pdb.html.
 
