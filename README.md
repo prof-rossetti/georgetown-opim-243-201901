@@ -13,6 +13,8 @@ Credits | 1.5
 
 For more information, see the [Syllabus](/SYLLABUS.pdf).
 
+![](https://www.perforce.com/sites/default/files/image/2018-08/image-blog-enterprises-investing-python%20(2).jpg)
+
 ## Notes
 
   + [Python Language Overview](/notes/python/README.md)
