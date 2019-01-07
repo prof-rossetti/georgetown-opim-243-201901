@@ -13,6 +13,10 @@ Credits | 1.5
 
 For more information, see the [Syllabus](/SYLLABUS.pdf).
 
+## Notes
+
+  + [Python Language Overview](/notes/python/README.md)
+
 ## [Acknowledgements](/CREDITS.md)
 
 ## [License](/LICENSE.md)
