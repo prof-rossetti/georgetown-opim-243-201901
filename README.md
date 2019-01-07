@@ -17,6 +17,10 @@ For more information, see the [Syllabus](/SYLLABUS.pdf).
 
   + [Python Language Overview](/notes/python/README.md)
 
+## Exercises
+
+  + [Development Environment Setup](/exercises/dev-env-setup.md)
+
 ## [Acknowledgements](/CREDITS.md)
 
 ## [License](/LICENSE.md)

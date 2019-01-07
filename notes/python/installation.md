@@ -2,11 +2,11 @@
 
 Before you can execute Python programs on your computer, you'll first need to install the Python command-line utility. When you install Python, you also get Pip, which is a command-line utility for installing third-party Python packages.
 
-Over the past few years there has been a shift in the community from Python Version 2 to Python Version 3. This semester we will be using Python 3, exclusively. We might use different versions of Python 3, depending on the third-party packages we need to use. The `conda` command-line utility will help us manage our installation of the python programming language and its third party packages.
+Over the past few years there has been a shift in the community from Python Version 2 to Python Version 3. This semester we will be using Python 3, exclusively. We might use different minor versions of Python 3 (like 3.6 or 3.7), depending on the third-party packages we need to use for any given project.
 
-Before proceeding, please take a moment to [install and get familiar with `conda`](/notes/anaconda/README.md).
+A tool called Anaconda provides a command-line utility called `conda` to help us manage various versions. Before proceeding, please take a moment to [install Anaconda and get familiar with `conda`](/notes/anaconda/README.md).
 
-> NOTE: Running `python` and `pip` commands from your terminal will show you information about any global installations of Python which may exist on your computer. Because we are using project-specific versions of Python and Pip which are managed by Anaconda, we usually want to be running these commands from inside an Anaconda virtual environment. Doing so will tell us about our project-specific installation of Python.
+> MAC OS NOTE: Running `python` and `pip` commands directly from your Mac Terminal will show you information about any global installations of Python which may exist on your computer. But because we will be using project-specific versions of Python and Pip which are managed by Anaconda and installed in project-specific Anaconda virtual environments, we usually want to be running these commands from inside our project's virtual environment instead. See the Anaconda notes for more context.
 
 ## Detecting Installations
 
@@ -14,16 +14,13 @@ To see if Python is already installed on your machine:
 
 ```sh
 # Mac Terminal:
-which python # check for Python in general, or Homebrew-installed Python Version 2.x
-which python3 # check for Homebrew-installed Python Version 3.x
+which python
 
 # Windows Command Prompt:
 where python
 ```
 
-If you see a filepath output, it means Python is installed at the location specified, so you can advance to the version detection instructions below.
-
-If you see an empty result or an error message, that usually means Python is not installed, so you can skip to the OS-specific installation instructions further down below.
+If you see a filepath output, it means Python is installed at the location specified, so you can advance to the version detection instructions below. Otherwise, if you see an empty result or an error message, that usually means Python is not installed.
 
 ## Detecting Versions
 
