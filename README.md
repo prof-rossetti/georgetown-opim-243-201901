@@ -17,8 +17,10 @@ For more information, see the [Syllabus](/SYLLABUS.pdf).
 
   + [Python Language Overview](/notes/python/README.md)
 
-## Exercises
+## Activities
 
+  + [Onboarding Survey](https://goo.gl/forms/VOmlJYXdWIM1pXz02)
+  + [Weekly Progress Check-ins](https://goo.gl/forms/UuP90hZen7czJG523)
   + [Development Environment Setup](/exercises/dev-env-setup.md)
 
 ## [Acknowledgements](/CREDITS.md)
