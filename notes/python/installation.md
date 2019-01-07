@@ -1,12 +1,16 @@
 # Installing Python and Pip
 
-Before you can execute Python programs on your machine, you need to install the Python command-line utility. In the recent past, there has been a movement from Python version 2 (2.x) to Python version 3 (3.x) and there is still some lingering awkwardness as a result. Previous semesters have accommodated both versions of Python, but this semester we are going to be exclusively using Python 3.x, specifically 3.6.x.
+Before you can execute Python programs on your computer, you'll first need to install the Python command-line utility. When you install Python, you also get Pip, which is a command-line utility for installing third-party Python packages.
 
-When you install Python, you also get Pip. Pip is a command-line utility for installing third-party Python packages. We will primarily be using a different tool for this purpose, but more on package management later.
+Over the past few years there has been a shift in the community from Python Version 2 to Python Version 3. This semester we will be using Python 3, exclusively. We might use different versions of Python 3, depending on the third-party packages we need to use. The `conda` command-line utility will help us manage our installation of the python programming language and its third party packages.
+
+Before proceeding, please take a moment to [install and get familiar with `conda`](/notes/anaconda/README.md).
+
+> NOTE: Running `python` and `pip` commands from your terminal will show you information about any global installations of Python which may exist on your computer. Because we are using project-specific versions of Python and Pip which are managed by Anaconda, we usually want to be running these commands from inside an Anaconda virtual environment. Doing so will tell us about our project-specific installation of Python.
 
 ## Detecting Installations
 
-First thing's first. Let's see if Python is already installed on your machine:
+To see if Python is already installed on your machine:
 
 ```sh
 # Mac Terminal:
@@ -28,26 +32,6 @@ Let's see which version of Python is installed:
 ```shell
 python --version #> Python 3.6.5
 pip --version #> pip 9.0.1 from /usr/local/lib/python3.6/site-packages (python 3.6)
-```
-
-If Python 3.6.x is installed, great! No need to install it again.
-
-If Python 3.6.x is not installed, follow the OS-specific instructions below to install it.
-
-If Python 2.x is installed and you're not sure how to install version 3.x without causing conflicts (especially on Windows), ask the professor for guidance.
-
-## Installation
-
-To install Python, see one of the following guides, based on your operating system:
-
-  + [Installing Python on Mac OS](installation/on-mac-via-homebrew.md)
-  + [Installing Python on Windows OS](installation/on-windows.md)
-
-Install anaconda from source: https://www.anaconda.com/download/#macos then restart terminal and check to see if it is installed:
-
-```sh
-conda --version #> conda 4.5.11
-which conda #> /anaconda3/bin/conda
 ```
 
 

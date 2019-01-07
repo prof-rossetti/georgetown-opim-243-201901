@@ -13,59 +13,112 @@ Resources:
   + https://conda.io/docs/user-guide/tasks/manage-pkgs.html#id2
   + https://conda.io/docs/user-guide/tasks/view-command-line-help.html
 
+
 ## Detection
 
-Check to see if Anaconda is already installed.
+To check to see if Anaconda is already installed:
 
 ```sh
-conda --version #> conda 4.5.11
+conda --version
+#> conda 4.5.12
 
 # Mac Terminal:
-which conda #> /anaconda3/bin/conda
+which conda
+#> /anaconda3/bin/conda
 
-# Windows Command Prompt:
-where conda #> _____________
+# Windows Anaconda Prompt:
+where conda
+#> C:\Users\YOUR_USERNAME\Anaconda3\Library\bin\conda.bat
+#> C:\Users\YOUR_USERNAME\Anaconda3\Scripts\conda.exe
 ```
+
+On a Mac, you can invoke these commands directly in the Terminal.
+
+![](/img/notes/anaconda/mac-terminal.png)
+
+### Detection on Windows
+
+However, on Windows, you can alternatively search for the "Anaconda Prompt" application to know whether or not you have it installed.
+
+![](/img/notes/anaconda/windows-detecting-anaconda-prompt.png)
+
+After the Anaconda Prompt is installed, you can invoke these commands from within it.
+
+![](/img/notes/anaconda/windows-anaconda-prompt.png)
 
 ## Installation
 
-If not yet installed, [download Anaconda version 3.7](https://www.anaconda.com/download) from the website. This might take a while, so prefer to do it over a strong WiFi connection. After the download begins, if you see a popup message about downloading a cheat sheet, you can ignore it.
+If not yet installed, [download Anaconda Version 3.7](https://www.anaconda.com/download) for either Mac or Windows. NOTE: This might take a while, so prefer to do it over a strong WiFi connection. And feel free to ignore any email capture forms which may pop up afterwards.
 
-After the download has finished, run the installer program and accept all the default options. The installation will take a few minutes to complete.
+![](/img/notes/anaconda/downloading-anaconda-windows.png)
 
-After the installation is complete, restart your terminal for the changes to take effect. Then try detecting the installation again, as described in the section above.
+After the download has finished, run the installer program and accept all the default options. The installation will take a few minutes to complete. After a while it may ask you whether or not you'd like to also install a text editor called "VS Code". Since VS Code is the preferred text editor for this course, you can feel free to keep this option checked, and the installer will ensure it is installed.
+
+![](/img/notes/anaconda/anaconda-install-vs-code.png)
+
+> DISCLAIMER: the professor had already installed VS Code before installing Anaconda, so if installing VS Code via Anaconda presents any issues, please report them immediately. Alternatively, you can always install VS Code separately.
+
+> NOTE: After installing Anaconda on a Mac, you will need to restart your terminal for the changes to take effect.
+
+After the installation is complete, try repeating the detecting commands again, as described in the section above.
+
+Once you are able to successfully detect your installation of Anaconda, you are ready to proceed!
 
 ## Usage
 
-Before using Anaconda, take a moment to create a new project directory somewhere on your computer, perhaps on your Desktop, and navigate there from the command line:
+When activating Anaconda virtual environments and issuing project-specific `conda` commands, we generally want to do so within that project's directory. So let's take a moment to create a new project directory now, then navigate there from the command line:
 
 ```sh
-cd path/to/my-project-repo/ # where path/to/my-project-repo/ is the actual path to your desired project directory
+cd path/to/my-first-project/ # where path/to/my-first-project/ is the actual path of your desired project directory
 ```
 
-From your project's root directory, install a new virtual environment, named something like `my-env`, optionally specifying a version of Python to use in this environment:
+All subsequent commands assume you are running them from within the project's root directory.
+
+### Managing Environments
+
+View a list of existing virtual environments:
 
 ```sh
-conda create -n my-env # OR ... conda create -n my-env python=3.6
-conda env list #> you should see your new environment included
+conda env list
 ```
 
-Enter the virtual environemnt:
+Create a new virtual environment, and name it something like "my-first-env":
 
 ```sh
-conda activate my-env  # ... to deactivate: conda deactivate
+conda create -n my-first-env
+# FYI: you can specify a Python version for your new environment with... conda create -n my-first-env python=3.6
+# FYI: you can delete any environment with... conda env remove -n my-first-env
+```
 
-which python #> /anaconda3/envs/my-env/bin/python
+![](/img/notes/anaconda/managing-envs.png)
+
+
+Enter the virtual environment:
+
+```sh
+conda activate my-first-env  # ... to deactivate: conda deactivate
+```
+
+Once activating the environment, you should be able to detect and use its installations of Python and Pip:
+
+```
+which python #> /anaconda3/envs/my-first-env/bin/python
 python --version #> Python 3.6.7 :: Anaconda, Inc.
 
-which pip #> /anaconda3/envs/my-env/bin/pip
-pip --version #> pip 18.1 from /anaconda3/envs/my-env/lib/python3.6/site-packages/pip (python 3.6)
+which pip #> /anaconda3/envs/my-first-env/bin/pip
+pip --version #> pip 18.1 from /anaconda3/envs/my-first-env/lib/python3.6/site-packages/pip (python 3.6)
 ```
 
-Install package dependencies inside the virtual environment, as necessary:
+If your project requires any third-party packages, you can use Pip to install them inside your project's virtual environment:
 
 ```sh
-pip install pandas matplotlib
+pip install first_package second_package third_package
 
-pip list #> should see both, with supporting packages
+pip list #> should see all installed packages, as well as their package dependencies
+```
+
+And you can run any of your project's python scripts from within the environment as well:
+
+```sh
+python path/to/some/script.py
 ```

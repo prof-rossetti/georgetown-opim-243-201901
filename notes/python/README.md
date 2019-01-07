@@ -1,6 +1,6 @@
 # Professor Rossetti's Python Language Overview
 
-A high-level overview of the [Python](https://www.python.org/) programming language. To compliment the official Python docs.
+A curated, high-level overview of the [Python](https://www.python.org/) programming language.
 
 Official Python Resources:
 
