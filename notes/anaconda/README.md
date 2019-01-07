@@ -1,17 +1,17 @@
 # Anaconda
 
-Anaconda provides a command-line utility for installing and managing different versions of the Python programming language and third-party Python packages.
+Anaconda provides a command-line utility called `conda` for installing and managing different versions of the Python programming language and of third-party Python packages.
+
+> Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 1,500+ open source packages. Anaconda is free and easy to install, and it offers free community support. - [Anaconda website](https://docs.anaconda.com/anaconda/)
 
 Resources:
 
+  + https://conda.io/docs/_downloads/conda-cheatsheet.pdf
   + https://conda.io/docs/user-guide/getting-started.html
   + https://conda.io/docs/user-guide/tasks/manage-conda.html
   + https://conda.io/docs/user-guide/tasks/manage-environments.html
   + https://conda.io/docs/user-guide/tasks/manage-pkgs.html#id2
   + https://conda.io/docs/user-guide/tasks/view-command-line-help.html
-  + https://docs.anaconda.com/anaconda/
-  + https://conda.io/docs/_downloads/conda-cheatsheet.pdf
-  + https://docs.anaconda.com/_downloads/Anaconda-Starter-Guide-Cheat-Sheet.pdf
 
 ## Detection
 
@@ -29,7 +29,11 @@ where conda #> _____________
 
 ## Installation
 
-If not yet installed, [download Anaconda](https://www.anaconda.com/download) from the website, then make sure to restart your terminal after you
+If not yet installed, [download Anaconda version 3.7](https://www.anaconda.com/download) from the website. This might take a while, so prefer to do it over a strong WiFi connection. After the download begins, if you see a popup message about downloading a cheat sheet, you can ignore it.
+
+After the download has finished, run the installer program and accept all the default options. The installation will take a few minutes to complete.
+
+After the installation is complete, restart your terminal for the changes to take effect. Then try detecting the installation again, as described in the section above.
 
 ## Usage
 
