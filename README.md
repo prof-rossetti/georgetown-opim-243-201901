@@ -13,17 +13,15 @@ Credits | 1.5
 
 > Today’s businesses rely on application software to perform operations, aid decision-making, and drive competitive advantage. In this introductory course, students will learn how to write practical business applications in the Python programming language. No prior programming experience is required. Throughout the semester, students will be immersed in hands-on Python programming projects and should emerge with marketable technology skills.
 
-For more information, see the [Syllabus](/SYLLABUS.pdf).
+## [Syllabus](/SYLLABUS.pdf)
 
-## Notes
+## Schedule
 
-  + [Python Language Overview](/notes/python/README.md)
-
-## Activities
-
-  + [Onboarding Survey](https://goo.gl/forms/VOmlJYXdWIM1pXz02)
-  + [Weekly Progress Check-ins](https://goo.gl/forms/UuP90hZen7czJG523)
-  + [Development Environment Setup](/exercises/dev-env-setup.md)
+  + [Unit 0](/units/unit-0/agenda.md): Command-line Computing
+  + [Unit 1](/units/unit-1/agenda.md): Processing Python Datatypes
+  + Unit 2: Processing User Inputs
+  + Unit 3: Processing CSV Data from File
+  + Unit 4: Processing JSON Data from the Internet
 
 ## [Acknowledgements](/CREDITS.md)
 

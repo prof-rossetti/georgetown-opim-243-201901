@@ -2,14 +2,12 @@
 
 ## Objectives
 
-In this unit, we will lay a foundation for the rest of the semester by introducing high-level concepts and background knowledge. We will gain familiarity with our computers and with each other. And we will make all the necessary preparations to start learning Python.
+In this unit, we will take a high-level guided tour of the Python programming language. We'll start by familiarizing ourselves with some introductory Python reference materials, then we will illustrate and apply these concepts as we work through a guided Python exercise.
 
 ## Discussions and Notes
 
-  + [Information Systems](/notes/info-systems.md)
-  + [Software](notes/software.md)
+  + [Python Language Overview](/notes/programming-languages/python/notes.md)
 
 ## Activities and Exercises
 
-  + [Command-line Computing Exercise](/exercises/command-line-computing.md)
-  + [Development Environment Setup](/exercises/dev-env-setup.md)
+  + ["Groceries" Exercise](/exercises/groceries.md)
