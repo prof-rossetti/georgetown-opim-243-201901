@@ -30,16 +30,22 @@ Regardless of which text editor you choose, you are highly encouraged to configu
 
 Once configured, the text editor is capable of automatically completing snippets of Python code for you. This helps improve accuracy and saves time.
 
-![a screenshot of the text editor's autocomplete functionality](/img/vs-code-python-autocomplete.gif)
+![a screenshot of the text editor's autocomplete functionality](https://user-images.githubusercontent.com/1328807/50870477-2e02ed80-1386-11e9-9a83-506d9c9d39ec.gif)
 
-  + To enable Python auto-completion in VS Code, install the ___________ package.
+Editor-specific Guidance:
+
+  + Sublime: ...
+  + Atom: ...
+  + VS Code: use the `ms-python.python` extension as recommended.
 
 ### Column Selection
 
 Once configured, your text editor can also enable vertical text selection. This comes in handy if you have to change multiple lines of text at the same time, including commenting-out many lines at once.
 
-![a screenshot of the text editor's column selection](img/atom-column-selection.gif)
+![a screenshot of the text editor's column selection](https://user-images.githubusercontent.com/1328807/50870478-2e9b8400-1386-11e9-9378-0afadc4a7dce.gif)
 
-  + Column selection should already be included in Sublime.
-  + To enable column selection in Atom, use the ["Sublime-Style-Column-Selection"](https://atom.io/packages/Sublime-Style-Column-Selection) package.
-  + To enable column selection in VS Code, install and enable the _________ package.
+Editor-specific Guidance:
+
+  + Sublime: this functionality should be included by default.
+  + Atom: try the ["Sublime-Style-Column-Selection"](https://atom.io/packages/Sublime-Style-Column-Selection) package.
+  + VS Code: use the `ms-vscode.atom-keybindings` extension, and see also [Professor Rossetti's VS Code Configuration](/exercises/dev-env-setup/vs-code-config.md) to configure settings for `editor.multiCursorModifier` and `atomKeymap.promptV3Features`.
