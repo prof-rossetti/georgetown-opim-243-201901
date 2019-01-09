@@ -85,10 +85,11 @@ Remove/delete a file:
 del index.html
 ```
 
-Edit and save a file, using a text editor like nano, atom, sublime, or vim:
+Edit and save a file, using a command-line utility provided by your preferred text editor (just choose one of these, depending on which editor you're using):
 
 ```sh
-atom my_message.txt # requires "Install Shell Commands" from the Atom Settings
+code my_message.txt # VS Code
+atom my_message.txt # Atom, requires "Install Shell Commands" from the Atom Settings
 ```
 
 Print file contents:
