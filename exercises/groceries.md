@@ -1,4 +1,4 @@
-# "Groceries" Exercise
+# Python Datatypes, a.k.a. "Groceries" Exercise
 
 ## Objectives
 
@@ -112,3 +112,7 @@ The "checkpoint" steps below provide one example strategy for breaking-up the la
   3. Print in alphabetical order the name of each unique department.
   4. Print in alphabetical order the name of each unique department, as well as the number of products associated with that department.
   5. Print in alphabetical order the name of each unique department, as well as the number of products associated with that department, and properly differentiate between "products" plural and "product" singular, depending on how many there are.
+
+## Submission Instructions
+
+In a subsequent class, the professor will guide you through the process uploading your code to GitHub.
