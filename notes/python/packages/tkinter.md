@@ -116,4 +116,4 @@ my_button.pack()
 window.mainloop()
 ```
 
-![a screencast of using the program. a desktop window comes up. the user inputs some values and selects some things. then upon button click the terminal outputs the values of all selected items](img/tkinter-demo.gif)
+![a screencast of using the program. a desktop window comes up. the user inputs some values and selects some things. then upon button click the terminal outputs the values of all selected items](https://github.com/prof-rossetti/nyu-info-2335-201805/raw/master/notes/programming-languages/python/packages/img/tkinter-demo.gif)
