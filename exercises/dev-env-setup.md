@@ -8,11 +8,12 @@ If you haven't already gotten familiar with [command-line computing](/exercises/
 
 After you are somewhat familiar with navigating your filesystem and creating directories and files from the command-line, you are ready to install some command line utilities, namely `conda`, `python`, and `pip`.
 
-Follow the [Anaconda Notes](/notes/anaconda/README.md) to install all these command-line utilities. Included in that installation process, you may also choose to also install the "VS Code" text editor (see below for more context).
+Follow the [Anaconda Notes](/notes/anaconda.md) to install all these command-line utilities. Included in that installation process, you may also choose to also install the "VS Code" text editor (see below for more context).
 
 Afterwards, you should be able to use the `conda` utility to create and activate Anaconda virtual environments, then within any virtual environment:
 
-  + Use the `python` and `pip` utilities to detect which versions of Python and Pip and third-party packages are installed.
+  + Use the `python` and `pip` utilities to detect which versions of Python and Pip are installed, respectively.
+  + Use the `pip` utility to install and manage third-party packages.
   + Use the `python` utility to enter into an interactive Python console.
   + Use the `python` utility to execute Python scripts (files ending in .py).
   + Use the `code` utility to open folders and files in VS Code (see below).
@@ -28,7 +29,7 @@ Regardless of which text editor you choose, you are highly encouraged to configu
 
 ### Python Syntax Auto-completion
 
-Once configured, the text editor is capable of automatically completing snippets of Python code for you. This helps improve accuracy and saves time.
+Once configured, the text editor is capable of automatically completing snippets of Python code for you. This helps improve accuracy, and saves time.
 
 ![a screenshot of the text editor's autocomplete functionality](https://user-images.githubusercontent.com/1328807/50870477-2e02ed80-1386-11e9-9a83-506d9c9d39ec.gif)
 
