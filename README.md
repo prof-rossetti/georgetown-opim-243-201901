@@ -17,7 +17,7 @@ Credits | 1.5
 
 ## Schedule
 
-  + [Unit 0](/units/unit-0/agenda.md): Command-line Computing
+  + [Unit 0](/units/unit-0/agenda.md): Onboarding, Command-line Computing
   + [Unit 1](/units/unit-1/agenda.md): Processing Python Datatypes
   + Unit 2: Processing User Inputs
   + Unit 3: Processing CSV Data from File
