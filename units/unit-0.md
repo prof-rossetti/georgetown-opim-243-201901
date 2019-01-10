@@ -10,6 +10,7 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
 
   + [Information Systems](/notes/info-systems.md)
   + [Software](/notes/software.md)
+  + [Anaconda](/notes/anaconda.md), a version manager for the Python programming language
 
 ## Activities and Exercises
 

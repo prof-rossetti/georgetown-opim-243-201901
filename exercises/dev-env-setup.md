@@ -8,7 +8,7 @@ If you haven't already gotten familiar with [command-line computing](/exercises/
 
 After you are somewhat familiar with navigating your filesystem and creating directories and files from the command-line, you are ready to install some command line utilities, namely `conda`, `python`, and `pip`.
 
-Follow the [Anaconda Notes](/notes/anaconda.md) to install all these command-line utilities. Included in that installation process, you may also choose to install the "VS Code" text editor (see below for more context).
+Follow the [Anaconda Notes](/notes/anaconda.md) to install all these command-line utilities. Included in that installation process, you may also choose to also install the "VS Code" text editor (see below for more context).
 
 Afterwards, you should be able to use the `conda` utility to create and activate Anaconda virtual environments, then within any virtual environment:
 
