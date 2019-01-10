@@ -75,7 +75,7 @@ cd path/to/my-first-project/ # where path/to/my-first-project/ is the actual pat
 
 All subsequent commands assume you are running them from within the project's root directory.
 
-### Managing Environments
+#### Managing Virtual Environments
 
 View a list of existing virtual environments:
 
@@ -111,12 +111,16 @@ pip --version #> pip 18.1 from /anaconda3/envs/my-first-env/lib/python3.6/site-p
 
 ### The `pip` Utility
 
+Listing installed Python packages:
+
+```sh
+pip list #> should see all installed packages, as well as their package dependencies
+```
+
 If your project requires any third-party packages, you can use Pip to install them inside your project's virtual environment:
 
 ```sh
-pip install first_package second_package third_package
-
-pip list #> should see all installed packages, as well as their package dependencies
+pip install pandas # where pandas is the name of a package you want to install
 ```
 
 ### The `python` Utility
