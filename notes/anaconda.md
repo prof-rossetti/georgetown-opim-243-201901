@@ -13,7 +13,6 @@ Resources:
   + https://conda.io/docs/user-guide/tasks/manage-pkgs.html#id2
   + https://conda.io/docs/user-guide/tasks/view-command-line-help.html
 
-
 ## Detection
 
 To check to see if Anaconda is already installed:
@@ -60,11 +59,13 @@ After the download has finished, run the installer program and accept all the de
 
 > NOTE: After installing Anaconda on a Mac, you will need to restart your terminal for the changes to take effect.
 
-After the installation is complete, try repeating the detecting commands again, as described in the section above.
+After the installation is complete, try repeating the detection commands again, as described in the section above.
 
 Once you are able to successfully detect your installation of Anaconda, you are ready to proceed!
 
 ## Usage
+
+### The `conda` Utility
 
 When activating Anaconda virtual environments and issuing project-specific `conda` commands, we generally want to do so within that project's directory. So let's take a moment to create a new project directory now, then navigate there from the command line:
 
@@ -90,9 +91,6 @@ conda create -n my-first-env
 # FYI: you can delete any environment with... conda env remove -n my-first-env
 ```
 
-![](/img/notes/anaconda/managing-envs.png)
-
-
 Enter the virtual environment:
 
 ```sh
@@ -101,7 +99,7 @@ conda activate my-first-env  # ... to deactivate: conda deactivate
 
 Once activating the environment, you should be able to detect and use its installations of Python and Pip:
 
-```
+```sh
 which python #> /anaconda3/envs/my-first-env/bin/python
 python --version #> Python 3.6.7 :: Anaconda, Inc.
 
@@ -109,12 +107,24 @@ which pip #> /anaconda3/envs/my-first-env/bin/pip
 pip --version #> pip 18.1 from /anaconda3/envs/my-first-env/lib/python3.6/site-packages/pip (python 3.6)
 ```
 
+![](/img/notes/anaconda/managing-envs.png)
+
+### The `pip` Utility
+
 If your project requires any third-party packages, you can use Pip to install them inside your project's virtual environment:
 
 ```sh
 pip install first_package second_package third_package
 
 pip list #> should see all installed packages, as well as their package dependencies
+```
+
+### The `python` Utility
+
+You can enter into an interactive Python console:
+
+```sh
+python
 ```
 
 And you can run any of your project's python scripts from within the environment as well:
