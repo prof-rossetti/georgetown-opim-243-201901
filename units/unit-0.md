@@ -14,4 +14,5 @@ In this unit, we will lay a foundation for the rest of the semester by introduci
 ## Activities and Exercises
 
   + [Command-line Computing Exercise](/exercises/command-line-computing.md)
+  + [Getting Started w/ Anaconda](/notes/anaconda.md)
   + [Development Environment Setup](/exercises/dev-env-setup.md)
