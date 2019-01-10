@@ -8,7 +8,7 @@ If you haven't already gotten familiar with [command-line computing](/exercises/
 
 After you are somewhat familiar with navigating your filesystem and creating directories and files from the command-line, you are ready to install some command line utilities, namely `conda`, `python`, and `pip`.
 
-Follow the [Anaconda Notes](/notes/anaconda.md) to install all these command-line utilities. Included in that installation process, you may also choose to also install the "VS Code" text editor (see below for more context).
+Follow the [Anaconda Notes](/notes/anaconda.md) to install all these command-line utilities. Included in that installation process, you may also choose to install the "VS Code" text editor (see below for more context).
 
 Afterwards, you should be able to use the `conda` utility to create and activate Anaconda virtual environments, then within any virtual environment:
 
@@ -21,7 +21,7 @@ Afterwards, you should be able to use the `conda` utility to create and activate
 
 ## Text Editor
 
-We'll be writing Python scripts using a class of software called the ["text editor"](https://idrh.ku.edu/text-editors-and-word-processors). Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text. This helps the computer more easily interpret them.
+We'll be writing Python scripts using software called a ["text editor"](https://idrh.ku.edu/text-editors-and-word-processors). Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text. This helps the computer more easily interpret them.
 
 There are many good text editor options out there, including [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/), and it seems each developer has their own preference.
 
