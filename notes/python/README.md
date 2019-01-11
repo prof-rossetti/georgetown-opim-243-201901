@@ -2,16 +2,6 @@
 
 A curated, high-level overview of the [Python](https://www.python.org/) programming language.
 
-Official Python Resources:
-
-  + [Python Documentation](https://docs.python.org/3/reference/index.html)
-  + [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-  + [Python Built-in Functions](https://docs.python.org/3/library/functions.html)
-  + [Python Built-in Constants](https://docs.python.org/3/library/constants.html)
-  + [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
-
-Professor Rossetti's Python Notes:
-
   + [Syntax and Style](syntax-and-style.md)
   + [Comments](comments.md)
   + [Logging](logging.md)
