@@ -6,6 +6,8 @@ In this unit, we will take a high-level guided tour of the Python programming la
 
 ## Discussions and Notes
 
+  + [The `python` Utility](/notes/python.md)
+  + [The `pip` Utility](/notes/pip.md)
   + [Python Language Overview](/notes/python/README.md)
 
 ## Activities and Exercises

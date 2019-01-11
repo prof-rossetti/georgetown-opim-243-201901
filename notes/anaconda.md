@@ -110,4 +110,4 @@ pip --version #> pip 18.1 from /anaconda3/envs/my-first-env/lib/python3.6/site-p
 ![](/img/notes/anaconda/managing-envs.png)
 
 
-For more information, see notes on [the `python` utility](/notes/python/python-cli.md) and [the `pip` utility](/notes/python/package-management.md).
+For more information, see notes on [the `python` utility](/notes/python.md) and [the `pip` utility](/notes/pip.md).
