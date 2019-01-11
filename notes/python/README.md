@@ -18,7 +18,7 @@ Professor Rossetti's Python Notes:
   + [Variables](variables.md)
   + [Functions](functions.md)
   + [Control Flow](control-flow.md)
-  + [Datatypes](datatypes.md):
+  + [Datatypes](datatypes/README.md):
     + [None](datatypes/none.md)
     + [Booleans](datatypes/booleans.md)
     + [Strings](datatypes/strings.md)
