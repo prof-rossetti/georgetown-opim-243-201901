@@ -29,7 +29,7 @@ pip install pandas # where pandas is the name of a package you want to install
 
 You can specify and manage project-specific package dependencies by listing them in a file called `requirements.txt` in the project's root directory.
 
-To specify a project's dependencies, first create a new `requirements.txt` file in your repository's root directory, then revise the `requirements.txt` file to include the names of the packages you want to install. Write the name of each Python package dependency on a new line. For example:
+To specify a project's dependencies, first create a new `requirements.txt` file in your repository's root directory, then revise the file to include the names of the packages your project requires. Write the name of each Python package dependency on a new line. For example:
 
     ipython
     pytest

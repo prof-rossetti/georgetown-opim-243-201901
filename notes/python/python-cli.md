@@ -40,9 +40,9 @@ If you type `python` and press "enter", you will enter an interactive Python con
 
 ![a screenshot of using the python console to perform a simple calculation (2+2 = 4)](/img/notes/python/python-console.png)
 
-### Scripts
+### Executing Scripts
 
-You can alternatively write Python scripts and execute them from the command-line. To test this out, create a new project directory called "my-first-project" with a new file called `my_script.py`, and use your text editor to place inside the following contents:
+You can alternatively use the `python` utility to execute pre-written Python programs. To test this out, create a new project directory called "my-first-project" with a new file called `my_script.py`, and use your text editor to place inside the following contents:
 
 
 ```py
@@ -55,10 +55,14 @@ print("--------------------------")
 
 Make sure to save the file.
 
-Then create and activate a corresponding virtual environment, and from within the environment, use the `python` utility to execute the script by specifying its filepath.
+Then use the `python` utility to execute the script by specifying its filepath:
 
 ```sh
+# using a relative filepath:
 python my_script.py
+
+# OR using an absolute filepath:
+python path/to/my-first-project/my_script.py
 ```
 
 ![a screenshot of the output resulting from running a python script from the command-line. the hello message is printed in the terminal](/img/notes/python/running-python-scripts.png)
