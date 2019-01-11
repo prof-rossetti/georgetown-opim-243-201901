@@ -11,20 +11,13 @@ Reference:
 
 ### Installation
 
-Once you have learned how to [install packages](../package-management.md) using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
+Once you have learned how to install packages using [the `pip` package manager](/notes/pip.md), you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
 
 First install `ipython`, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install ipython
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install ipython
-
-# All others:
+```sh
 pip install ipython
-````
+```
 
 ### Usage
 

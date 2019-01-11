@@ -19,13 +19,6 @@ Run a `flask` application "in development" using a web server on your local mach
 First install `flask`, if necessary:
 
 ```sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install flask
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install flask
-
-# All others:
 pip install flask
 ```
 

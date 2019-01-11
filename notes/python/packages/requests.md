@@ -12,16 +12,9 @@ Reference: http://docs.python-requests.org/en/master/.
 
 First install the package, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install requests
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install requests
-
-# All others:
+```sh
 pip install requests
-````
+```
 
 ### Usage
 

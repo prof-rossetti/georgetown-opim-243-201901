@@ -23,13 +23,6 @@ Reference:
 First install the package using pip, if necessary:
 
 ```sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install pandas
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install pandas
-
-# All others:
 pip install pandas
 ```
 

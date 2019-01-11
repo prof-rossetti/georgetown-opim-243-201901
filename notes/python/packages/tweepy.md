@@ -34,13 +34,6 @@ After creating a new application, click on the "Keys and Access Tokens" tab, and
 Install `tweepy`, if necessary:
 
 ```sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install tweepy
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install tweepy
-
-# All others:
 pip install tweepy
 ```
 

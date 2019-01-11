@@ -12,16 +12,9 @@ Reference: https://github.com/theskumar/python-dotenv.
 
 First install the package, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install python-dotenv # note: not just `dotenv`
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install python-dotenv # note: not just `dotenv`
-
-# All others:
-pip install python-dotenv # note: not just `dotenv`
-````
+```sh
+pip install python-dotenv # note: NOT just "dotenv"
+```
 
 ### Usage
 

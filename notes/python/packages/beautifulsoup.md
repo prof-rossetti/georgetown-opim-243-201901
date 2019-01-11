@@ -2,7 +2,7 @@
 
 ## The `BeautifulSoup` Package
 
-> Prerequisite: [the `requests` package](/notes/programming-languages/python/packages/requests.md)
+> Prerequisite: [the `requests` package](requests.md)
 
 The `BeautifulSoup` package provides a simple way of parsing a website's HTML contents.
 
@@ -12,16 +12,9 @@ Reference: https://www.crummy.com/software/BeautifulSoup/bs4/doc/.
 
 First install the package, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install beautifulsoup4 # note the 4 at the end - this is the latest version
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install beautifulsoup4 # note the 4 at the end - this is the latest version
-
-# All others:
+```sh
 pip install beautifulsoup4 # note the 4 at the end - this is the latest version
-````
+```
 
 ### Usage
 
