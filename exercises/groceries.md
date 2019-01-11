@@ -96,7 +96,7 @@ The "checkpoint" steps below provide one example strategy for breaking-up the la
 
 ### Checkpoint 1 - Printing Products
 
-  1. Print all products (already done for you! :smilecat:).
+  1. Print all products (already done for you! :smiley_cat:).
   2. Print the number of products.
   3. Print the first product.
   4. Print the name of the first product.
