@@ -7,8 +7,8 @@ Common Python datatypes include:
   + [Strings](strings.md)
   + [Numbers](numbers.md)
   + [Dates and Times](dates.md)
-  + [Lists and Sets](lists.md) (Intermediate Concept)
-  + [Dictionaries](dictionaries.md) (Intermediate Concept)
+  + [Lists and Sets](lists.md)
+  + [Dictionaries](dictionaries.md)
 
 ## Detection
 
