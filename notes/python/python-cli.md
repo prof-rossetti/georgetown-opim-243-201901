@@ -1,12 +1,12 @@
 # The `python` Utility
 
-Before you can execute Python programs on your computer, you'll first need to install the Python command-line utility. When you install Python, you also get Pip, which is a command-line utility for installing third-party Python packages.
+Before you can execute Python programs on your computer, you'll first need to install the `python` command-line utility.
 
 Over the past few years there has been a shift in the community from Python Version 2 to Python Version 3. This semester we will be using Python 3, exclusively. We might use different minor versions of Python 3 (like 3.6 or 3.7), depending on the third-party packages we need to use for any given project.
 
-Anaconda provides a command-line utility called `conda` to help us manage different versions of Python and Pip. Before proceeding, please take a moment to [install Anaconda and get familiar with `conda`](/notes/anaconda.md).
+Anaconda provides a command-line utility called `conda` to help us manage different versions of Python. Before proceeding, please take a moment to [install Anaconda and get familiar with `conda`](/notes/anaconda.md).
 
-> MAC OS NOTE: Running `python` and `pip` commands directly from your Mac Terminal will show you information about any global installations of Python which may exist on your computer. But because we will be using project-specific versions of Python and Pip which are managed by Anaconda and installed in project-specific Anaconda virtual environments, we usually want to be running these commands from inside a project's virtual environment instead. See the Anaconda notes for more context.
+When you are ready, create and activate a new Anaconda virtual environment, and execute the following commands inside that virtual environment.
 
 ## Detecting Installations
 
