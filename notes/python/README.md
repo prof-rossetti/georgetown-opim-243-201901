@@ -12,7 +12,7 @@ Official Python Resources:
 
 Professor Rossetti's Python Notes:
 
-  + [Installation](installation.md)
+  + [The `python` Utility](python-cli.md)
   + [Syntax and Style](syntax-and-style.md)
   + [Comments](comments.md)
   + [Logging](logging.md)
@@ -29,7 +29,7 @@ Professor Rossetti's Python Notes:
     + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
     + [Classes](datatypes/classes.md) (Intermediate Concept)
   + [Modules](modules/) (Intermediate Concept)
-  + [Package Management](package-management.md) (Intermediate Concept)
+  + [Package Management (The `pip` Utility)](package-management.md) (Intermediate Concept)
   + [Packages](packages/) (Intermediate Concept)
   + [Debugging](debugging.md) (Intermediate Concept)
   + [Errors](errors.md) (Intermediate Concept)

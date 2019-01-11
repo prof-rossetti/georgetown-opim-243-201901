@@ -109,30 +109,5 @@ pip --version #> pip 18.1 from /anaconda3/envs/my-first-env/lib/python3.6/site-p
 
 ![](/img/notes/anaconda/managing-envs.png)
 
-### The `pip` Utility
 
-Listing installed Python packages:
-
-```sh
-pip list #> should see all installed packages, as well as their package dependencies
-```
-
-If your project requires any third-party packages, you can use Pip to install them inside your project's virtual environment:
-
-```sh
-pip install pandas # where pandas is the name of a package you want to install
-```
-
-### The `python` Utility
-
-You can enter into an interactive Python console:
-
-```sh
-python
-```
-
-And you can run any of your project's python scripts from within the environment as well:
-
-```sh
-python path/to/some/script.py
-```
+For more information, see notes on [the `python` utility](/notes/python/python-cli.md) and [the `pip` utility](/notes/python/package-management.md).

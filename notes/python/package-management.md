@@ -7,25 +7,23 @@ Reference:
 
 When you install Python, you also get Python's package manager, `pip`. Use `pip` to install and manage third-party Python packages.
 
-List packages currently installed:
+Listing packages currently installed:
 
-```shell
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 list
-
-# All others:
-pip list
+```sh
+pip list #> should see all installed packages, as well as their package dependencies
 ```
 
-Install a package (where `my_package` is the name of the package you want to install):
+Installing packages:
 
-```shell
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install my_package
-
-# All others:
-pip install my_package
+```sh
+pip install pandas # where pandas is the name of a package you want to install
 ```
+
+<hr>
+
+> Below is an intermediate concept we will cover later. Feel free to skip it for now.
+
+<hr>
 
 ## Project-specific Package Management
 
@@ -54,11 +52,5 @@ Then revise the `requirements.txt` file. Write the name of each required Python 
 Finally, install package dependencies, as necessary:
 
 ```shell
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install -r requirements.txt
-
-# All others:
 pip install -r requirements.txt
 ```
-
-If you are experiencing installation or versioning errors when using Pip, you might consider using [Pipenv](/notes/programming-languages/python/packages/pipenv.md) instead, for project-specific package management.
