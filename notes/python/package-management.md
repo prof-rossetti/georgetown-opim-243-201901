@@ -34,8 +34,7 @@ To specify a project's dependencies, first create a new `requirements.txt` file 
     ipython
     pytest
     requests
-
-> NOTE: if you need to install a package from its Github source, use an entry like the following: `git+https://github.com/eskerda/pybikes.git`.
+    git+https://github.com/eskerda/pybikes.git # can install from github source, if necessary
 
 Make sure to save the file.
 
