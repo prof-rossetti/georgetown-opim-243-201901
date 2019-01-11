@@ -2,13 +2,13 @@
 
 Common Python datatypes include:
 
-  + [None](datatypes/none.md)
-  + [Booleans](datatypes/booleans.md)
-  + [Strings](datatypes/strings.md)
-  + [Numbers](datatypes/numbers.md)
-  + [Dates and Times](datatypes/dates.md)
-  + [Lists and Sets](datatypes/lists.md) (Intermediate Concept)
-  + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
+  + [None](none.md)
+  + [Booleans](booleans.md)
+  + [Strings](strings.md)
+  + [Numbers](numbers.md)
+  + [Dates and Times](dates.md)
+  + [Lists and Sets](lists.md) (Intermediate Concept)
+  + [Dictionaries](dictionaries.md) (Intermediate Concept)
 
 ## Detection
 
