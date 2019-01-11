@@ -8,7 +8,7 @@ In this unit, we will take a high-level guided tour of the Python programming la
 
   + [The `python` Utility](/notes/python.md)
   + [The `pip` Utility](/notes/pip.md)
-  + [Python Language Overview](/notes/python/README.md)
+  + [Python Language Overview](/notes/python/README.md) (excluding the "Intermediate Concepts", which we'll cover in the future)
 
 ## Activities and Exercises
 

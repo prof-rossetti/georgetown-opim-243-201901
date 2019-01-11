@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `PyMySQL` Package
+# The `PyMySQL` Package
 
 Reference:
 
@@ -13,7 +11,7 @@ The `PyMySQL` package provides a way for Python to interface with [MySQL](https:
 
 Run a `PyMySQL` application "in development" using a database server on your local machine, and/or "in production" using a remote database server hosted by a provider like Heroku. If you run it in development, you should be able to connect via localhost, whereas if you run it in production, you should be able to connect using the production server's credentials. The professor recommends using [Sequel Pro](http://www.sequelpro.com/download) as a GUI interface to your MySQL databases, local or remote.
 
-### Installation
+## Installation
 
 As a prerequisite: install MySQL on your local machine, if necessary. If you are on a Mac, use Homebrew: `brew install mysql` and follow the post-installation instructions. Make sure you can connect to your local MySQL installation via a GUI or command-line interface. If attempting to connect from the command-line, try running `mysql -uroot` or `mysql -uroot -p`, depending on whether or not your "root" user has a password. Note the username and password you are using to connect.
 
@@ -23,7 +21,7 @@ After demonstrating your ability to connect to a local MySQL installation, insta
 pip install PyMySQL
 ```
 
-### Usage
+## Usage
 
 Place the following contents inside a new Python script:
 

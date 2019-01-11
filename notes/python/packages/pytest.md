@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `pytest` Package
+# The `pytest` Package
 
 Reference:
 
@@ -11,7 +9,7 @@ Reference:
   + https://docs.pytest.org/en/latest/usage.html#dropping-to-pdb-python-debugger-on-failures
   + http://python-guide-pt-br.readthedocs.io/en/latest/writing/tests/#py-test
 
-### Installation
+## Installation
 
 If you are using Pip to manage software packages, install `pytest`, as necessary:
 
@@ -26,11 +24,11 @@ cd path/to/my-repo/
 pipenv install pytest --dev # optionally use the --dev flag to denote this package will be used in development only
 ```
 
-### Usage
+## Usage
 
 You can use this package from the command line or from within a script. The examples below depict usage from the command-line by invoking `pytest` from a repository's root directory.
 
-##### Testing Python Scripts
+### Testing Python Scripts
 
 To setup this first example, create a new directory on your Desktop called "testing-123" and navigate there from your command line, then create files called `my_script.py` and `my_test.py` and place inside the following contents, respectively:
 
@@ -61,7 +59,7 @@ Once you have setup the example, run `pytest` from the "testing-123" directory.
 
 
 
-##### Testing Python Applications
+### Testing Python Applications
 
 When testing larger applications, conventions suggest we should separate the application files and test files into their own respective directories, perhaps called "app", and either "test" or "tests".
 

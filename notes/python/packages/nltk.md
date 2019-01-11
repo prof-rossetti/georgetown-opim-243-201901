@@ -1,8 +1,6 @@
-# Python Language Overview
+# The `nltk` Package
 
-> This guide was written by @mz888 and edited by @s2t2.
-
-## The `nltk` Package
+> An original version of this guide was contributed by Mike Zhu (@mz888).
 
 The `nltk` (Natural Language Tool Kit) package is a good introduction to some common Natural Language Processing (NLP) processes, including Sentiment Analysis, Named Entity Recognition, and document preprocessing. You can also download corpus collections with nltk for practice or to serve as training data for machine learning applications.
 
@@ -11,7 +9,7 @@ Reference:
   + http://www.nltk.org/
   + http://www.nltk.org/book
 
-### Installation
+## Installation
 
 First install the package using pip, if necessary:
 
@@ -19,9 +17,9 @@ First install the package using pip, if necessary:
 pip install nltk
 ```
 
-### Usage
+## Usage
 
-#### Sentiment Analysis
+### Sentiment Analysis
 
 One of the most widely used NLP techniques is Sentiment Analysis. One of the modules available from `nltk` is the Vader Sentiment Analyzer, a relatively simple, vocabulary-based tool for measuring sentiment.
 
@@ -46,7 +44,7 @@ sid.polarity_scores(negative)
 #> {'neg': 0.559, 'compound': -0.5859, 'neu': 0.441, 'pos': 0.0}
 ```
 
-#### Entity Identification
+### Entity Identification
 
 Let's say we want to find instances of people, places, or other proper nouns in a document. This NLP task, called "Named Entity Extraction," can also be implemented with `nltk`.
 

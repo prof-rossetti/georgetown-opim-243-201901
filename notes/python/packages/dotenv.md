@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `dotenv` Package
+# The `dotenv` Package
 
 > Prerequisite: [Environment Variables](/notes/software/environment-variables.md)
 
@@ -8,7 +6,7 @@ The `dotenv` package allows a program to reference environment variables from a 
 
 Reference: https://github.com/theskumar/python-dotenv.
 
-### Installation
+## Installation
 
 First install the package, if necessary:
 
@@ -16,7 +14,7 @@ First install the package, if necessary:
 pip install python-dotenv # note: NOT just "dotenv"
 ```
 
-### Usage
+## Usage
 
 
 To setup this example, create a new directory on your Desktop named "my-project". Then navigate there from the command-line:

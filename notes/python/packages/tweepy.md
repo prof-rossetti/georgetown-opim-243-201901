@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `tweepy` Package
+# The `tweepy` Package
 
 The `tweepy` package provides some useful tweeting capabilities. :bird: :bird:
 
@@ -16,7 +14,7 @@ Reference:
 
 See also this [example application](https://github.com/s2t2/tweet-tweet-py).
 
-### Prerequisites
+## Prerequisites
 
 Create a Twitter Account. Add your phone number to your Twitter Account, or else you won't be allowed to create a Twitter Application.
 
@@ -29,7 +27,7 @@ After creating a new application, click on the "Keys and Access Tokens" tab, and
   + `TWITTER_ACCESS_TOKEN`
   + `TWITTER_ACCESS_TOKEN_SECRET`
 
-### Installation
+## Installation
 
 Install `tweepy`, if necessary:
 
@@ -37,7 +35,7 @@ Install `tweepy`, if necessary:
 pip install tweepy
 ```
 
-### Usage
+## Usage
 
 List your recent tweets:
 

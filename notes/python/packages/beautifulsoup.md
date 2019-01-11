@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `BeautifulSoup` Package
+# The `BeautifulSoup` Package
 
 > Prerequisite: [the `requests` package](requests.md)
 
@@ -8,7 +6,7 @@ The `BeautifulSoup` package provides a simple way of parsing a website's HTML co
 
 Reference: https://www.crummy.com/software/BeautifulSoup/bs4/doc/.
 
-### Installation
+## Installation
 
 First install the package, if necessary:
 
@@ -16,7 +14,7 @@ First install the package, if necessary:
 pip install beautifulsoup4 # note the 4 at the end - this is the latest version
 ```
 
-### Usage
+## Usage
 
 You can use this package from the command line or from within a script. The examples below depict usage from within a script.
 

@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `statistics` Module
+# The `statistics` Module
 
 Reference: https://docs.python.org/3/library/statistics.html.
 

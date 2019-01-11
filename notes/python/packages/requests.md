@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `requests` Package
+# The `requests` Package
 
 > Prerequisite: [Computer Networks](/notes/networks/notes.md) and [APIs](/notes/software/apis.md)
 
@@ -8,7 +6,7 @@ The `requests` package provides an easy way for Python programs to issue HTTP re
 
 Reference: http://docs.python-requests.org/en/master/.
 
-### Installation
+## Installation
 
 First install the package, if necessary:
 
@@ -16,9 +14,9 @@ First install the package, if necessary:
 pip install requests
 ```
 
-### Usage
+## Usage
 
-#### Issuing HTTP Requests
+### Issuing HTTP Requests
 
 Issue a "GET" request (perhaps the most common):
 
