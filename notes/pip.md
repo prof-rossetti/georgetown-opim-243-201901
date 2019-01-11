@@ -1,4 +1,4 @@
-# Package Management
+# The `pip` Utility
 
 Reference:
 

@@ -55,7 +55,7 @@ print(response.status_code)
 
 ### Parsing HTTP Responses
 
-If the response contains JSON, you can use [the `json` module](/notes/programming-languages/python/modules/json.md) to parse it:
+If the response contains JSON, you can use [the `json` module](/notes/python/modules/json.md) to parse it:
 
 ```py
 response = requests.get(some_url)
