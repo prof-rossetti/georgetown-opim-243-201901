@@ -1,6 +1,6 @@
 # Anaconda
 
-Anaconda provides a command-line utility called `conda` for installing and managing different versions of the Python programming language and of third-party Python packages.
+Anaconda provides a command-line utility called `conda` for installing and managing different versions of the Python programming language and third-party packages.
 
 > Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 1,500+ open source packages. Anaconda is free and easy to install, and it offers free community support. - [Anaconda website](https://docs.anaconda.com/anaconda/)
 
