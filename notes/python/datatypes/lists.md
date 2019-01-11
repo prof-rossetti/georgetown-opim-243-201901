@@ -10,15 +10,23 @@ A `List` represents a numbered, ordered collection of items. A List may contain 
 # DO:
 
 []
-[1,2,3,4]
+
+[1, 2, 3, 4]
+
 [100, 75, 33]
+
 ["fun", "times", "right?"]
-[{"a":1, "b":2}, {"a":5, "b":6}] # lists can contain dictionaries
-[[1,2,3], [4,5,6], [7,8,9]] # lists can be "nested" inside other lists
+
+[{"a": 1, "b": 2}, {"a": 5, "b": 6}] # lists can contain dictionaries
+
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]] # lists can be "nested" inside other lists
 
 # DON'T:
+
 [100, "fun"] # mixed datatypes
-[{"a":1, "b":2}, {"x":5, "z":6}] # non-standard keys
+
+[{"a": 1, "b": 2}, {"x": 5, "z": 6}] # non-standard dictionary keys
+
 ```
 
 Like other languages, individual list items can be accessed by their index. List item indices are zero-based, meaning the index of the first list item is 0.

@@ -30,8 +30,10 @@ Alternatively call `.__class__.__name__` on any object to detect its class name:
 
 ```py
 "Hello".__class__.__name__ #> 'str'
-{"a":1, "b":2, "c":3}.__class__.__name__ #> 'dict'
-[1,2,3].__class__.__name__ #> 'list'
+
+{"a": 1, "b": 2, "c": 3}.__class__.__name__ #> 'dict'
+
+[1, 2, 3].__class__.__name__ #> 'list'
 ```
 
 Use the `isinstance` function when comparing datatypes:
