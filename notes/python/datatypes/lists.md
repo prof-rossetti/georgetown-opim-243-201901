@@ -10,15 +10,23 @@ A `List` represents a numbered, ordered collection of items. A List may contain 
 # DO:
 
 []
-[1,2,3,4]
+
+[1, 2, 3, 4]
+
 [100, 75, 33]
+
 ["fun", "times", "right?"]
-[ {"a":1, "b":2}, {"a":5, "b":6}] # lists can contain dictionaries
-[ [1,2,3], [4,5,6], [7,8,9]] # lists can be "nested" inside other lists
+
+[{"a": 1, "b": 2}, {"a": 5, "b": 6}] # lists can contain dictionaries
+
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]] # lists can be "nested" inside other lists
 
 # DON'T:
-[100, "fun"]
-[ {"a":1, "b":2}, {"x":5, "z":6}]
+
+[100, "fun"] # mixed datatypes
+
+[{"a": 1, "b": 2}, {"x": 5, "z": 6}] # non-standard dictionary keys
+
 ```
 
 Like other languages, individual list items can be accessed by their index. List item indices are zero-based, meaning the index of the first list item is 0.
@@ -74,7 +82,7 @@ arr.append("e") # this is a mutating operation
 arr #> ["a", "b", "c", "d", "e"]
 ```
 
-Remove an element from a list by providing the index of the item you would like to remove:
+Remove an element from a list by specifying the index of the item you would like to remove:
 
 ```python
 arr = ["a", "b", "c", "d"]
@@ -91,7 +99,7 @@ arr3 = arr + arr2
 arr3 #> ["a", "b", "c", "d", "x", "y", "z"]
 ```
 
-Remove duplicate values in a list by converting it to another datatype called a "Set" and then converting it back to a "List":
+Remove duplicate values in a list by converting it to another datatype called a "Set" (which rejects non-unique values), and then converting it back to a "List":
 
 ```python
 arr = [1,2,2,2,3]
@@ -179,6 +187,8 @@ for letter in ["a", "b", "c", "d"]:
 #> d
 ```
 
+> TIP: If it helps, you can vocalize this like "For each item in the list of items, do something with that item".
+
 A common pattern is to loop through one list to populate the contents of another:
 
 ```python
@@ -248,7 +258,7 @@ teams = [
 
 ### Filtering
 
-Reference: https://docs.python.org/2/library/functions.html#filter.
+Reference: https://docs.python.org/3/library/functions.html#filter.
 
 Use the `filter()` function to select a subset of items from a list - only those items matching a given condition. The filter function accepts the same parameters as the `map()` fuction:
 

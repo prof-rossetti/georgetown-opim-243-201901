@@ -1,8 +1,6 @@
-# Python Language Overview
+# The `pandas` Package
 
-> This guide was written by @mz888! Also reference the ["Pandas" Exercise](/exercises/pandas-practice/exercise.md)!
-
-## The `pandas` Package
+> This guide was originally contributed by Mike Zhu (@mz888)!
 
 The `pandas` package is an extremely useful one for working with structured data. You can think of `pandas` as a python tool for creating and manipulating powerful spreadsheets-like objects called "DataFrames". The `pandas` package also includes some SQL-like features and can be used to easily read and write data stored in CSV files and/or databases.
 
@@ -18,24 +16,17 @@ Reference:
 
 > NOTE: `pandas` supports Python 2.7 & 3.4+
 
-### Installation
+## Installation
 
 First install the package using pip, if necessary:
 
 ```sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install pandas
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install pandas
-
-# All others:
 pip install pandas
 ```
 
-### Usage
+## Usage
 
-#### Reading Data into DataFrames
+### Reading Data into DataFrames
 
 ```py
 import pandas as pd # pd now references the pandas package, saving you some typing
@@ -68,7 +59,7 @@ stats.head() # we can use the head() function to preview the data
 #> 4  1999    158      627   134   219     91
 ```
 
-#### Manipulating DataFrames
+### Manipulating DataFrames
 
 Now that we can read data into DataFrames, let's do something with it. The examples below include some simple ways we can manipulate a single DataFrame. We'll use the same data we had just loaded into the DataFrame.
 

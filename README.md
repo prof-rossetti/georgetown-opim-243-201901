@@ -23,6 +23,16 @@ Credits | 1.5
   + Unit 3: Processing CSV Data from File
   + Unit 4: Processing JSON Data from the Internet
 
+## Resources
+
+Official Python Resources:
+
+  + [Python 3 Documentation](https://docs.python.org/3/reference/index.html)
+  + [Python 3 Tutorial](https://docs.python.org/3/tutorial/index.html)
+  + [Python 3 Built-in Functions](https://docs.python.org/3/library/functions.html)
+  + [Python 3 Built-in Constants](https://docs.python.org/3/library/constants.html)
+  + [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
+
 ## [Acknowledgements](/CREDITS.md)
 
 ## [License](/LICENSE.md)

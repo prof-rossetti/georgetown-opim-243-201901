@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `ipython` Package
+# The `ipython` Package
 
 Reference:
 
@@ -9,28 +7,21 @@ Reference:
 
 > NOTE: The `ipython` package only works with Python 3.x.
 
-### Installation
+## Installation
 
-Once you have learned how to [install packages](../package-management.md) using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
+Once you have learned how to install packages using [the `pip` package manager](/notes/pip.md), you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
 
 First install `ipython`, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install ipython
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install ipython
-
-# All others:
+```sh
 pip install ipython
-````
+```
 
-### Usage
+## Usage
 
 Use the `ipython` package from the command line to enter into an interactive console, or from within a script to debug it using an interactive console.
 
-#### Command-line Utility
+### Command-line Utility
 
 Invoke `ipython` from the command-line to enter into an alternative console similar to the built-in `python` console:
 
@@ -48,7 +39,7 @@ ipython
 
 After you are done, type `exit` to quit.
 
-#### Debugging Python Scripts
+### Debugging Python Scripts
 
 To drop an interactive break-point onto any line in a Python script, import the package, then insert an `embed()` statement anywhere you would like the program to pause. Once you run the script, it will stop at the specified break-point to allow further investigation.
 

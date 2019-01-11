@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `sendgrid` Package
+# The `sendgrid` Package
 
 The `sendgrid` package provides some useful emailing capabilities. :mailbox_with_mail: :envelope:
 
@@ -13,22 +11,15 @@ Reference:
   + [Example Usage](https://github.com/sendgrid/sendgrid-python/blob/master/examples/helpers/mail/mail_example.py)
   + [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid)
 
-### Installation
+## Installation
 
 Install `sendgrid`, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install sendgrid
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install sendgrid
-
-# All others:
+```sh
 pip install sendgrid
-````
+```
 
-### Usage
+## Usage
 
 To setup this example, first ensure you have set an environment variable called `SENDGRID_API_KEY` to facilitate authentication with the SendGrid email service. For instructions, follow the [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid#provisioning-the-add-on).
 

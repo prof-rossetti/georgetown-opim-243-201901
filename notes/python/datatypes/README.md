@@ -2,13 +2,13 @@
 
 Common Python datatypes include:
 
-  + [None](datatypes/none.md)
-  + [Booleans](datatypes/booleans.md)
-  + [Strings](datatypes/strings.md)
-  + [Numbers](datatypes/numbers.md)
-  + [Dates and Times](datatypes/dates.md)
-  + [Lists and Sets](datatypes/lists.md) (Intermediate Concept)
-  + [Dictionaries](datatypes/dictionaries.md) (Intermediate Concept)
+  + [None](none.md)
+  + [Booleans](booleans.md)
+  + [Strings](strings.md)
+  + [Numbers](numbers.md)
+  + [Dates and Times](dates.md)
+  + [Lists and Sets](lists.md)
+  + [Dictionaries](dictionaries.md)
 
 ## Detection
 
@@ -30,8 +30,10 @@ Alternatively call `.__class__.__name__` on any object to detect its class name:
 
 ```py
 "Hello".__class__.__name__ #> 'str'
-{"a":1, "b":2, "c":3}.__class__.__name__ #> 'dict'
-[1,2,3].__class__.__name__ #> 'list'
+
+{"a": 1, "b": 2, "c": 3}.__class__.__name__ #> 'dict'
+
+[1, 2, 3].__class__.__name__ #> 'list'
 ```
 
 Use the `isinstance` function when comparing datatypes:

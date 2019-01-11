@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `requests` Package
+# The `requests` Package
 
 > Prerequisite: [Computer Networks](/notes/networks/notes.md) and [APIs](/notes/software/apis.md)
 
@@ -8,24 +6,17 @@ The `requests` package provides an easy way for Python programs to issue HTTP re
 
 Reference: http://docs.python-requests.org/en/master/.
 
-### Installation
+## Installation
 
 First install the package, if necessary:
 
-```` sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install requests
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install requests
-
-# All others:
+```sh
 pip install requests
-````
+```
 
-### Usage
+## Usage
 
-#### Issuing HTTP Requests
+### Issuing HTTP Requests
 
 Issue a "GET" request (perhaps the most common):
 
@@ -62,7 +53,7 @@ print(response.status_code)
 
 ### Parsing HTTP Responses
 
-If the response contains JSON, you can use [the `json` module](/notes/programming-languages/python/modules/json.md) to parse it:
+If the response contains JSON, you can use [the `json` module](/notes/python/modules/json.md) to parse it:
 
 ```py
 response = requests.get(some_url)

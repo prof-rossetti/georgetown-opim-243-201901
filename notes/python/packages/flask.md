@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `flask` Package
+# The `flask` Package
 
 Reference:
 
@@ -14,22 +12,15 @@ The `flask` package provides a micro-framework for making applications with web 
 
 Run a `flask` application "in development" using a web server on your local machine, and/or "in production" using a remote web server hosted by a provider like Heroku. If you run it in development, you should be able to use it by visiting `localhost:5000` in a browser, whereas if you run it in production, you should be able to use it by visiting the production server's URL.
 
-### Installation
+## Installation
 
 First install `flask`, if necessary:
 
 ```sh
-# For Pipenv users (Mac or Windows), run from a project's root directory:
-pipenv install flask
-
-# For Homebrew-installed Python 3.x on Mac OS:
-pip3 install flask
-
-# All others:
 pip install flask
 ```
 
-### Usage
+## Usage
 
 Follow the [official tutorial](http://flask.pocoo.org/docs/1.0/tutorial/).
 

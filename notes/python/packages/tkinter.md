@@ -1,6 +1,4 @@
-# Python Language Overview
-
-## The `Tkinter` Package
+# The `Tkinter` Package
 
 Reference:
 
@@ -16,11 +14,11 @@ Reference:
 
 The `Tkinter` package provides an application with a graphical user interface capable of being run on a personal computer.
 
-### Installation
+## Installation
 
 The `Tkinter` package is most likely already pre-installed in your Python installation.
 
-### Usage
+## Usage
 
 Usage example:
 
