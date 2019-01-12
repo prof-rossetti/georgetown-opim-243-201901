@@ -79,7 +79,7 @@ Finally, make your first commit with a message like "Setup project repository", 
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
-If you're not sure where to start, feel free to adopt the development approach recommended in the ["Groceries" Project Checkpoints](shopping-cart/checkpoints.md) document.
+If you're not sure where to start, feel free to adopt the development approach recommended in the ["Shopping Cart" Project Checkpoints](shopping-cart/checkpoints.md) document.
 
 If you're interested, you may follow along with the professor's development screencasts ([Part 1](https://youtu.be/avC4xbZx-No), [Part 2](https://youtu.be/Vl8AiW9iukQ)).
 
@@ -91,7 +91,7 @@ To submit your project:
 
   1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/shopping-cart-project`.
   2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
-  3. Update your forked course repository's ["Groceries" Project Submissions](submissions.csv) CSV file
+  3. Update your forked course repository's ["Shopping Cart" Project `submissions.csv` file](submissions.csv).
 to include your GitHub username and your project repository's URL.
   4. Submit a Pull Request for your forked course repository's changes to be accepted into the "upstream" course repository.
 
