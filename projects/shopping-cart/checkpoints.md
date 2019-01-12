@@ -1,6 +1,6 @@
-# "Groceries" Project Checkpoints
+# "Groceries" Project - Checkpoints
 
-## Checkpoint 1 - User Inputs
+## Checkpoint 1: Capturing User Inputs
 
 The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
 
@@ -15,7 +15,7 @@ When you have finished this checkpoint, your program should perform like this:
 
 ![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](https://user-images.githubusercontent.com/1328807/50870738-53442b80-1387-11e9-8293-c2891b55d07e.gif)
 
-## Checkpoint 2 - Product Lookups
+## Checkpoint 2: Look-up Products
 
 If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
 
@@ -52,7 +52,7 @@ When you have finished this checkpoint, your program should perform something li
 
 ![](https://user-images.githubusercontent.com/1328807/50870739-53442b80-1387-11e9-8e28-1747a00db954.gif)
 
-## Checkpoint 3 - Receipt Printing
+## Checkpoint 3: Printing the Receipt
 
 Challenges:
 
