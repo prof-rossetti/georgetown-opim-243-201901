@@ -23,13 +23,13 @@ After the clerk indicates there are no more items, the program should print a cu
   + A grocery store name of your choice.
   + A grocery store phone number and/or website URL and/or address of choice.
   + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
-  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), optionally sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
+  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`).
   + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$4.50`), calculated as the sum of their prices.
   + The amount of tax owed, calculated by multiplying the total cost by a [District of Columbia sales tax rate](https://otr.cfo.dc.gov/release/district-columbia-tax-rates-changes-take-effect-monday-october-1) of 6%.
   + The total amount owed, formatted as US dollars and cents (e.g. `$4.77`), calculated by adding together the amount of tax owed plus the total cost of all shopping cart items.
   + A friendly message thanking the customer and/or encouraging the customer to shop again.
 
-The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
+The program should be able to process multiple shopping cart items of the same kind, but need not display any groupings or aggregations of those items (although it may optionally do so).
 
 ## Setup
 
