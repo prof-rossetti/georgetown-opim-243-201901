@@ -1,5 +1,7 @@
 # "Shopping Cart" Project
 
+![a screencast of a user running a python script from a terminal.](https://user-images.githubusercontent.com/1328807/50870741-53442b80-1387-11e9-9180-ab96688c6590.gif)
+
 ## Business Prompt
 
 Your local corner grocery store has hired you as a technology consultant to help modernize their checkout system.
@@ -7,8 +9,6 @@ Your local corner grocery store has hired you as a technology consultant to help
 Currently, the store affixes a price tag sticker on each grocery item in stock and uses a calculator at the checkout counter to add up the product prices and calculate tax and total amount due.
 
 Instead, the store owner describes a desired checkout process which involves a checkout clerk scanning each product's barcode to automatically look up product prices, perform tax and total calculations, and print a customer receipt.
-
-![a screencast of a user running a python script from a terminal.](https://user-images.githubusercontent.com/1328807/50870741-53442b80-1387-11e9-9180-ab96688c6590.gif)
 
 ## Requirements
 
@@ -24,9 +24,9 @@ After the clerk indicates there are no more items, the program should print a cu
   + A grocery store phone number and/or website URL and/or address of choice.
   + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
   + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), optionally sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
-  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices.
-  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`.
-  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding together the amount of tax owed plus the total cost of all shopping cart items.
+  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$4.50`), calculated as the sum of their prices.
+  + The amount of tax owed, calculated by multiplying the total cost by a [District of Columbia sales tax rate](https://otr.cfo.dc.gov/release/district-columbia-tax-rates-changes-take-effect-monday-october-1) of 6%.
+  + The total amount owed, formatted as US dollars and cents (e.g. `$4.77`), calculated by adding together the amount of tax owed plus the total cost of all shopping cart items.
   + A friendly message thanking the customer and/or encouraging the customer to shop again.
 
 The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
