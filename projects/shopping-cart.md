@@ -69,24 +69,27 @@ products = [
 print(products)
 ```
 
-Navigate to the your local project repository's directory from the command-line.
+Navigate to your local project repository from the command-line.
 
 Create a new virtual environment named something like "shopping-cart-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the list of products.
 
-Finally, make your first commit with a message like "Setup project repo", and push these changes to GitHub. Once you see these changes reflected in your remote project repository on GitHub.com, you are ready to start the project development process.
+Finally, make your first commit with a message like "Setup project repository", and push these changes to GitHub. Once you see these changes reflected in your remote project repository on GitHub.com, you are ready to start the project development process.
 
 ## Development
 
-As you develop your solution, incrementally "commit" your work to your project repository along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
+As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
-If you need help or inspiration along the way, see the [Checkpoints](shopping-cart/checkpoints.md) document for a step-by-step guided walk-through. Also consider following along with these Screencasts ([Part 1](https://youtu.be/avC4xbZx-No), [Part 2](https://youtu.be/Vl8AiW9iukQ)) which depict the development process for one possible solution.
-Otherwise, if you are moving through this project with ease, after you complete the basic project requirements, consider also addressing one or more of the [Further Exploration](shopping-cart/further.md) challenges (e.g. writing receipts to file, integration with a real-life barcode scanner, etc.).
+If you're not sure where to start, feel free to adopt the development approach recommended in the ["Groceries" Project Checkpoints](shopping-cart/checkpoints.md) document.
+
+If you're interested, you may follow along with the professor's development screencasts ([Part 1](https://youtu.be/avC4xbZx-No), [Part 2](https://youtu.be/Vl8AiW9iukQ)).
+
+If you're able to complete the basic project requirements with relative ease, consider also addressing one or more of the [Further Exploration](shopping-cart/further.md) challenges (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
 
 ## Submission
 
 To submit your project:
 
-  1. Push your local project repository to GitHub, so you can visit your remote project repository online at a URL like "https://github.com/YOUR_USERNAME/shopping-cart-project".
+  1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/shopping-cart-project`.
   2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
   3. Update your forked course repository's ["Groceries" Project Submissions](submissions.csv) CSV file
 to include your GitHub username and your project repository's URL.
