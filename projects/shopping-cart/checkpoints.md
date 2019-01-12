@@ -13,7 +13,7 @@ Challenges:
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-1-demo.gif)
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](https://user-images.githubusercontent.com/1328807/50870738-53442b80-1387-11e9-8293-c2891b55d07e.gif)
 
 ## Checkpoint 2 - Product Lookups
 
@@ -45,12 +45,12 @@ print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
 Challenges:
 
   1. For a single valid product identifier, look up the matching product and print its name and price. HINT: try using a custom function in conjunction with a list comprehension.
-  1. For each valid product identifier in the example list, look up the matching product and print its name and price.
-  1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list. For now, you don't necessarily need to worry about formatting prices as USD.
+  2. For each valid product identifier in the example list, look up the matching product and print its name and price.
+  3. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list. For now, you don't necessarily need to worry about formatting prices as USD.
 
 When you have finished this checkpoint, your program should perform something like this:
 
-![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](img/checkpoint-2-demo.gif)
+![](https://user-images.githubusercontent.com/1328807/50870739-53442b80-1387-11e9-8e28-1747a00db954.gif)
 
 ## Checkpoint 3 - Receipt Printing
 
@@ -60,8 +60,8 @@ Challenges:
 
 When you have finished this checkpoint, your program should perform like this:
 
-![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](img/checkpoint-3-demo.gif)
+![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](https://user-images.githubusercontent.com/1328807/50870740-53442b80-1387-11e9-8bf6-7e87e30785fd.gif)
 
 Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
 
-Wow, you are finally done! Nice job. Now you are ready to submit your work.
+Wow, you are finally done. Nice job! Now it's time to submit your work...
