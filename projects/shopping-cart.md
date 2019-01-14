@@ -25,7 +25,7 @@ After the clerk indicates there are no more items, the program should print a cu
   + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
   + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`).
   + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$4.50`), calculated as the sum of their prices.
-  + The amount of tax owed, calculated by multiplying the total cost by a [District of Columbia sales tax rate](https://otr.cfo.dc.gov/release/district-columbia-tax-rates-changes-take-effect-monday-october-1) of 6%.
+  + The amount of tax owed, calculated by multiplying the total cost by a District of Columbia sales tax rate of 6%.
   + The total amount owed, formatted as US dollars and cents (e.g. `$4.77`), calculated by adding together the amount of tax owed plus the total cost of all shopping cart items.
   + A friendly message thanking the customer and/or encouraging the customer to shop again.
 
@@ -79,9 +79,9 @@ Finally, make your first commit with a message like "Setup project repository", 
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
-If you're not sure where to start, feel free to adopt the development approach recommended in the ["Shopping Cart" Project Checkpoints](shopping-cart/checkpoints.md) document.
+If you're not sure where to start, feel free to adopt the development approach recommended in the ["Shopping Cart" Checkpoints](shopping-cart/checkpoints.md).
 
-Otherwise, if you're able to complete the basic project requirements with relative ease, consider also addressing one or more of the [Further Exploration](shopping-cart/further.md) challenges (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
+Otherwise, if you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Shopping Cart" Further Exploration Challenges](shopping-cart/further.md) (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
 
 ## Submission
 
