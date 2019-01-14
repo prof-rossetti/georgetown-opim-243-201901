@@ -10,7 +10,7 @@
 
 ## Discussions and Notes
 
-  + [Version Control](/notes/version-control.md)
+  + Version Control
   + [The `git` Utility](/notes/git.md)
   + The GitHub Workflow
 
