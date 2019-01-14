@@ -53,7 +53,7 @@ Try downloading [Git for Windows](https://gitforwindows.org/) and following the 
 
 > NOTE: after executing some commands like `git log` and `git diff`, you can press the "Enter" key to keep reading, and type "q" to quit when you are done.
 
-> NOTE: after executing other commands like `git pull`, you may find yourself at times in an unfamiliar-looking "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
+> NOTE: after executing commands like `git pull`, you may find yourself at times in an unfamiliar-looking "Vi" text editor window, which you can exit by pressing the "shift + ZZ" keys.
 
 ### Local Repositories
 
@@ -163,6 +163,6 @@ git pull origin master # downloads recent contents from the remote repo, in case
 git push origin master # uploads local repo contents to remote address
 ```
 
-Sometimes after pulling, you may see merge conflicts, in which case you might need to perform a "rebase" before being able to push. The rebase process can be difficult, so don't hesitate to ask the professor for help.
+Sometimes after pulling, you may see merge conflicts, in which case you might need to perform a "rebase" before being able to push. The rebase process can be difficult, so feel free to ask the professor for help.
 
 After pushing successfully, you should be able to visit your remote repository on GitHub and see your code there.
