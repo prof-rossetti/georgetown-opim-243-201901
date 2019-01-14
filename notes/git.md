@@ -1,4 +1,4 @@
-# Git
+# The `git` Utility
 
 > Git is a free and open source distributed version control system. - [Git Website](https://git-scm.com/)
 
@@ -11,25 +11,11 @@ References:
   + https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
   + https://www.git-tower.com/blog/git-cheat-sheet/
   + https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
+  + https://git-scm.com/downloads/guis
+  + https://desktop.github.com/
   + https://www.youtube.com/watch?v=MJUJ4wbFm_A
 
-## Git vs GitHub
-
-> GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers. - [GitHub website](https://github.com/)
-
-GitHub, and competitors [BitBucket](https://bitbucket.org/product) and [GitLab](https://about.gitlab.com/), all use Git as the underlying version control technology.
-
-## Git Tools (Clients)
-
-Choose whichever Git client works best for you:
-
-  + The GitHub.com Online Interface
-  + A [Git GUI Applications](https://git-scm.com/downloads/guis) like [GitHub Desktop](https://desktop.github.com/)
-  + A `git` CLI Application (see below)
-
-<hr>
-
-# The `git` Utility
+[GitHub](https://github.com/), and competitors [BitBucket](https://bitbucket.org/product) and [GitLab](https://about.gitlab.com/), all use Git as the underlying version control technology.
 
 ## Installation
 
