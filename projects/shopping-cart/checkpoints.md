@@ -4,7 +4,7 @@
 
 The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
 
-Challenges:
+Steps:
 
   1. Accept a user input value, store it in a variable, and print it. HINT: use the [`input()`](https://docs.python.org/3/library/functions.html#input) function :smiley_cat:.
   2. One at a time, iteratively accept a user input value, store it in a variable, and print it. HINT: use an infinite `while` loop. NOTE: you may have to press "control-c" to quit your script if you get stuck.
@@ -40,7 +40,7 @@ print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
 #TODO: perform product look-ups here!
 ```
 
-Challenges:
+Steps:
 
   1. For a single valid product identifier, look up the matching product and print its name and price. HINT: try using a custom function in conjunction with a list comprehension.
   2. For each valid product identifier in the example list, look up the matching product and print its name and price.
@@ -52,7 +52,7 @@ When you have finished this checkpoint, your program should perform something li
 
 ## Checkpoint 3: Printing the Receipt
 
-Challenges:
+Steps:
 
   1. For each receipt component listed in the project requirements (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component.
 
