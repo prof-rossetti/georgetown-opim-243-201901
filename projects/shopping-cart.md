@@ -89,7 +89,7 @@ To submit your project:
 
   1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/shopping-cart-project`.
   2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
-  3. Update your forked course repository's ["Shopping Cart" Project `submissions.csv` file](submissions.csv).
+  3. Update your forked course repository's ["Shopping Cart" Project `submissions.csv` file](shopping-cart/submissions.csv).
 to include your GitHub username and your project repository's URL.
   4. Submit a Pull Request for your forked course repository's changes to be accepted into the "upstream" course repository.
 
