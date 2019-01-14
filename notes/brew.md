@@ -1,4 +1,4 @@
-# Homebrew
+# The `brew` Utility (Mac OS)
 
 [Homebrew](https://brew.sh/) is a command-line utility which makes it easy to install programs on Mac OS.
 

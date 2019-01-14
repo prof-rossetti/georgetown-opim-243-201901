@@ -11,6 +11,7 @@ References:
   + https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
   + https://www.git-tower.com/blog/git-cheat-sheet/
   + https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
+  + https://www.youtube.com/watch?v=MJUJ4wbFm_A
 
 ## Git vs GitHub
 
