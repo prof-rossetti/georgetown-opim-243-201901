@@ -1,10 +1,10 @@
 # "Shopping Cart" Further Exploration Challenges
 
-## Validating User Inputs
+## Challenge 1: Validating User Inputs
 
 When the clerk inputs a product identifier, the program should validate it, displaying a helpful message like "Hey, are you sure that product identifier is correct? Please try again!" if there are no products matching the given identifier.
 
-## Writing Receipts to File
+## Challenge 2: Writing Receipts to File
 
 Create a new directory within the project repository called "receipts".
 
@@ -16,13 +16,13 @@ See [Python file management](/notes/python/file-management.md) for examples of h
 
 > NOTE: exclude these receipt files from being tracked in version control by using a ".gitignore" file. If you're not sure, ask the professor.
 
-## Handling Pricing per Pound
+## Challenge 3: Handling Pricing per Pound
 
 Add a new product called "Organic Bananas" to the products list. Assign it a price of `0.79`, but add another attribute called something like `price_per` to indicate the item is priced per "pound". Update all the other product dictionaries to match the new structure, indicating they are priced per "item".
 
 When running the program, if the clerk inputs the identifier of the bananas (or any other item that is priced by pound), the program should ask the clerk to input the number of pounds (e.g. `2.2`), then the program should calculate the price accordingly.
 
-## Integrating with Barcode Scanner
+## Challenge 4: Integrating with Barcode Scanner
 
 Assemble a handful of real products that have barcodes.
 
