@@ -89,7 +89,7 @@ To submit your project:
 
   1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/shopping-cart-project`.
   2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
-  3. Update your forked course repository's ["Shopping Cart" Project `submissions.csv` file](shopping-cart/submissions.csv).
+  3. Update your forked course repository's ["Shopping Cart" Submissions CSV file](shopping-cart/submissions.csv).
 to include your GitHub username and your project repository's URL.
   4. Submit a Pull Request for your forked course repository's changes to be accepted into the "upstream" course repository.
 
@@ -107,6 +107,6 @@ Info Outputs (Receipt) | Displays names and prices of all scanned products | 20%
 Info Outputs (Receipt) | Displays tax and totals | 20%
 Dev Process | Submitted via Git repository which reflects an incremental revision history | 20%
 
-If the evaluator experiences execution error(s) while evaluating the application's required functionality, they are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
+If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
 
 In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, evaluators are encouraged to award between 0.5% and 3.0% extra credit "engagement points" to be applied towards the final exam.
