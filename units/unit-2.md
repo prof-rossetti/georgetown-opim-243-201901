@@ -2,9 +2,7 @@
 
 ## Objectives
 
-... version control ...
-
-... reinforce previous unit of python learning ...
+In this unit, we'll reinforce Python concepts from the previous unit while learning how to incorporate version control practices into our software development process.
 
 ## Slides
 
