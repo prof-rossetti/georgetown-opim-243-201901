@@ -14,4 +14,4 @@ In this unit, we'll reinforce Python concepts from the previous unit while learn
 
 ## Activities and Exercises
 
-  + ["Groceries" Version Control Exercise](/exercises/groceries-version-control.md)
+  + ["Groceries" Version Control Exercise](/exercises/groceries/version-control.md)
