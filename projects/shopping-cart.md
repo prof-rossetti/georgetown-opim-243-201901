@@ -37,6 +37,8 @@ Take this time to create a new repository on GitHub.com called something like "s
 
 Clone or download the remote project repository onto your local machine, perhaps on your Desktop. We'll refer to this as your "local project repository".
 
+Navigate to your local project repository from the command-line.
+
 Within the local project repository, create a new file called `shopping_cart.py` and place inside the following contents:
 
 ```python
@@ -68,8 +70,6 @@ products = [
 # TODO: write some Python code here to produce the desired functionality...
 print(products)
 ```
-
-Navigate to your local project repository from the command-line.
 
 Create a new virtual environment named something like "shopping-cart-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the list of products.
 
