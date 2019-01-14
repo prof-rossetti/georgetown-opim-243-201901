@@ -30,7 +30,7 @@ Ask to borrow the professor's barcode scanner during class or office hours, or f
 
 Connect the barcode scanner to your computer's USB port, and practice scanning a few of the items, and record the resulting product identifiers.
 
-Adapt the `products` variable to reflect the real products and their identifiers. For example (using real product identifiers from Whole Foods :smiley_cat:):
+Adapt the program's `products` variable to reflect the real products and their identifiers. For example:
 
 ```py
 # shopping_cart.py
