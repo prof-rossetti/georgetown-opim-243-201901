@@ -6,7 +6,7 @@ Practice incorporating version control into your development process.
 
 ## Setup
 
-[Install a Git client](/notes/git.md#installation) if you have not yet already done so. You'll use this chosen Git client to perform version control tasks below.
+[Install a Git client](/notes/git.md#installation) if you have not yet already done so.
 
 Take this time to create a new repository on GitHub.com called something like "groceries-exercise". We'll refer to this as your "remote project repository".
 

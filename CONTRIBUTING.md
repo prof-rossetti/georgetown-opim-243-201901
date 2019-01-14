@@ -1,6 +1,6 @@
 # Contributor's Guide
 
-Anyone with a GitHub account can propose changes to files in this repository. This document describes instructions and best practices for contributing to this repository. If you are a student unfamiliar with Git and GitHub, feel free to consult the [official guides](https://guides.github.com/) or the professor's [`git` notes](/notes/git.md), or ask the professor for a crash course.
+Anyone with a GitHub account can propose changes to files in this repository. This document describes instructions and best practices for contributing to this repository. If you are a student unfamiliar with Git and GitHub, please consult the [official Git guides](https://guides.github.com/) or the [professor's Git notes](/notes/git.md), or ask the professor for a crash course.
 
 ## Step 1: Fork the Repository
 
@@ -16,6 +16,6 @@ To revise content, navigate to a file in your forked repository via the GitHub.c
 
 After your fork contains the changes you'd like to be included in the course repository, navigate to the original course repository and create a Pull Request (PR) using the GitHub.com online interface. In the PR message, describe what changes you made and why.
 
-The professor should review your PR within a timely manner. If the professor accepts your changes, he will merge them into the course repository's master branch, at which point you should be able to view your changes reflected in the course repository. Else if there are issues with the submission, the instructor should provide further instruction by commenting on the PR, and may close it.
+An instructor should review your PR within a timely manner. If the instructor accepts your changes, the instructor will merge them into the course repository's master branch, at which point you should be able to view your changes reflected in the course repository. Else if there are issues with the submission, the instructor should provide further instruction by commenting on the PR, and may close it.
 
 Congratulations! :clap: Thanks! :pray:

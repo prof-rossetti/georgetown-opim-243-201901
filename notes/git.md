@@ -2,6 +2,8 @@
 
 > Git is a free and open source distributed version control system. - [Git Website](https://git-scm.com/)
 
+[GitHub](https://github.com/), and competitors [BitBucket](https://bitbucket.org/product) and [GitLab](https://about.gitlab.com/), all use Git as the underlying version control system.
+
 References:
 
   + https://github.com/git/git
@@ -9,13 +11,9 @@ References:
   + https://guides.github.com/introduction/flow/
   + https://education.github.com/git-cheat-sheet-education.pdf
   + https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
-  + https://www.git-tower.com/blog/git-cheat-sheet/
   + https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
-  + https://git-scm.com/downloads/guis
-  + https://desktop.github.com/
+  + https://www.atlassian.com/git/tutorials
   + https://www.youtube.com/watch?v=MJUJ4wbFm_A
-
-[GitHub](https://github.com/), and competitors [BitBucket](https://bitbucket.org/product) and [GitLab](https://about.gitlab.com/), all use Git as the underlying version control technology.
 
 ## Installation
 

@@ -8,7 +8,7 @@ In this unit, we'll reinforce Python concepts from the previous unit while learn
 
 ## Discussions and Notes
 
-  + Version Control
+  + [Version Control](/notes/version-control.md)
   + [The `git` Utility](/notes/git.md)
   + The GitHub Workflow
 
