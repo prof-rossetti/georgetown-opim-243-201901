@@ -18,10 +18,11 @@ Credits | 1.5
 ## Schedule
 
   + [Unit 0](/units/unit-0.md): Onboarding, Command-line Computing
-  + [Unit 1](/units/unit-1.md): Processing Python Datatypes
-  + Unit 2: Processing User Inputs
-  + Unit 3: Processing CSV Data from File
-  + Unit 4: Processing JSON Data from the Internet
+  + [Unit 1](/units/unit-1.md): Python Language Overview
+  + [Unit 2](/units/unit-2.md): Version Control
+  + Unit 3: Processing and Validating User Inputs
+  + Unit 4: Processing CSV Data from File
+  + Unit 5: Processing JSON Data from the Internet
 
 ## Resources
 
