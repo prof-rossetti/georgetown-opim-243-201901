@@ -31,7 +31,7 @@ git --version #> git version 2.10.0
 
 If these commands produce a filepath-looking output and version-looking output, respectively, then Git is already installed. Nice! You can skip down to the "Git Commands Overview" section.
 
-Otherwise, if Git is not already installed, you can install it from https://git-scm.com/downloads, or via [homebrew](/notes/brew.md) with `brew install git`.
+Otherwise, if Git is not already installed, you can install it from https://git-scm.com/downloads, or via [homebrew](/notes/brew.md) with `brew install git` (recommended).
 
 After installing, restart your terminal application, where you should now be able to execute Git commands.
 
