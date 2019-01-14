@@ -17,14 +17,12 @@ When you have finished this checkpoint, your program should perform like this:
 
 ## Checkpoint 2: Look-up Products
 
-If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
+If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside and focus on what will happen after the product identifiers have been captured.
 
-If you skipped the first checkpoint, you can start here using a list of hard-coded product identifiers.
-
-At this time, your script might look something like this:
+To speed-up the development process, we'll temporarily shift our approach to use a hard-coded list of product identifiers instead of asking for inputs each time we want to test the program. At this time, your script might look something like this:
 
 ```python
-products = [] #<--- that long list of dictionaries from above!
+products = [...] #<--- that long list of product dictionaries provided above
 
 #
 # some commented-out loop
