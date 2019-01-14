@@ -81,9 +81,7 @@ As you develop your project repository, incrementally "commit" your work along t
 
 If you're not sure where to start, feel free to adopt the development approach recommended in the ["Shopping Cart" Project Checkpoints](shopping-cart/checkpoints.md) document.
 
-If you're interested, you may follow along with the professor's development screencasts ([Part 1](https://youtu.be/avC4xbZx-No), [Part 2](https://youtu.be/Vl8AiW9iukQ)).
-
-If you're able to complete the basic project requirements with relative ease, consider also addressing one or more of the [Further Exploration](shopping-cart/further.md) challenges (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
+Otherwise, if you're able to complete the basic project requirements with relative ease, consider also addressing one or more of the [Further Exploration](shopping-cart/further.md) challenges (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
 
 ## Submission
 
