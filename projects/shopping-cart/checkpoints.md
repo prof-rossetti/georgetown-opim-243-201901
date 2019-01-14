@@ -1,4 +1,4 @@
-# "Shopping Cart" Project Checkpoints
+# "Shopping Cart" Checkpoints
 
 ## Checkpoint 1: Capturing User Inputs
 
