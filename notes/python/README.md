@@ -1,4 +1,4 @@
-# Professor Rossetti's Python Language Overview
+# Python Language Overview
 
 A curated, high-level overview of the [Python](https://www.python.org/) programming language.
 
