@@ -17,25 +17,29 @@ References:
 
 ## Installation
 
-### Installation on Mac
-
 First see if Git is already installed (it may come pre-installed):
 
 ```sh
 # Mac Terminal:
+git --version #> git version 2.20.1
 which git #> /usr/local/bin/git
-git --version #> git version 2.10.0
+
+# Windows Command Prompt, Anaconda Prompt, or Git Bash:
+git --version #> git version 2.20.1.windows.1
+where git #> C:\Program Files\Git\cmd\git.exe
 ```
 
-If these commands produce a filepath-looking output and version-looking output, respectively, then Git is already installed. Nice! You can skip down to the "Git Commands Overview" section.
+If these commands produce a version-looking output and a filepath-looking output, respectively, then Git is already installed and you can skip down to the "Git Commands Overview" section. Otherwise, follow the OS-specific sections below to install Git.
 
-Otherwise, if Git is not already installed, you can install it from https://git-scm.com/downloads, or via [homebrew](/notes/brew.md) with `brew install git` (recommended).
+### Installation on Mac
 
-After installing, restart your terminal application, where you should now be able to execute Git commands.
+Mac users can install Git from https://git-scm.com/downloads, or via [homebrew](/notes/brew.md) (recommended) with `brew install git`.
+
+After installing, restart your terminal application, where you should now be able to execute Git commands (like `git --version`).
 
 ### Installation on Windows
 
-Try downloading [Git for Windows](https://gitforwindows.org/) and following the installation instructions. This software includes both a Git Bash command-line application and a Git GUI application. The Git Bash application is where you can execute Git commands.
+Try downloading [Git for Windows](https://gitforwindows.org/) and following the installation instructions. This software includes both a Git Bash command-line application and a Git GUI application. The Git Bash application is where you can execute Git commands (like `git --version`). Depending on how you installed it, your Command Prompt and Anaconda Prompt applications may also have access to the Git CLI, in which case you can run Git commands from within those applications as well.
 
 
 
