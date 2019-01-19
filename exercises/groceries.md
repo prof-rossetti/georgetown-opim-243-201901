@@ -4,7 +4,15 @@
 
 Gain familiarity with Python and its datatypes. Write a script to process data into a desired output format.
 
-### Setup
+## References
+
+Some notes to help you through the harder parts of this exercise:
+
+  + [Strings](/notes/python/datatypes/strings.md)
+  + [Functions](/notes/python/functions.md)
+  + [Lists](/notes/python/datatypes/lists.md)
+
+## Setup
 
 Create a new directory on your Desktop called "python-datatypes", then navigate there from the command-line.
 
