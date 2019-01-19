@@ -28,8 +28,7 @@ Create two files in the "my-project" directory named `.env` and `my_script.py`, 
 ```sh
 # my-project/.env
 
-NYU_INFO_2335="AnotherSecretPassword123"
-NYU_INFO_2335_MESSAGE="Hello, Hello!"
+MY_MESSAGE="Hello, Hello!"
 ```
 
 ```py
@@ -38,11 +37,9 @@ NYU_INFO_2335_MESSAGE="Hello, Hello!"
 from dotenv import load_dotenv
 import os
 
-print(os.environ.get("NYU_INFO_2335")) #> None, unless you have already set it, perhaps globally as a result of the "Environment Variables Overview"
-print(os.environ.get("NYU_INFO_2335_MESSAGE")) #> None
+print(os.environ.get("MY_MESSAGE")) #> None
 
 load_dotenv() #> loads contents of the .env file into the script's environment
 
-print(os.environ.get("NYU_INFO_2335")) #> "AnotherSecretPassword123"
-print(os.environ.get("NYU_INFO_2335_MESSAGE")) #> "Hello, Hello!"
+print(os.environ.get("MY_MESSAGE")) #> "Hello, Hello!"
 ```
