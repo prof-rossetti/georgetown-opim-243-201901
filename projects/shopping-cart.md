@@ -89,9 +89,13 @@ Create a new virtual environment named something like "shopping-cart-env" and ac
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
+### Checkpoints
+
 If you're not sure where to start, feel free to adopt the development approach recommended in the ["Shopping Cart" Checkpoints](shopping-cart/checkpoints.md).
 
-Otherwise, if you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Shopping Cart" Further Exploration Challenges](shopping-cart/further.md) (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
+### Further Exploration
+
+If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Shopping Cart" Further Exploration Challenges](shopping-cart/further.md) (e.g. writing receipts to file, integrating with a real-life barcode scanner, etc.).
 
 ## Submission
 
