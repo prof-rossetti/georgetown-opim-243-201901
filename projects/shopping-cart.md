@@ -33,6 +33,13 @@ The program should be able to process multiple shopping cart items of the same k
 
 ## Setup
 
+### From Starter
+
+To setup your project repository, either fork and clone the professor's ["Shopping Cart" Starter Repository](https://github.com/prof-rossetti/shopping-cart-starter-py
+), or follow the steps below to setup your own from scratch.
+
+### From Scratch
+
 Take this time to create a new repository on GitHub.com called something like "shopping-cart-project". We'll refer to this as your "remote project repository".
 
 Clone or download the remote project repository onto your local machine, perhaps on your Desktop. We'll refer to this as your "local project repository".
@@ -71,11 +78,14 @@ products = [
 print(products)
 ```
 
-Create a new virtual environment named something like "shopping-cart-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the list of products.
-
 Finally, make your first commit with a message like "Setup project repository", and push these changes to GitHub. Once you see these changes reflected in your remote project repository on GitHub.com, you are ready to start the project development process.
 
+
+
+
 ## Development
+
+Create a new virtual environment named something like "shopping-cart-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the list of products.
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
