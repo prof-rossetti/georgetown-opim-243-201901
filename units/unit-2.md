@@ -10,8 +10,13 @@ In this unit, we'll reinforce Python concepts from the previous unit while learn
 
   + [Version Control](/notes/version-control.md)
   + [The `git` Utility](/notes/git.md)
-  + The GitHub Workflow
+  + OPIM 243 Project Development and Submission Processes
 
 ## Activities and Exercises
 
   + ["Groceries" Version Control Exercise](/exercises/groceries/version-control.md)
+
+## Screencasts
+
+  + ["Groceries" Exercise Walkthrough](https://www.youtube.com/watch?v=Noy20XaMqho&feature=youtu.be) :movie_camera:
+  + ["Groceries" Exercise Submission Process Walkthrough](https://youtu.be/aHYcxb2mDlY) :movie_camera:
