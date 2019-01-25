@@ -11,6 +11,7 @@ Thanks to all the students who have contributed their feedback over the years! :
 
   + [Python Illustration](https://www.perforce.com/sites/default/files/image/2018-08/image-blog-enterprises-investing-python%20(2).jpg)
   + [Importing and Exporting VS Code Extensions from the Command Line](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
+  + [Monthly Retail Sales Data (CSV Files)](https://github.com/prof-rossetti/monthly-retail-sales-data)
 
 ## Screencasting Notes
 
