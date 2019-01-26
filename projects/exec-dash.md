@@ -104,10 +104,10 @@ Clone or download the remote project repository onto your local machine, perhaps
 
 Navigate to your local project repository from the command-line.
 
-Within the local project repository, create a new file called `insights.py` and place inside the following contents:
+Within the local project repository, create a new file called `monthly_sales.py` and place inside the following contents:
 
 ```python
-# insights.py
+# monthly_sales.py
 
 # TODO: import some modules and packages here
 
