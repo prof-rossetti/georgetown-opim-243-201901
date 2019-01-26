@@ -31,13 +31,22 @@ Your program should be able to process any one of these provided [monthly sales 
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 
-> OPTION A: allow the user to pass their selection as a command-line argument or environment variable during script invocation, and handle cases where the file doesn't exist.
+> OPTION A: allow the user to pass their selection as a command-line argument or environment variable during script invocation.
 
-> OPTION B: prompt the user to input their selection, and handle cases where the file doesn't exist.
+> OPTION B: prompt the user to input their selection.
 
 > OPTION C: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display this list to the user and prompt the user to input their selection.
 
 > OPTION D: are there any open source Python packages which provide helpful file-selection capabilities?
+
+### Validation Requirements
+
+If the user selects a file that doesn't exist or otherwise specifies the wrong filepath, the program should fail gracefully by: 1) displaying a friendly error message like "Hey, didn't find a file at that location", 2) avoiding runtime errors, and 3) preventing further execution.
+
+
+
+
+
 
 ### Calculation Requirements
 
@@ -67,9 +76,7 @@ During the course of the program's execution, it should display the following in
 
 ![a screenshot of charts and graphs](#TODO)
 
-> HINT: To detect the month and year, either parse the filename, or parse the imported date values.
-
-All displays of price-related information (e.g. unit, sales, and total prices) should be formatted as USD, with a dollar sign and two decimal places. This includes in charts and graphs.
+All displays of price-related information should be formatted as USD, with a dollar sign and two decimal places. This includes in charts and graphs.
 
 
 
@@ -133,42 +140,20 @@ Create a new virtual environment named something like "dashboard-env" and activa
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
-## Submission
+### Further Exploration
 
+If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Exec Dash" Further Exploration Challenges](exec-dash/further.md) (e.g. validating CSV files,comparing sales across months, predicting future sales).
+
+## Submission
 
 To submit your project:
 
   1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/exec-dash-project`.
   2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
-  3. Update your forked course repository's ["Shopping Cart" Submissions CSV file](exec-dash/submissions.csv).
+  3. Update your forked course repository's ["Exec Dash" Submissions CSV file](exec-dash/submissions.csv).
 to include your GitHub username and your project repository's URL.
   4. Submit a Pull Request for your forked course repository's changes to be accepted into the "upstream" course repository.
 
-## Evaluation
-
-Project submissions will be evaluated according to the requirements set forth above, as summarized by the rubric below:
-
-
-Category | Requirement | Weight
---- | --- | ---
-Info Inputs | Captures / scans product identifiers | 10%
-Info Inputs | Handles the "DONE" signal | 10%
-Info Outputs (Receipt) | Displays store info | 10%
-Info Outputs (Receipt) | Displays checkout date and time | 10%
-Info Outputs (Receipt) | Displays names and prices of all scanned products | 20%
-Info Outputs (Receipt) | Displays tax and totals | 20%
-Dev Process | Submitted via Git repository which reflects an incremental revision history | 20%
-
-If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
-
-In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, evaluators are encouraged to award between 0.5% and 3.0% extra credit "engagement points" to be applied towards the final exam.
-
-
-
-
-### Further Exploration
-
-If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Exec Dash" Further Exploration Challenges](exec-dash/further.md) (e.g. comparing sales across all months, predicting future sales).
 
 ## Evaluation
 
@@ -176,9 +161,13 @@ Project submissions will be evaluated according to the requirements set forth ab
 
 Category | Requirement | Weight
 --- | --- | ---
-Info Inputs | ________________ | 10%
-Info Inputs | _______ | 10%
-Info Outputs | _________ | 20%
+Info Inputs | Captures file selection | 10%
+Validations | Fails gracefully if file doesn't exist | 5%
+Calculations | Displays accurate information | 20%
+Info Outputs | Displays total monthly sales | 10%
+Info Outputs | Displays top-selling products | 10%
+Info Outputs | Displays charts and graphs, including titles and axis labels | 20%
+Info Outputs | Formats prices as USD | 5%
 Dev Process | Submitted via remote Git repository which reflects an incremental revision history | 20%
 
 If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
