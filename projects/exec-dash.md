@@ -31,16 +31,13 @@ Write a program which adheres to the following requirements, as detailed in the 
 
 ### Information Input Requirements
 
-Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside in a sub-directory called "data" in the project repository. Instructors will use the same or similar files during the evaluation process. You can assume that all of these files adheres to the same general structure, with:
-
-  + a file name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month number)
-  + a "header" row on the first line containing the following values in order: `date`, `product`, `unit price`, `units sold`, and `sales price`
+Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside inside a "data" sub-directory of your project repository. Instructors will use the same or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files has the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 
-> OPTION A: allow the user to pass their selection as a command-line argument or environment variable during script invocation.
+> OPTION A: allow the user to pass their selection as a command-line argument or environment variable during script invocation, and handle cases where the file doesn't exist.
 
-> OPTION B: prompt the user to input the selection.
+> OPTION B: prompt the user to input their selection, and handle cases where the file doesn't exist.
 
 > OPTION C: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display them to the user and prompt the user to input their selection.
 
