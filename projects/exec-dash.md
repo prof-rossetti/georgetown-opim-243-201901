@@ -142,7 +142,7 @@ As you develop your project repository, incrementally "commit" your work along t
 
 ### Further Exploration
 
-If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Exec Dash" Further Exploration Challenges](exec-dash/further.md) (e.g. validating CSV files,comparing sales across months, predicting future sales).
+If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Exec Dash" Further Exploration Challenges](exec-dash/further.md) (e.g. validating CSV files, comparing sales across months, predicting future sales).
 
 ## Submission
 
