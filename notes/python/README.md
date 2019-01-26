@@ -5,7 +5,7 @@ A curated, high-level overview of the [Python](https://www.python.org/) programm
   + [Syntax and Style](syntax-and-style.md)
   + [Comments](comments.md)
   + [Logging](logging.md)
-  + [Datatypes](datatypes/README.md)
+  + [Datatypes](datatypes/)
   + [Variables](variables.md)
   + [Functions](functions.md)
   + [Control Flow](control-flow.md)
