@@ -23,15 +23,11 @@ So your objective is to create a tool which automates the process of transformin
 
 ## Requirements
 
-Write a program which adheres to the following requirements, as detailed in the corresponding sections below:
-
-  + [Information Input Requirements](#information-input-requirements)
-  + [Calculation Requirements](#calculation-requirements)
-  + [Information Output Requirements](#information-output-requirements)
+Write a Python program which adheres to the requirements detailed in the sections below.
 
 ### Information Input Requirements
 
-Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. These CSV files should reside inside a "data" sub-directory of your project repository. Instructors will use the same and/or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
+Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. These CSV files should reside inside a "data" sub-directory of your project repository. Instructors will use the same and/or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-YYYYMM.csv" (where "YYYY" represents the four digit year and "MM" represents the zero-padded month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 
@@ -45,7 +41,21 @@ When the user runs the program, they should be prompted to select one of these C
 
 ### Calculation Requirements
 
-The program should process and aggregate the raw data into various summary tables, charts, and graphs. The comprehensiveness and accuracy of these aggregations, calculations, and representations comprises the "Calculation Requirements" grade.
+The program's calculations and aggregations should be accurate and comprehensive.
+
+To test the accuracy of your program's calculations, compare its "March 2018" results against the table of expected values below.
+
+Product | Sum of sales price
+-- | --
+Button-Down Shirt | $6,960.35
+Super Soft Hoodie | $1,875.00
+Khaki Pants | $1,602.00
+Vintage Logo Tee | $941.05
+Brown Boots | $250.00
+Sticker Pack | $216.00
+Baseball Cap | $156.31
+**Total Monthly Sales** | **$12,000.71**
+
 
 ### Information Output Requirements
 
