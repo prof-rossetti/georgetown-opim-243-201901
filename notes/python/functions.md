@@ -2,7 +2,10 @@
 
 Reference:
 
-  + https://docs.python.org/3/tutorial/controlflow.html
+  + https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+  + https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions
+  + https://docs.python.org/3/tutorial/controlflow.html#default-argument-values
+  + https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments
 
 Use a function to define your own custom, re-usable operation. Like in other languages, Python functions must first be defined before they can be invoked (or called).
 
