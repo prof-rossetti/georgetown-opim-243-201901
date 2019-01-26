@@ -12,14 +12,14 @@ Luckily, at the end of each calendar month, the online platform your company use
 
 But usually you only have a few hours from when the data becomes available to when you are required to turn it around and share the resulting insights with the board. Over the past few months, this report compilation process has been somewhat stressful and vulnerable to manual error. And the board's confidence in your operational leadership depends not only on your ability to meet sales goals, but also on your ability to provide them with accurate and timely information.
 
-So your objective is to create a tool which automates the process of transforming monthly sales data into a report of business insights. This report should include data dashboards of charts and graphs to help tell a compelling story.
+So your objective is to create a tool which automates the process of transforming monthly sales data into a report of business insights. This report should include charts and graphs to help tell a compelling story.
 
 ## Learning Objectives
 
   1. Create a tool to automate manual efforts and streamline business processes.
   2. Gain familiarity with CSV formatted data, and how to process it in Python.
   3. Explore basic data visualization capabilities in Python.
-  4. Leverage built-in Python modules like `os` and `csv`, and open source third-party packages like `pandas` and `matplotlib`, to increase development speed and capabilities.
+  4. Leverage built-in Python modules like `os` and `csv`, and third-party packages like `pandas` and `matplotlib` to speed development and boost capabilities.
 
 ## Requirements
 
@@ -29,59 +29,22 @@ Write a program which adheres to the following requirements, as detailed in the 
   + [Calculation Requirements](#calculation-requirements)
   + [Information Output Requirements](#information-output-requirements)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Information Input Requirements
 
-When the user runs the program, they should be prompted to select which CSV file to process.
+Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside in a sub-directory called "data" in the project repository. Instructors will use the same or similar files during the evaluation process. You can assume that all of these files adheres to the same general structure, with:
 
-> OPTION A: allow the user to pass the filename as a command-line argument or environment variable during script invocation.
+  + a file name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month number)
+  + a "header" row on the first line containing the following values in order: `date`, `product`, `unit price`, `units sold`, and `sales price`
 
-> OPTION B: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display them to the user and allow the user to input the name of their selection.
+When the user runs the program, they should be prompted to select one of these CSV files to process.
 
-> OPTION C: are there any open source Python packages with fun and helpful file-selection capabilities?
+> OPTION A: allow the user to pass their selection as a command-line argument or environment variable during script invocation.
+
+> OPTION B: prompt the user to input the selection.
+
+> OPTION C: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display them to the user and prompt the user to input their selection.
+
+> OPTION D: are there any open source Python packages which provide helpful file-selection capabilities?
 
 ### Calculation Requirements
 
