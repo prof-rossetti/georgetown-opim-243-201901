@@ -17,7 +17,7 @@ So your objective is to create a tool which automates the process of transformin
 ## Learning Objectives
 
   1. Create a tool to automate manual efforts and streamline business processes.
-  2. Gain familiarity with CSV formatted data, and how to process it in Python.
+  2. Gain familiarity with CSV formatted data, and learn how to process it in Python.
   3. Explore basic data visualization capabilities in Python.
   4. Leverage built-in Python modules like `os` and `csv`, and third-party packages like `pandas` and `matplotlib` to speed development and boost capabilities.
 
@@ -31,7 +31,7 @@ Write a program which adheres to the following requirements, as detailed in the 
 
 ### Information Input Requirements
 
-Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside inside a "data" sub-directory of your project repository. Instructors will use the same or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
+Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. These CSV files should reside inside a "data" sub-directory of your project repository. Instructors will use the same and/or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 
@@ -39,7 +39,7 @@ When the user runs the program, they should be prompted to select one of these C
 
 > OPTION B: prompt the user to input their selection, and handle cases where the file doesn't exist.
 
-> OPTION C: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display them to the user and prompt the user to input their selection.
+> OPTION C: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display this list to the user and prompt the user to input their selection.
 
 > OPTION D: are there any open source Python packages which provide helpful file-selection capabilities?
 
@@ -49,17 +49,17 @@ The program should process and aggregate the raw data into various summary table
 
 ### Information Output Requirements
 
-During the course of the program's execution, it should present the user with the following information:
+During the course of the program's execution, it should display the following information:
 
-  1. Total monthly sales for the business, equivalent to the sum of total monthly sales for each product, formatted as USD with a dollar sign and two decimal places (e.g. "Total Monthly Sales: $12,000.71").
-  2. A list of the top selling products, and total monthly sales for each, formatted as USD with a dollar sign and two decimal places (e.g. "Button-Down Shirt: $6,960.35", "Super Soft Hoodie: $1,875.00", etc.).
-  3. At least one visual chart or graph depicting this or related information to support the project objectives. The title of at least one chart should include a textual representation of the respective month (e.g. "March 2018"), which should automatically update to reflect the name of the selected file.
+  1. **Total monthly sales** for the business, equivalent to the sum of total monthly sales for each product, formatted as USD with a dollar sign and two decimal places (e.g. "Total Monthly Sales: $12,000.71").
+  2. A **list of the top selling products**, and total monthly sales for each, formatted as USD with a dollar sign and two decimal places (e.g. "Button-Down Shirt: $6,960.35", "Super Soft Hoodie: $1,875.00", etc.).
+  3. At least one **chart or graph** depicting this or related information to support the project objectives. Chart titles should include a human-friendly textual representation of the selected month and year (e.g. "March 2018").
 
 ![a screenshot of charts and graphs](#TODO)
 
 > HINT: To detect the month and year, either parse the filename, or parse the imported date values.
 
-Wherever price-related information (e.g. unit prices and sales prices) appears in the workbook, it should be formatted as USD, with a dollar sign and two decimal places.
+All displays of price-related information (e.g. unit, sales, and total prices) should be formatted as USD, with a dollar sign and two decimal places. This includes in charts and graphs.
 
 
 
@@ -73,47 +73,7 @@ Wherever price-related information (e.g. unit prices and sales prices) appears i
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Setup
+## Setup
 
 ### From Starter
 
