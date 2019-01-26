@@ -4,15 +4,13 @@ If you'd like to address any of these challenges, you can feel free to do so in 
 
 ## Challenge 1: Compare Sales Across Months
 
-Expand the scope of this project to import multiple monthly sales files and compare and visualize sales across all available months.
+Expand the scope of this project to import multiple monthly sales CSV files and compare sales across months. Which months have the highest sales? Lowest? What is the trend of sales over time?
 
-Which months have the highest sales? Lowest? Why?
+Visualize the sales over time using a column or bar chart with time on the x axis and sales on the y axis.
 
-Chart the sales over time using a column or bar chart with time on the x axis and sales on the y axis.
+![bar chart of sales month over month](#TODO)
 
-[bar chart of sales month over month](#TODO)
-
-> HINT: You may need to loop through all CSV files in the data directory and process each and store the results in memory or some other CSV file.
+> HINT: for processing all CSV files, try using the `os` module to detect the names of all CSV files which exist in the "data" directory, and loop through each one at a time, processing its data and either storing the results in memory or to a separate CSV file.
 
 ## Challenge 2: Predicting Future Sales
 

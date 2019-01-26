@@ -77,11 +77,11 @@ Write a program which adheres to the following requirements, as detailed in the 
 
 When the user runs the program, they should be prompted to select which CSV file to process.
 
-> OPTION A: allow the user to pass the filename as a command-line argument or environment variable during script invocation
+> OPTION A: allow the user to pass the filename as a command-line argument or environment variable during script invocation.
 
-> OPTION B: use the `os` module to detect the names of all CSV files which exist in the data directory, then display them to the user and allow the user to input the name of their selection
+> OPTION B: use the `os` module to detect the names of all CSV files which exist in the "data" directory, then display them to the user and allow the user to input the name of their selection.
 
-> OPTION C: are there any open source Python packages with file-selection capabilities?
+> OPTION C: are there any open source Python packages with fun and helpful file-selection capabilities?
 
 ### Calculation Requirements
 
