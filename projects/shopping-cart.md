@@ -1,6 +1,6 @@
 # "Shopping Cart" Project
 
-![a screencast of a user running a python script from a terminal.](https://user-images.githubusercontent.com/1328807/50870741-53442b80-1387-11e9-9180-ab96688c6590.gif)
+![a screencast of a user running a python script from a terminal](https://user-images.githubusercontent.com/1328807/50870741-53442b80-1387-11e9-9180-ab96688c6590.gif)
 
 ## Business Prompt
 
@@ -9,6 +9,12 @@ Your local corner grocery store has hired you as a technology consultant to help
 Currently, the store affixes a price tag sticker on each grocery item in stock and uses a calculator at the checkout counter to add up the product prices and calculate tax and total amount due.
 
 Instead, the store owner describes a desired checkout process which involves a checkout clerk scanning each product's barcode to automatically look up product prices, perform tax and total calculations, and print a customer receipt.
+
+## Learning Objectives
+
+  1. Create a tool to facilitate and streamline a business process.
+  2. Gain familiarity with processing and validating user inputs in Python.
+  3. Reinforce introductory Python programming concepts such as datatypes, functions, variables, and loops.
 
 ## Requirements
 
@@ -35,8 +41,7 @@ The program should be able to process multiple shopping cart items of the same k
 
 ### From Starter
 
-To setup your project repository, either fork and clone the professor's ["Shopping Cart" Starter Repository](https://github.com/prof-rossetti/shopping-cart-starter-py
-), or follow the steps below to setup your own from scratch.
+To setup your project repository, either fork and clone the professor's ["Shopping Cart" Starter Repository](https://github.com/prof-rossetti/shopping-cart-starter-py), or follow the steps below to setup your own from scratch.
 
 ### From Scratch
 
