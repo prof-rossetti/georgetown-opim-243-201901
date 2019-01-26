@@ -4,7 +4,7 @@
 
 Assume you own and operate a successful small business, selling artisan clothing products through an online platform like Amazon, Etsy, or eBay.
 
-![hoodie for sale on etsy](#TODO)
+![hoodie for sale on etsy](https://user-images.githubusercontent.com/1328807/51781151-cb7a5300-20e2-11e9-863f-3b82aaa5f5a9.png)
 
 Due to certain investment interests in your business, you are obligated to hold monthly board meetings with your investors and advisors to discuss the company's strategic direction, set priorities, and allocate resources. To aid the board's decision-making processes, they expect you to provide them with a monthly summary report of business insights, including the aggregation of total sales and the identification of top-selling products.
 
@@ -31,7 +31,7 @@ Write a program which adheres to the following requirements, as detailed in the 
 
 ### Information Input Requirements
 
-Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside inside a "data" sub-directory of your project repository. Instructors will use the same or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files has the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
+Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. The CSV files will reside inside a "data" sub-directory of your project repository. Instructors will use the same or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-`YYYYMM`.csv" (where `YYYY` represents the year and `MM` represents the month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 
@@ -136,8 +136,22 @@ Within the local project repository, create a new file called `insights.py` and 
 
 # TODO: write some Python code here to produce the desired functionality...
 
+print("-----------------------)
+print("MONTH: March 2018")
+
+print("-----------------------)
 print("CRUNCHING THE DATA...")
 
+print("-----------------------)
+print("TOTAL MONTHLY SALES: $12,000.71")
+
+print("-----------------------)
+print("TOP SELLING PRODUCTS:")
+print("  1) Button-Down Shirt: $6,960.35")
+print("  2) Super Soft Hoodie: $1,875.00")
+print("  3) etc.")
+
+print("-----------------------)
 print("VISUALIZING THE DATA...")
 ```
 
