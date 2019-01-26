@@ -21,31 +21,58 @@ You can also create and import your own modules to help you organize your code i
 
 For more details, follow along with this official tutorial on modules:
 
-  + https://docs.python.org/3/tutorial/modules.html
+  + https://docs.python.org/3/tutorial/modules.html#modules
+  + https://docs.python.org/3/tutorial/modules.html#more-on-modules
+  + https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts
 
 ## Usage
 
 To load any module, whether a built-in module or a custom module you create, use the `import` statement. Then after importing the module, you can reference code contained within.
 
-To see this concept in action, create a new directory on your computer called "modules-overview" and place inside the following two files, then run `python my_script`:
+To see this concept in action, create a new directory on your computer called "modules-overview" and place inside the following two files:
 
 ``` python
 # modules-overview/my_module.py
 
-import my_module
+# note the lack of code in the global scope of this file
+# ... all the code is contained within functions (below)
+# ... which can be invoked separately as desired
 
+def my_message():
+    print("HELLO FROM A MODULE")
 
+def other_message():
+    print("GREETINGS EARTHLING")
+
+# see more information about this weird but specific statement:
+# https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts
+# like "if this file is invoked directly from the command-line, then do some stuff..."
+if __name__ == "__main__":
+    print("INVOKING MY MODULE AS A SCRIPT...")
+    my_message()
 ```
 
 ``` python
 # modules-overview/my_script.py
 
-import my_module
+import my_module # import the module
+
+print("IMPORTING MY MODULE ...")
+my_module.my_message() # selectively invoke functions provided by the module
 ```
 
 Then execute the script to prove it has access to code in the module:
 
 ```sh
-python my_script
-# > HELLO FROM MY MODULE!!!
+python my_script.py
+#> IMPORTING MY MODULE ...
+#> HELLO FROM A MODULE
+```
+
+Then execute the module directly to see what happens:
+
+```sh
+python my_module.py
+#> INVOKING MY MODULE AS A SCRIPT...
+#> HELLO FROM A MODULE
 ```
