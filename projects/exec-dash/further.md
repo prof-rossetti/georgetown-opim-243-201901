@@ -14,7 +14,15 @@ Visualize the sales over time using a column or bar chart with time on the x axi
 
 > HINT: for processing all CSV files, try using the `os` module to detect the names of all CSV files which exist in the "data" directory, and loop through each one at a time, processing its data and either storing the results in memory or to a separate CSV file.
 
-## Challenge 3: Predicting Future Sales
+## Challenge 3: Normalize Data Across Months
+
+> Depends on Challenge 2
+
+Different months can contain a different numbers of days. Is it totally accurate to compare sales for a 28-day month against sales for a 31-day month? And what about the proportion of weekend days vs weekdays?
+
+Your program should somehow take these and other irregularities into account when comparing sales across months, smoothing them as much as possible to facilitate accurate comparisons.
+
+## Challenge 4: Predicting Future Sales
 
 > WARNING: only for advanced students with experience in statistics and/or machine learning. For other students, this might be a good "freestyle" project idea to revisit later...
 
