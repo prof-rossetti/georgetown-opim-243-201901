@@ -19,7 +19,7 @@ So your objective is to create a tool which automates the process of transformin
   1. Create a tool to automate manual efforts and streamline business processes.
   2. Gain familiarity with CSV formatted data, and learn how to process it in Python.
   3. Explore basic data visualization capabilities in Python.
-  4. Leverage built-in Python modules like `os` and `csv`, and third-party packages like `pandas` and `matplotlib` to speed development and boost capabilities.
+  4. Leverage built-in Python modules and third-party Python packages to speed development and enhance capabilities.
 
 ## Requirements
 
