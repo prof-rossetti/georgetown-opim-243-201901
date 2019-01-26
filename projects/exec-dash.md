@@ -132,11 +132,11 @@ print("-----------------------)
 print("VISUALIZING THE DATA...")
 ```
 
+Create a new virtual environment named something like "dashboard-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the provided contents.
+
 Finally, make your first commit with a message like "Setup project repository", and push these changes to GitHub. Once you see these changes reflected in your remote project repository on GitHub.com, you are ready to start the project development process.
 
 ## Development
-
-Create a new virtual environment named something like "dashboard-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the provided contents.
 
 As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
 
