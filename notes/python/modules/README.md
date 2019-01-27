@@ -4,15 +4,12 @@ You can extend the capabilities of your Python program by leveraging, or "import
 
 Some selected Python modules of interest include:
 
-  + [The `code` Module](code.md)
-  + [The `collections` Module](collections.md)
   + [The `csv` Module](csv.md) <--- for processing CSV data
   + [The `datetime` Module](datetime.md)
   + [The `itertools` Module](itertools.md)
   + [The `json` Module](json.md) <--- for processing JSON data
   + [The `math` Module](math.md)
   + [The `os` Module](os.md)
-  + [The `pdb` Module](pdb.md) <--- very helpful for debugging!
   + [The `random` Module](random.md)
   + [The `statistics` Module](statistics.md)
   + [The `time` Module](time.md)
@@ -58,6 +55,7 @@ if __name__ == "__main__":
 import my_module # import the module
 
 print("IMPORTING MY MODULE ...")
+
 my_module.my_message() # selectively invoke functions provided by the module
 ```
 
@@ -75,4 +73,29 @@ Then execute the module directly to see what happens:
 python my_module.py
 #> INVOKING MY MODULE AS A SCRIPT...
 #> HELLO FROM A MODULE
+```
+
+### Modules in Subdirectories
+
+If your python file is located in a subdirectory, you can reference it using the `[directory name].[file name]`. Like this:
+
+
+``` python
+# modules-overview/things/robot.py
+
+def robot_message():
+    print("HELLO I'M A ROBOT")
+```
+
+``` python
+# modules-overview/robot_script.py
+
+import things.robot as bot
+
+bot.robot_message()
+```
+
+```sh
+python robot_script.py
+#> HELLO I'M A ROBOT
 ```
