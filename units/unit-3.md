@@ -2,7 +2,7 @@
 
 ## Objectives
 
-In this unit, we'll learn how process and validate user inputs in Python.
+In this unit, we'll learn how process and validate user inputs in Python. We'll also become familiar with how to organize our code across multiple files and import built-in modules to extend the capabilities of our Python programs.
 
 ## Slides
 
