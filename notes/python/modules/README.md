@@ -26,14 +26,26 @@ For more details, follow along with this official tutorial on modules:
 
 To load any module, whether a built-in module or a custom module you create, use the `import` statement. Then after importing the module, you can reference code contained within.
 
-To see this concept in action, create a new directory on your computer called "modules-overview" and place inside the following two files:
+To see this concept in action, create a new directory on your computer called "modules-overview" and place inside the following two files...
+
+Script:
+
+``` python
+# modules-overview/my_script.py
+
+import my_module
+
+print("IMPORTING MY MODULE ...")
+my_module.my_message()
+```
+
+Module:
 
 ``` python
 # modules-overview/my_module.py
 
-# note the lack of code in the global scope of this file
-# ... all the code is contained within functions (below)
-# ... which can be invoked separately as desired
+# anything in the global scope of this file will be executed immediately when the module is imported.
+# ... so we generally wrap all the code inside separate functions, which can later be invoked as desired.
 
 def my_message():
     print("HELLO FROM A MODULE")
@@ -41,22 +53,11 @@ def my_message():
 def other_message():
     print("GREETINGS EARTHLING")
 
-# see more information about this weird but specific statement:
-# https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts
-# like "if this file is invoked directly from the command-line, then do some stuff..."
+# but if we want something to happen when the module is invoked directly from the command line (as a script)
+# ... we can use this special conditional to detect that use case and perform instructions as desired.
 if __name__ == "__main__":
     print("INVOKING MY MODULE AS A SCRIPT...")
     my_message()
-```
-
-``` python
-# modules-overview/my_script.py
-
-import my_module # import the module
-
-print("IMPORTING MY MODULE ...")
-
-my_module.my_message() # selectively invoke a function provided by the module
 ```
 
 Then execute the script to prove it has access to code in the module:
@@ -67,7 +68,7 @@ python my_script.py
 #> HELLO FROM A MODULE
 ```
 
-It is also possible to execute the module directly, in which case any code in the "global scope" of the file and in the "main function" of the file will be invoked:
+It is also possible to execute the module directly:
 
 ```sh
 python my_module.py
