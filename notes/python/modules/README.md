@@ -56,7 +56,7 @@ import my_module # import the module
 
 print("IMPORTING MY MODULE ...")
 
-my_module.my_message() # selectively invoke functions provided by the module
+my_module.my_message() # selectively invoke a function provided by the module
 ```
 
 Then execute the script to prove it has access to code in the module:
@@ -67,7 +67,7 @@ python my_script.py
 #> HELLO FROM A MODULE
 ```
 
-Then execute the module directly to see what happens:
+It is also possible to execute the module directly, in which case any code in the "global scope" of the file and in the "main function" of the file will be invoked:
 
 ```sh
 python my_module.py
