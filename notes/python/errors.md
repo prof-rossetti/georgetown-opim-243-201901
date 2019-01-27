@@ -7,6 +7,8 @@ Reference:
 
 ## Raising Errors
 
+You can use the `raise` keyword to stop program execution if a certain condition is met.
+
 ```python
 options = ["rock", "paper", "scissors"]
 
@@ -16,11 +18,11 @@ if choice in options:
     print("YOU CHOSE", choice)
 else:
     raise ValueError("OOPS - Please type 'rock', or 'paper', or 'scissors' (without using using quotation marks).")
-
-# the choice is yours...
 ```
 
 ## Handling Errors
+
+You can use a `try... except` block to handle errors, whether encountered naturally or triggered intentionally:
 
 ```python
 try:
