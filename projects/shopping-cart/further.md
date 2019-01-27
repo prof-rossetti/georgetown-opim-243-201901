@@ -36,14 +36,17 @@ Adapt the program's `products` variable to reflect the real products and their i
 # shopping_cart.py
 # ...
 products = [
-    {"id": "99482452704", "name": "Organic Black Beans" ... },
-    {"id": "99482434182", "name": "Organic Almonds Roasted Unsalted" ...},
-    {"id": "99482418939", "name": "Jug of Spring Water" ... },
-    {"id": "898248001107", "name": "Siggi's Strawberry Yogurt" ... },
-    {"id": "898248001114", "name": "Siggi's Peach Yogurt" ... },
-    {"id": "290295004269", "name": "Whole Foods Guacamole - Small" ...},
+    {"id": "99482452704", "name": "Organic Black Beans", "price": 0.99},
+    {"id": "99482434182", "name": "Organic Almonds Roasted Unsalted", "price": 7.33},
+    {"id": "99482418939", "name": "Jug of Spring Water", "price": 0.99},
+    {"id": "898248001107", "name": "Siggi's Strawberry Yogurt", "price": 1.45},
+    {"id": "898248001114", "name": "Siggi's Peach Yogurt", "price": 1.45},
+    {"id": "290295004269", "name": "Whole Foods Guacamole - Small", "price": 6.50},
+    {"id": "012000161155", "name": "LIFE Water", "price": 2.15},
 ]
 # ...
 ```
+
+> NOTE: for real life products, we'll probably want to change the identifier values to strings, in case any contain alphabetic characters or leading zeros (e.g. "LIFE water" identifier above)
 
 After modifying the product list, try re-running the program, using the barcode scanner to scan the real items. It should work!

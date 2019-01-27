@@ -1,6 +1,6 @@
 # The `pdb` Module
 
-> NOTE: In Python 3.7, you should be able to use debugger(), which is equivalent to pdb.set_trace().
+> NOTE: You should now be able to use breakpoint(), which is equivalent to pdb.set_trace(). - https://www.python.org/dev/peps/pep-0553/
 
 Reference: https://docs.python.org/3/library/pdb.html.
 
