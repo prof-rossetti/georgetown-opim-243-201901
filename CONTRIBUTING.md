@@ -12,9 +12,13 @@ If you have previously forked the course repository and now your fork is out of 
 
 ```sh
 git branch # make sure you are on the "master" branch
+
 git remote -v # make sure you see both "upstream" and "origin" remote addresses
+
 git fetch # detect changes in the "upstream" course repository
-git pull upstream master # override your local repo to reflect the contents of the "upstream" repository
+
+git pull upstream master # override your local fork to reflect the contents of the "upstream" repository
+
 git push origin master # override your remote fork to reflect the contents of the "upstream" repository
 ```
 

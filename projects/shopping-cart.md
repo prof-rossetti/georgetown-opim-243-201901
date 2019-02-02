@@ -37,6 +37,41 @@ After the clerk indicates there are no more items, the program should print a cu
 
 The program should be able to process multiple shopping cart items of the same kind, but need not display any groupings or aggregations of those items (although it may optionally do so).
 
+### Example Output
+
+``` sh
+(shopping-env)  --->> python shopping_cart.py
+Please input a product identifier: 1
+Please input a product identifier: 8
+Please input a product identifier: 6
+Please input a product identifier: 8
+Please input a product identifier: 8
+Please input a product identifier: 16
+Please input a product identifier: 12
+Please input a product identifier: DONE
+#> ---------------------------------
+#> GREEN FOODS GROCERY
+#> WWW.GREEN-FOODS-GROCERY.COM
+#> ---------------------------------
+#> CHECKOUT AT: 2019-02-02 11:31 AM
+#> ---------------------------------
+#> SELECTED PRODUCTS:
+#>  ... Chocolate Sandwich Cookies ($3.50)
+#>  ... Cut Russet Potatoes Steam N' Mash ($4.25)
+#>  ... Dry Nose Oil ($21.99)
+#>  ... Cut Russet Potatoes Steam N' Mash ($4.25)
+#>  ... Cut Russet Potatoes Steam N' Mash ($4.25)
+#>  ... Mint Chocolate Flavored Syrup ($4.50)
+#>  ... Chocolate Fudge Layer Cake ($18.50)
+#> ---------------------------------
+#> SUBTOTAL: $61.24
+#> TAX: $3.67
+#> TOTAL: $64.91
+#> ---------------------------------
+#> THANKS, SEE YOU AGAIN SOON!
+#> ---------------------------------
+```
+
 ## Setup
 
 ### From Starter
