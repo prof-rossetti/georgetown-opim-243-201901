@@ -11,11 +11,10 @@ In this unit, we'll illustrate the concept of **program-data independence** as w
   + Program-Data Independence
   + Datastores, Databases, and CSV Files
   + [File Management](/notes/python/file-management.md)
-  + Processing CSV Data in Python:
-    + [The `csv` Module](/notes/python/modules/csv.md)
+  + [The `os` Module](/notes/python/modules/os.md#file-operations) (focusing on "File Operations" section)
+  + [The `csv` Module](/notes/python/modules/csv.md)
 
-
-> FYI: We're using a CSV file datastore here for simplicity. If you already know SQL, you might be interested to know you can use Python to connect to relational databases as well. Consider further exploring the following packages for examples:
+> FYI: We're using a CSV file datastore here for simplicity. If you already know SQL, you might be interested to know you can use Python to connect to relational databases as well:
 >
 >    + [The `psycopg` Package](/notes/python/packages/psycopg.md) (for PostgreSQL databases)
 >    + [The `pymysql` Package](/notes/python/packages/pymysql.md) (for MySQL databases)
