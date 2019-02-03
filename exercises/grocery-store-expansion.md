@@ -2,9 +2,7 @@
 
 ## Business Prompt
 
-The "Shopping Cart" point-of-sale application you created for the local corner grocery store, and its resulting operational efficiencies, have boosted the store's profits so much that the store owner was able to invest in opening another two locations. `#GroceryEmpire`
-
-Now the store owner needs a way to use the application in each of the locations. But each store has a different size and layout and serves a different set of clientele, and therefore stocks a different inventory of grocery products.
+The "Shopping Cart" point-of-sale application you created for the local corner grocery store, and its resulting operational efficiencies, have boosted the store's profits so much that the store owner was able to invest in opening another two locations (`#GroceryEmpire`)! Now the store owner needs a way to use the application in each of the locations. But each store has a different size and layout and serves a different set of clientele, and therefore stocks a different inventory of grocery products.
 
 You consider creating three different copies of the application's source code to handle each inventory, but you decide against doing this because it would increase your software maintenance efforts. Not only would you need to revise the software each time a change is made to the inventory, but if you need to make a change to the software functionality, instead of doing it in one place, you'd need to do it in three different places, and this kind of duplication is prone to manual error.
 
@@ -33,6 +31,6 @@ Instead of assigning the value of the `products` variable to be a hard-coded lis
 
 Optionally create a copy of the "products.csv" file so you can refer to it later. Then revise the original CSV file by adding, removing, and editing records until your inventory is unique. You can make up new product names and prices as desired. Then see how your program operates against that revised CSV file.
 
-Optionally swap your revised CSV file with a friend's and see how the program operates.
+Optionally swap your revised CSV file with a friend's and see how the program operates. You're encouraged to post your fun and unique product inventories to the course Slack channel.
 
 Observe how we can process data from different sources without changing the application's source code.
