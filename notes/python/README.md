@@ -2,6 +2,8 @@
 
 A curated, high-level overview of the [Python](https://www.python.org/) programming language.
 
+## Part I - Introductory Concepts
+
   + [Syntax and Style](syntax-and-style.md)
   + [Comments](comments.md)
   + [Logging](logging.md)
@@ -9,10 +11,13 @@ A curated, high-level overview of the [Python](https://www.python.org/) programm
   + [Variables](variables.md)
   + [Functions](functions.md)
   + [Control Flow](control-flow.md)
-  + [Modules](modules/) (Intermediate Concept)
-  + [Package Management (The `pip` Utility)](/notes/pip.md) (Intermediate Concept)
-  + [Packages](packages/) (Intermediate Concept)
-  + [Debugging](debugging.md) (Intermediate Concept)
-  + [Errors](errors.md) (Intermediate Concept)
-  + [File Management](file-management.md) (Intermediate Concept)
-  + [Testing](testing.md) (Intermediate Concept)
+
+## Part II - Intermediate Concepts
+
+  + [Debugging](debugging.md)
+  + [Errors](errors.md)
+  + [File Management](file-management.md)
+  + [Modules](modules/)
+  + [Package Management (The `pip` Utility)](/notes/pip.md)
+  + [Packages](packages/)
+  + [Testing](testing.md)
