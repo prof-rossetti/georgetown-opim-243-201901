@@ -17,12 +17,15 @@ teams = [
     {"city": "New Haven", "name": "Ravens"}
 ]
 
-teams = sorted(teams, key=itemgetter("city"))
+sorted_teams = sorted(teams, key=itemgetter("city")) # sort by some attribute
 
-for key, value in itertools.groupby(teams, key=itemgetter("city")):
+teams_by_city = itertools.groupby(sorted_teams, key=itemgetter("city")) # group by the sorted attribute
+#> <itertools.groupby object at 0x10339dc50>
+
+for city, teams in teams_by_city:
     print("----------------------------")
-    print(key.upper() + ":")
-    for team in value:
+    print(city.upper() + ":")
+    for team in teams:
         print("  + " + team["name"])
 
 #> ----------------------------

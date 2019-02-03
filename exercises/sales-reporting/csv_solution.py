@@ -9,20 +9,20 @@ CSV_FILENAME = "sales-201803.csv"
 
 csv_filepath = os.path.join("data", CSV_FILENAME)
 
-sales = []
+rows = []
 
 with open(csv_filepath, "r") as csv_file:
     reader = csv.DictReader(csv_file)
     for od in reader:
-        sales.append(dict(od)) # ideally we would transform all the prices from strings to floats here
+        rows.append(dict(od)) # ideally we would transform all the prices from strings to floats here
 
-# print(sales[0])
+# print(rows[0])
 #> {'date': '2018-03-01', 'product': 'Button-Down Shirt', 'unit price': '65.05', 'units sold': '2', 'sales price': '130.10'}
 
-# float(sales[0]["sales price"])
+# float(rows[0]["sales price"])
 #> 130.10
 
-sales_prices = [float(row["sales price"]) for row in sales] # list comprehension for mapping purposes!
+sales_prices = [float(row["sales price"]) for row in rows] # list comprehension for mapping purposes!
 
 total_sales = sum(sales_prices)
 
