@@ -2,15 +2,13 @@
 
 ## Business Prompt
 
-The "Shopping Cart" point-of-sale application you created for the local corner grocery store, and its resulting operational efficiencies, have boosted the store's profits so much that the store owner was able to invest in opening another two locations. #GroceryEmpire
+The "Shopping Cart" point-of-sale application you created for the local corner grocery store, and its resulting operational efficiencies, have boosted the store's profits so much that the store owner was able to invest in opening another two locations. `#GroceryEmpire`
 
 Now the store owner needs a way to use the application in each of the locations. But each store has a different size and layout and serves a different set of clientele, and therefore stocks a different inventory of grocery products.
 
-You consider creating three different copies of the application's source code to handle each inventory, but you decide against doing this because this approach would increase your maintenance efforts.
+You consider creating three different copies of the application's source code to handle each inventory, but you decide against doing this because it would increase your software maintenance efforts. Not only would you need to revise the software each time a change is made to the inventory, but if you need to make a change to the software functionality, instead of doing it in one place, you'd need to do it in three different places, and this kind of duplication is prone to manual error.
 
-After performing some user research, you learn that a manager for each location keeps track of their store's inventory of products in a spreadsheet, and is able to export the inventory as a CSV file.
-
-You agree that as long as the different inventory files are formatted in the same way (i.e. CSV format with the same columns), the program should be able to operate on any one of them. And you set off to adapt your previous solution to meet the new business requirements.
+After performing some user research, you learn that a manager for each location keeps track of their store's inventory of products in a spreadsheet, and is able to export the inventory as a CSV file. You observe that as long as the different inventory files are formatted in the same way (i.e. CSV format with the same columns), the program should be able to operate on any one of them. And you set off to adapt your previous solution to meet the new business requirements.
 
 ## Objectives
 
