@@ -4,11 +4,15 @@ Reference: https://docs.python.org/3/library/csv.html.
 
 Use the `csv` module to process data stored in Comma Separated Values (CSV) format.
 
-To setup these examples, create a new directory on your Desktop called `csv-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
+To setup these examples, create a new directory on your Desktop called "csv-mgmt" and navigate there from your command line. Create two Python scripts in that directory called "write_teams.py" and "read_teams.py", and place inside contents from the following sections, respectively.
 
 ## Writing CSV Files
 
+Write some Python dictionaries to a CSV file called "teams.csv" by running this script (i.e. `python write_teams.py`):
+
 ```python
+# csv-mgmt/write_teams.py
+
 import csv
 
 csv_file_path = "teams.csv"
@@ -30,7 +34,11 @@ with open(csv_file_path, "w") as csv_file:
 
 ## Reading CSV Files
 
+Process the "teams.csv" file into some Python dictionaries by running this script (i.e. `python read_teams.py`):
+
 ```python
+# csv-mgmt/read_teams.py
+
 import csv
 
 csv_file_path = "teams.csv"
