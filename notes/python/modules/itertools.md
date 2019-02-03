@@ -10,9 +10,16 @@ Group a list of dictionaries by key:
 import itertools
 from operator import itemgetter
 
-teams = sorted(teams, key=itemgetter('city'))
+teams = [
+    {"city": "New York", "name": "Yankees"},
+    {"city": "New York", "name": "Mets"},
+    {"city": "Boston", "name": "Red Sox"},
+    {"city": "New Haven", "name": "Ravens"}
+]
 
-for key, value in itertools.groupby(teams, key=itemgetter('city')):
+teams = sorted(teams, key=itemgetter("city"))
+
+for key, value in itertools.groupby(teams, key=itemgetter("city")):
     print("----------------------------")
     print(key.upper() + ":")
     for team in value:

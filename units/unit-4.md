@@ -18,7 +18,6 @@ In this unit, we'll illustrate the concept of **program-data independence** as w
 >
 >    + [The `pandas` Package](/notes/python/packages/pandas.md)
 
-
 > FYI: We're using a CSV file datastore here for simplicity. If you already know SQL, you might be interested to know you can use Python to connect to relational databases as well:
 >
 >    + [The `psycopg` Package](/notes/python/packages/psycopg.md) (for PostgreSQL databases)

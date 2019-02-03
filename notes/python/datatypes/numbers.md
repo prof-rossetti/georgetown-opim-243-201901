@@ -46,8 +46,8 @@ round(4.49, 2) #> 4.49
 Use [string formatting](https://docs.python.org/3.4/library/string.html#string-formatting) to control how numbers will display when printed:
 
 ```python
-'the price is ${0:.2f}'.format(6.5) #> 'the price is $6.50'
-'the price is ${0:,.2f}'.format(1234567890.12345678) #> 'the price is $1,234,567,890.12'
+"the price is ${0:.2f}".format(6.5) #> 'the price is $6.50'
+"the price is ${0:,.2f}".format(1234567890.12345678) #> 'the price is $1,234,567,890.12'
 ```
 
 Also reference the numeric functionality of these built-in Python modules:

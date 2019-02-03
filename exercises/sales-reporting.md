@@ -20,6 +20,7 @@ Practice using Python to process CSV files in such a way as to automate a busine
 
   + [The `os` Module]((/notes/python/modules/os.md))
   + [The `csv` Module](/notes/python/modules/csv.md) or [The `pandas` Package](/notes/python/packages/pandas.md)
+  + [The `itertools` Module](/notes/python/modules/itertools.md) (maybe helpful for "Further Exploration" challenge)
 
 ## Setup
 
