@@ -27,3 +27,4 @@ In this unit, we'll illustrate the concept of **program-data independence** as w
 ## Activities and Exercises
 
   + ["Grocery Store Expansion" Exercise](/exercises/grocery-store-expansion.md)
+  + ["Sales Reporting" Exercise](/exercises/sales-reporting.md)
