@@ -22,8 +22,9 @@ Credits | 1.5
   + [Unit 2](/units/unit-2.md): Version Control
   + [Unit 3](/units/unit-3.md): Processing and Validating User Inputs
   + [Unit 4](/units/unit-4.md): Processing CSV Data from File
-  + Unit 5: Processing JSON Data from the Internet
-  + Unit 6: Review
+  + Unit 5: Data Visualization
+  + Unit 6: Processing JSON Data from the Internet
+  + Unit 7: Review
 
 ## Resources
 

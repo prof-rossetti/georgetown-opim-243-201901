@@ -1,8 +1,8 @@
-# Unit 3 Agenda
+# Unit 4 Agenda
 
 ## Objectives
 
-In this unit, we'll learn how to use Python to create business intelligence tools. We'll use built-in Python modules and third-party Python packages to process CSV-formatted data and visualize insights gleaned from the data.
+In this unit, we'll illustrate the concept of **program-data independence** as we explore integrations between software and datastores. We'll focus on the Comma-separated Values (CSV) data format and learn how to use Python to process CSV data.
 
 ## Slides
 
@@ -11,15 +11,15 @@ In this unit, we'll learn how to use Python to create business intelligence tool
   + Program-Data Independence
   + Datastores, Databases, and CSV Files
   + [File Management](/notes/python/file-management.md)
-  + [Package Management w/ `pip`](/notes/pip.md)
   + Processing CSV Data in Python:
     + [The `csv` Module](/notes/python/modules/csv.md)
-    + The `pandas` Package
-  + Data Visualization in Python:
-    + The `matplotlib` Package
-    + The `plotly` Package
+
+
+> FYI: We're using a CSV file datastore here for simplicity. If you already know SQL, you might be interested to know you can use Python to connect to relational databases as well. Consider further exploring the following packages for examples:
+>
+>    + [The `psycopg` Package](/notes/python/packages/psycopg.md) (for PostgreSQL databases)
+>    + [The `pymysql` Package](/notes/python/packages/pymysql.md) (for MySQL databases)
 
 ## Activities and Exercises
 
   + ["Grocery Store Expansion" Exercise](/exercises/grocery-store-expansion.md)
-  + ["Executive Dashboard" Project](/projects/exec-dash.md)
