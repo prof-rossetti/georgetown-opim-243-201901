@@ -20,4 +20,4 @@ In this unit, we'll learn how process and validate user inputs in Python as we c
 
 ## Screencasts
 
-  + ["Shopping Cart" Walkthrough (abbreviated)](https://www.youtube.com/watch?v=3BaGb-1cIr0)
+  + ["Shopping Cart" Walkthrough (abbreviated)](https://www.youtube.com/watch?v=3BaGb-1cIr0) :movie_camera:

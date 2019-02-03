@@ -13,8 +13,7 @@ Reference:
   + [Input and Output](http://pandas.pydata.org/pandas-docs/stable/api.html#input-output)
   + [`head()` and `tail()`](http://pandas.pydata.org/pandas-docs/stable/basics.html#head-and-tail)
   + [`ix()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.ix.html)
-
-> NOTE: `pandas` supports Python 2.7 & 3.4+
+  + [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
 ## Installation
 
@@ -26,48 +25,86 @@ pip install pandas
 
 ## Usage
 
-### Reading Data into DataFrames
+### The `DataFrame` Datatype
+
+The Pandas `DataFrame` data type represents a table of data, like a spreadsheet.
+
+When using a list to create a new dataframe, each entry in the list represents another row in the table.
 
 ```py
-import pandas as pd # pd now references the pandas package, saving you some typing
+import pandas as pd
 
-# We can create pandas DataFrames with native python data structures like lists and dictionaries
-test = [[1,'a'], [2,'b'], [3,'c']]
-df = pd.DataFrame(test)
-df
+my_list = [
+  [1, "a"],
+  [2, "b"],
+  [3, "c"]
+]
+
+df = pd.DataFrame(my_list)
+
+df # columns will be numeric by default
 #>    0  1
 #> 0  1  a
 #> 1  2  b
 #> 2  3  c
 
-# The columns have default numerical names. To change this, we can use the following:
-df.columns = ['num', 'letter']
+df.columns = ['num', 'letter'] # possible to override column names
+
 df
 #>    num letter
 #> 0    1      a
 #> 1    2      b
 #> 2    3      c
+```
 
-#Pandas also offers useful functions that read Excel and CSV files directly into DataFrames, complete with column headings
-stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats' - you can use your own or see the "Pandas" Exercise to follow along!
-stats.head() # we can use the head() function to preview the data
+When using a dictionary to create a new dataframe, each key in the dictionary represents a column with its own values:
+
+```py
+import pandas as pd
+
+my_dict = {
+    "num": [1,2,3],
+    "letter": ["a", "b", "c"]
+}
+
+df = pd.DataFrame(my_dict)
+
+df
+#>    num letter
+#> 0    1      a
+#> 1    2      b
+#> 2    3      c
+```
+
+### Reading CSV Files
+
+Process Spreadsheet or CSV files into DataFrames:
+
+```py
+import pandas as pd
+
+stats = pd.read_excel("/path/to/jeter_stats.xlsx")
+#
+# ... OR ...
+#
+stats = pd.read_csv("/path/to/jeter_stats.csv")
+```
+
+Inspect the first and last few rows, respectively:
+
+```py
+stats.head()
 #>    year  games  at_bats  runs  hits  walks
 #> 0  1995     15       48     5    12      3
 #> 1  1996    157      582   104   183     48
 #> 2  1997    159      654   116   190     74
 #> 3  1998    149      626   127   203     57
 #> 4  1999    158      627   134   219     91
-```
 
-### Manipulating DataFrames
+stats.tail()
+#>
 
-Now that we can read data into DataFrames, let's do something with it. The examples below include some simple ways we can manipulate a single DataFrame. We'll use the same data we had just loaded into the DataFrame.
-
-```py
-import pandas as pd
-
-stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats' - you can use your own or see the "Pandas" Exercise to follow along!
-stats['games'] # we can reference individual columns with their names
+stats['games'] # reference a specific column by name
 #> 0      15
 #> 1     157
 #> 2     159
@@ -126,7 +163,7 @@ stats_dict
 #> 'hits': {1: 183, 2: 190, 4: 219, 17: 216, 7: 191, 9: 188, 10: 202, 11: 214, 12: 206, 14: 212, 15: 179}
 #>}
 
-# finally, we can also print this DataFrame to an excel file
+# finally, we can also save this DataFrame to an excel file
 stats.to_excel(r'C:\Users\Mike\Desktop\jeter_stats_added.xlsx')
 ```
 
