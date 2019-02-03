@@ -8,7 +8,7 @@ To setup these examples, create a new directory on your Desktop called "csv-mgmt
 
 ## Writing CSV Files
 
-Write some Python dictionaries to a CSV file called "teams.csv" by running this script (i.e. `python write_teams.py`):
+Write some Python dictionaries to a CSV file called "teams.csv" by running this script:
 
 ```python
 # csv-mgmt/write_teams.py
@@ -24,7 +24,10 @@ with open(csv_file_path, "w") as csv_file: # "w" means "open the file for writin
     writer.writerow({"city": "New York", "name": "Mets"})
     writer.writerow({"city": "Boston", "name": "Red Sox"})
     writer.writerow({"city": "New Haven", "name": "Ravens"})
+```
 
+```sh
+python write_teams.py
 #> city,name
 #> New York,Yankees
 #> New York,Mets
@@ -34,7 +37,7 @@ with open(csv_file_path, "w") as csv_file: # "w" means "open the file for writin
 
 ## Reading CSV Files
 
-Process the "teams.csv" file into some Python dictionaries by running this script (i.e. `python read_teams.py`):
+Process the "teams.csv" file into some Python dictionaries by running this script:
 
 ```python
 # csv-mgmt/read_teams.py
@@ -48,7 +51,10 @@ with open(csv_file_path, "r") as csv_file: # "r" means "open the file for readin
     # reader = csv.reader(csv_file) # if your CSV doesn't have headers
     for row in reader:
         print(row["city"], row["name"])
+```
 
+```sh
+python read_teams.py
 #> New York Yankees
 #> New York Mets
 #> Boston Red Sox
