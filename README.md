@@ -17,13 +17,13 @@ Credits | 1.5
 
 ## Instructional Units
 
-  + [Unit 0](/units/unit-0.md): Onboarding, Command-line Computing
+  + [Unit 0](/units/unit-0.md): Onboarding Part I (Command-line Computing and Dev Tools)
   + [Unit 1](/units/unit-1.md): Python Language Overview
-  + [Unit 2](/units/unit-2.md): Version Control
+  + [Unit 2](/units/unit-2.md): Onboarding Part II (Version Control)
   + [Unit 3](/units/unit-3.md): Processing and Validating User Inputs
-  + [Unit 4](/units/unit-4.md): Processing CSV Data from File
-  + Unit 5: Data Visualization
-  + Unit 6: Processing JSON Data from the Internet
+  + [Unit 4](/units/unit-4.md): Datastores, and Processing CSV Data from File
+  + Unit 5: Business Intelligence and Data Visualization
+  + Unit 6: Networks, and Processing JSON Data from the Internet
   + Unit 7: Review
 
 ## Resources
