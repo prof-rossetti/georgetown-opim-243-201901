@@ -27,7 +27,7 @@ Write a Python program which adheres to the requirements detailed in the section
 
 ### Information Input Requirements
 
-Your program should be able to process any one of these provided [monthly sales CSV files](/projects/exec-dash/data/), in any order. These CSV files should reside inside a "data" sub-directory of your project repository. Instructors will use the same and/or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-YYYYMM.csv" (where "YYYY" represents the four digit year and "MM" represents the zero-padded month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
+Your program should be able to process any one of these provided [monthly sales CSV files](/data/monthly-sales/), in any order. These CSV files should reside inside a "data" sub-directory of your project repository. Instructors will use the same and/or similar files during the evaluation process. You can assume that each of these CSV files will have a name resembling "sales-YYYYMM.csv" (where "YYYY" represents the four digit year and "MM" represents the zero-padded month). And you can assume each of these CSV files will have the same header row (`date`, `product`, `unit price`, `units sold`, `sales price`).
 
 When the user runs the program, they should be prompted to select one of these CSV files to process.
 

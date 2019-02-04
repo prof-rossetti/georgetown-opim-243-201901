@@ -10,8 +10,6 @@ Create a separate script in your project repository called "multi_month.py". Whe
 
 Visualize the sales over time using a column or bar chart with time on the x axis and sales on the y axis.
 
-![bar chart of sales month over month](#TODO)
-
 > HINT: for processing all CSV files, try using the `os` module to detect the names of all CSV files which exist in the "data" directory, and loop through each one at a time, processing its data and either storing the results in memory or to a separate CSV file.
 
 ## Challenge 3: Normalize Data Across Months
