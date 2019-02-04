@@ -4,7 +4,7 @@
 
 In this unit, we'll illustrate the concept of **program-data independence** as we explore integrations between software and datastores. We'll focus on the Comma-separated Values (CSV) data format and learn how to use Python to process CSV data.
 
-## Slides
+## [Slides](https://docs.google.com/presentation/d/1ki--UJv6u96HAKbvw2MUo7A2oSRTyet0oFmuM6jZzM8/edit?usp=sharing)
 
 ## Discussions and Notes
 
