@@ -6,13 +6,12 @@ The `pandas` package is an extremely useful one for working with structured data
 
 Reference:
 
-  + [Website](http://pandas.pydata.org/)
-  + [Docs](http://pandas.pydata.org/pandas-docs/stable/)
-  + [Source](https://github.com/pandas-dev/pandas)
+  + [Pandas Website](http://pandas.pydata.org/)
+  + [Pandas Docs](http://pandas.pydata.org/pandas-docs/stable/)
+  + [Pandas Source](https://github.com/pandas-dev/pandas)
   + [DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) - like a CSV
   + [Input and Output](http://pandas.pydata.org/pandas-docs/stable/api.html#input-output)
   + [`head()` and `tail()`](http://pandas.pydata.org/pandas-docs/stable/basics.html#head-and-tail)
-  + [`ix()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.ix.html)
   + [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 
 ## Installation
@@ -196,4 +195,14 @@ stats
 #> 15  2010    157      663   111   179     63  0.269985  0.365008
 #> 17  2012    159      683    99   216     45  0.316252  0.382138
 
+```
+
+#### Exporting DataFrames
+
+Save a dataframe back to a spreadsheet or CSV file:
+
+```py
+stats.to_csv("/path/to/jeter_stats_v2.csv")
+# ... OR ...
+stats.to_excel("/path/to/jeter_stats_v2.xlsx")
 ```
