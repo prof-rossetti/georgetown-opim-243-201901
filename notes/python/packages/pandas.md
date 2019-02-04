@@ -2,7 +2,7 @@
 
 > Adapted from a guide originally contributed by Mike Zhu (@mz888)!
 
-The `pandas` package is an extremely useful one for working with structured data. You can think of `pandas` as a python tool for creating and manipulating powerful spreadsheets-like objects called "DataFrames". The `pandas` package also includes some SQL-like features and can be used to easily read and write data stored in CSV files and/or databases.
+The `pandas` package provides capabilities for working with structured data, including spreadsheet-like objects called "DataFrames".
 
 Reference:
 

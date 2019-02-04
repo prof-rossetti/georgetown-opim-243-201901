@@ -8,9 +8,7 @@ Assume you own and operate a successful small business, selling artisan clothing
 
 At the end of each calendar month, the online platform makes available for download from its admin interface a CSV file representing all individual sales orders for that month. See the ["monthly sales data"](/data/monthly-sales) examples (row per day per product sold that day).
 
-To aid decision-making, for any given month, you need to be able to quickly know which products were your top sellers, and what your total sales were.
-
-To aid your ability to make data-driven decisions using this information, you decide to create a Python program which will automate the process of gleaning these insights from the monthly sales data.
+To aid your ability to make data-driven decisions, you decide to create a Python program which will automate the process of gleaning business insights from the monthly sales data.
 
 ## Objectives
 
@@ -28,11 +26,11 @@ Create a new exercise repository called "sales-reporting" somewhere on your comp
 
 Download any one of the ["monthly sales data"](/data/monthly-sales) CSV files into your exercise repository, either in the root directory or inside a new sub-directory called "data".
 
-Create a new Python script called something like "monthly_sales.py" and place inside some temporary Python code like `print("SALES REPORT (MONTH YEAR)")` inside. Then save the file and make your first commit with a message like "Setup exercise repo".
+Create a new Python script called something like "sales_reporter.py" and place inside some temporary Python code like `print("SALES REPORT (MONTH YEAR)")` inside. Then save the file and make your first commit with a message like "Setup exercise repo".
 
 ## Instructions
 
-Adapt the contents of the "monthly_sales.py" script to process the CSV file to display a human-readable representation of the given month and year and the total sales for that month.
+Adapt the contents of the "sales_reporter.py" script to process the CSV file to display a human-readable representation of the given month and year and the total sales for that month.
 
 Example output:
 
