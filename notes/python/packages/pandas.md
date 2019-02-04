@@ -141,6 +141,20 @@ stats["games"]
 #> ...
 ```
 
+Perform some column aggregations:
+
+```py
+stats["games"].sum() #> 2747
+
+stats["games"].min() #> 15
+
+stats["games"].max() #> 159
+
+stats["games"].mean() #> 137.35
+
+stats["games"].median() #> 153.5
+```
+
 Filter rows matching some given condition:
 
 ```py
