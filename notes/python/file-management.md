@@ -11,65 +11,82 @@ Reference:
 
 See also: [the `csv` module](modules/csv.md) for reading and writing CSV files, and [the `os` module](modules/os.md) for command-line-style file operations and functionality to help specify file paths.
 
-To setup these examples, create a new directory on your Desktop called "file-mgmt" and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
+To setup these examples, create a new directory on your Desktop called "file-mgmt" and navigate there from your command line. Create two Python scripts in that directory called "write_message.py" and "read_message.py", and place inside contents from the following sections, respectively.
 
 ## Writing Files
 
-Write content to file:
+Write some Python strings to a text file called "my_message.txt" by running this script:
 
 ```python
-file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
+# file-mgmt/write_message.py
 
-with open(file_name, "w") as file: # NOTE: "w" means "open the file for writing"
+file_name = "my_message.txt" # a relative filepath
+
+with open(file_name, "w") as file: # "w" means "open the file for writing"
     file.write("Hello World")
     file.write("\n")
     file.write("\n")
     file.write("...")
     file.write("\n")
     file.write("\n")
-    file.write("Goodbye")
+    file.write("Hello Again")
+```
 
+```sh
+python write_message.py
 #> Hello World
 #>
 #> ...
 #>
-#> Goodbye
+#> Hello Again
 ```
+
+Inspect the contents of the "my_message.txt" file to see the message.
 
 ## Reading Files
 
-Read file contents:
+Process the "my_message.txt" file into a Python string by running this script:
 
 ```python
-file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
+# file-mgmt/read_message.py
 
-with open(file_name, "r") as file: # NOTE: "r" means "open the file for reading"
+file_name = "my_message.txt" # a relative filepath
+
+with open(file_name, "r") as file: # "r" means "open the file for reading"
     contents = file.read()
     print(contents)
+```
 
+```sh
+python read_message.py
 #> Hello World.
 #>
 #> ...
 #>
-#> Goodbye World.
+#> Hello Again
 ```
 
-Split file contents on line breaks and loop through each line:
+Further, it's possible to split the file contents on line break characters (`\n`) to assemble a Python list of strings, each representing its own line. Try revising the script and running it again:
 
 ```python
-file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
+# file-mgmt/read_message.py
 
-with open(file_name, "r") as file: # NOTE: "r" means "open the file for reading"
+file_name = "my_message.txt"
+
+with open(file_name, "r") as file:
     contents = file.read()
-    lines = contents.split("\n")
+    lines = contents.split("\n") # converts string to list
     print("THERE ARE", len(lines), "LINES IN THIS FILE")
     for line in lines:
         print("LINE:", line)
+```
 
+```sh
+python read_message.py
 #> THERE ARE 5 LINES IN THIS FILE
 #> LINE: Hello World
 #> LINE:
 #> LINE: ...
 #> LINE:
-#> LINE: Goodbye.
+#> LINE: Hello Again
 ```

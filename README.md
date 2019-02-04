@@ -17,20 +17,34 @@ Credits | 1.5
 
 ## Instructional Units
 
-  + [Unit 0](/units/unit-0.md): Onboarding, Command-line Computing
+  + [Unit 0](/units/unit-0.md): Onboarding Part I (Command-line Computing and Dev Tools)
   + [Unit 1](/units/unit-1.md): Python Language Overview
-  + [Unit 2](/units/unit-2.md): Version Control
+  + [Unit 2](/units/unit-2.md): Onboarding Part II (Version Control)
   + [Unit 3](/units/unit-3.md): Processing and Validating User Inputs
-  + Unit 4: Processing CSV Data from File
-  + Unit 5: Processing JSON Data from the Internet
+  + [Unit 4](/units/unit-4.md): Datastores, and Processing CSV Data from File
+  + Unit 5: Business Intelligence and Data Visualization
+  + Unit 6: Networks, and Processing JSON Data from the Internet
+  + Unit 7: Review
 
 ## Resources
+
+Course Resources:
+
+  + [Python Programming Language Overview](/notes/python/README.md)
+  + [Python Datatypes Overview](/notes/python/datatypes/README.md)
+
+Official Python Resources:
 
   + [Python 3 Documentation](https://docs.python.org/3/reference/index.html)
   + [Python 3 Tutorial](https://docs.python.org/3/tutorial/index.html)
   + [Python 3 Built-in Functions](https://docs.python.org/3/library/functions.html)
   + [Python 3 Built-in Constants](https://docs.python.org/3/library/constants.html)
   + [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
+
+Third-party Resources:
+
+  + [How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+  + [Pythonspot](https://pythonspot.com/beginner/)
 
 ## [Contributing](/CONTRIBUTING.md)
 

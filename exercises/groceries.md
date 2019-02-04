@@ -4,7 +4,7 @@
 
 Gain familiarity with Python and its datatypes. Write a script to process data into a desired output format.
 
-## References
+## Prerequisites
 
 Some notes to help you through the harder parts of this exercise:
 
