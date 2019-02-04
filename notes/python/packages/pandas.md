@@ -13,6 +13,7 @@ Reference:
   + [Input and Output](http://pandas.pydata.org/pandas-docs/stable/api.html#input-output)
   + [`head()` and `tail()`](http://pandas.pydata.org/pandas-docs/stable/basics.html#head-and-tail)
   + [`read_csv()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+  + [`groupby()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
 
 ## Installation
 
