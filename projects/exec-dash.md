@@ -74,7 +74,7 @@ During the course of the program's execution, it should display the following in
   2. A **list of the top selling products**, and total monthly sales for each, formatted as USD with a dollar sign and two decimal places (e.g. "Button-Down Shirt: $6,960.35", "Super Soft Hoodie: $1,875.00", etc.).
   3. At least one **chart or graph** depicting this or related information to support the project objectives. Chart titles should include a human-friendly textual representation of the selected month and year (e.g. "March 2018").
 
-![a screenshot of charts and graphs](#TODO)
+![a screenshot of charts and graphs](/img/projects/exec-dash/top-selling-products-chart-bar.png)
 
 All displays of price-related information should be formatted as USD, with a dollar sign and two decimal places. This includes in charts and graphs.
 
@@ -94,7 +94,7 @@ All displays of price-related information should be formatted as USD, with a dol
 
 ### From Starter
 
-To setup your project repository, either fork and clone the professor's ["Exec Dash" Starter Repository](#TODO), or follow the steps below to setup your own from scratch.
+To setup your project repository, either fork and clone the professor's ["Exec Dash" Starter Repository](https://github.com/prof-rossetti/exec-dash-starter-py), or follow the steps below to setup your own from scratch.
 
 ### From Scratch
 
@@ -106,10 +106,10 @@ Navigate to your local project repository from the command-line.
 
 Within the local project repository, create a new file called `monthly_sales.py` and place inside the following contents:
 
-```python
+```py
 # monthly_sales.py
 
-# TODO: import some modules and packages here
+# TODO: import some modules and/or packages here
 
 # TODO: write some Python code here to produce the desired functionality...
 
