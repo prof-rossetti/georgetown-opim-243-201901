@@ -33,6 +33,10 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 alias ll="ls -lahG"
 
+# hide or show all icons on the desktop:
+alias deskhide="defaults write com.apple.finder CreateDesktop false && killall Finder"
+alias deskshow="defaults write com.apple.finder CreateDesktop true && killall Finder"
+
 alias gb="git branch"
 alias gd="git diff"
 alias gl="git log"
