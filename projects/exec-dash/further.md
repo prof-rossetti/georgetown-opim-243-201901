@@ -1,6 +1,6 @@
 # "Exec Dash" Further Exploration Challenges
 
-## Challenge 1: Validate CSV File Format
+## Challenge 1: Validate CSV Headers
 
 If the user selects a data file which contains invalid/unexpected header rows, the program should stop execution and display a friendly error message like "Oh, the selected file contains unexpected headers. Please try again."
 
