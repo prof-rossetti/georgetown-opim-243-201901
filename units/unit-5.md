@@ -8,7 +8,6 @@ In this unit, we'll learn how to use Python to create business intelligence tool
 
 ## Discussions and Notes
 
-  + [Package Management w/ the `pip` Utility](/notes/pip.md)
   + Data Visualization in Python:
     + The `matplotlib` Package
     + The `plotly` Package

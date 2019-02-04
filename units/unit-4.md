@@ -14,6 +14,7 @@ In this unit, we'll illustrate the concept of **program-data independence** as w
   + [The `os` Module](/notes/python/modules/os.md#file-operations)
   + [The `csv` Module](/notes/python/modules/csv.md)
   + [The `itertools` Module](/notes/python/modules/itertools.md)
+  + [Package Management w/ the `pip` Utility](/notes/pip.md)
 
 > FYI: If you are interested in analytics and data science, you might find it valuable to learn how to use the data processing capabilities of the Pandas package:
 >
