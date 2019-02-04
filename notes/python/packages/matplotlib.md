@@ -8,6 +8,9 @@
   + https://matplotlib.org/
   + https://matplotlib.org/gallery/index.html
   + https://matplotlib.org/tutorials/introductory/sample_plots.html
+  + https://matplotlib.org/gallery/showcase/anatomy.html
+  + https://pythonspot.com/matplotlib-gallery/
+  + https://pythonspot.com/matplotlib-bar-chart/
 
 ## Installation
 
@@ -19,4 +22,4 @@ pip install matplotlib
 
 ## Usage
 
-TODO: basic usage instructions and examples. if they get too complex, feel free to make a separate exercise in the "exercises" directory...
+TBA: basic usage instructions and examples. Contributions welcome!
