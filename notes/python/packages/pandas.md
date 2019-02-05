@@ -2,6 +2,8 @@
 
 > Adapted from a guide originally contributed by Mike Zhu (@mz888)!
 
+> NOTE: this document references the ["jeter_stats.csv"](/data/jeter_stats.csv) and ["jeter_stats.xlsx"](/data/jeter_stats.xlsx) files, which are available for download from the data directory.
+
 The `pandas` package provides capabilities for working with structured data, including spreadsheet-like objects called "DataFrames".
 
 Reference:
