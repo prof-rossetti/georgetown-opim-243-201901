@@ -18,7 +18,7 @@
 
 ## Installation
 
-First install the package using pip, if necessary:
+First install the package using Pip, if necessary:
 
 ```sh
 pip install plotly
@@ -26,4 +26,20 @@ pip install plotly
 
 ## Usage
 
-TBA: basic usage instructions and examples. Contributions welcome!
+For learning purposes, prefer to construct charts using the ["offline" versions](https://plot.ly/python/getting-started/#initialization-for-offline-plotting) which don't require a Plotly account or API key.
+
+To display a new chart, construct it by specifying certain chart configuration options, including the type of chart (e.g. scatterplot), and the data to visualize:
+
+```py
+# adapted from: https://plot.ly/python/getting-started/#initialization-for-offline-plotting
+
+import plotly
+import plotly.graph_objs as go
+
+plotly.offline.plot({
+    "data": [go.Scatter(x=[1, 2, 3, 4], y=[4, 3, 2, 1])],
+    "layout": go.Layout(title="hello world")
+}, auto_open=True)
+```
+
+Consult the documentation and examples for a variety of chart customization options.

@@ -23,6 +23,8 @@ pie_data = [
     {"company": "Company Z", "market_share": 0.15}
 ]
 
+print("----------------")
+print("GENERATING PIE CHART...")
 print(pie_data) # TODO: create a pie chart based on the pie_data
 
 #
@@ -40,7 +42,9 @@ line_data = [
     {"date": "2019-01-08", "stock_price_usd": 162.62},
 ]
 
-print(line_data) # TODO: create a line chart based on the line_data
+print("----------------")
+print("GENERATING LINE GRAPH...")
+print(line_data) # TODO: create a line graph based on the line_data
 
 #
 # CHART 3 (HORIZONTAL BAR)
@@ -56,12 +60,14 @@ bar_data = [
     {"genre": "Romantic Comedy", "viewers": 121212}
 ]
 
+print("----------------")
+print("GENERATING BAR CHART...")
 print(bar_data) # TODO: create a horizontal bar chart based on the bar_data
 ```
 
 Create and activate a new virtual environment called something like "charts-env". Then from within the virtual environment, run the "three_charts.py" program to see it print the provided data structures.
 
-Make your first commit with a message like "Setup exercise repo".
+Make your first commit with a message like "Setup exercise".
 
 ## Instructions
 

@@ -11,7 +11,7 @@ Reference:
 
 ## Installation
 
-First install the package using pip, if necessary:
+First install the package using Pip, if necessary:
 
 ```sh
 pip install nltk
