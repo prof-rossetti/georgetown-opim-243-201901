@@ -14,7 +14,7 @@
 
 ## Installation
 
-First install the package using pip, if necessary:
+First install the package using Pip, if necessary:
 
 ```sh
 pip install matplotlib
@@ -22,4 +22,22 @@ pip install matplotlib
 
 ## Usage
 
-TBA: basic usage instructions and examples. Contributions welcome!
+To display a new chart, construct it by specifying certain chart configuration options, including the type of chart (e.g. pie chart), and the data to visualize:
+
+```py
+# adapted from: https://matplotlib.org/gallery/pie_and_polar_charts/pie_features.html
+
+import matplotlib.pyplot as plt
+
+# Pie chart, where the slices will be ordered and plotted counter-clockwise:
+labels = ["Product A", "Product B", "Product C", "Product D"]
+sizes = [15, 30, 45, 10]
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+ax1.axis("equal")  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.show() # need to explicitly "show" the chart window
+```
+
+Consult the documentation and examples for a variety of chart customization options.
