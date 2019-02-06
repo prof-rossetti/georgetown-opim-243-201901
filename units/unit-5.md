@@ -2,9 +2,9 @@
 
 ## Objectives
 
-In this unit, we'll learn how to use Python to create business intelligence tools. We'll use third-party Python packages to visualize insights gleaned from CSV data. We'll also take a more independent approach to learning than in previous instructional units.
+In this unit, we'll learn how to use Python to create business intelligence tools. We'll use third-party Python packages to visualize insights gleaned from CSV data. We'll also adopt and practice a more active approach to learning than in previous instructional units.
 
-## Slides
+## [Slides](https://docs.google.com/presentation/d/149VKpRXhTk5qQ0IvkkPHpz3lCWPY-Opnws9O3t6FU3U/edit?usp=sharing)
 
 ## Discussions and Notes
 
