@@ -11,7 +11,9 @@ In this unit, we'll learn how to use Python to create business intelligence tool
   + Data Visualization in Python:
     + [The `matplotlib` Package](/notes/python/packages/matplotlib.md)
     + [The `plotly` Package](/notes/python/packages/plotly.md)
+    + [The `altair` Package](/notes/python/packages/altair.md)
 
 ## Activities and Exercises
 
+  + ["Chart Gallery" Exercise](/exercises/chart-gallery.md)
   + ["Executive Dashboard" Project](/projects/exec-dash.md)
