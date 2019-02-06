@@ -22,7 +22,7 @@ pip install matplotlib
 
 ## Usage
 
-To display a new chart, construct it by specifying certain chart configuration options, including the type of chart (e.g. scatterplot), and the data to visualize:
+To display a new chart, construct it by specifying certain chart configuration options, including the type of chart (e.g. pie chart), and the data to visualize:
 
 ```py
 # adapted from: https://matplotlib.org/gallery/pie_and_polar_charts/pie_features.html

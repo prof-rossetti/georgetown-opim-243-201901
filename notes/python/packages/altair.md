@@ -15,6 +15,7 @@ First install the package using Pip, if necessary:
 
 ```sh
 pip install altair
+pip install vega_datasets # only if you're trying to use one of their provided datasets
 ```
 
 ## Usage
