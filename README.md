@@ -22,7 +22,7 @@ Credits | 1.5
   + [Unit 2](/units/unit-2.md): Onboarding Part II (Version Control)
   + [Unit 3](/units/unit-3.md): Processing and Validating User Inputs
   + [Unit 4](/units/unit-4.md): Datastores, and Processing CSV Data from File
-  + Unit 5: Business Intelligence and Data Visualization
+  + [Unit 5](/units/unit-5.md): Business Intelligence and Data Visualization
   + Unit 6: Networks, and Processing JSON Data from the Internet
   + Unit 7: Review
 
