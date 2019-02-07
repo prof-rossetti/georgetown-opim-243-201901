@@ -40,4 +40,6 @@ ax1.axis("equal")  # Equal aspect ratio ensures that pie is drawn as a circle.
 plt.show() # need to explicitly "show" the chart window
 ```
 
+> NOTE: once you "show" the chart, you'll see the chart open in native window on your computer. You'll be able to view your chart, but when you're done you'll need to close the chart window in order to regain the ability to type commands in your terminal window.
+
 Consult the documentation and examples for a variety of chart customization options.
