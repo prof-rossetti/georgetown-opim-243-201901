@@ -42,6 +42,11 @@ plotly.offline.plot({
 }, auto_open=True)
 ```
 
+![the resulting chart - a boring straight line with four points](https://user-images.githubusercontent.com/1328807/52389188-37a07380-2a60-11e9-9bbf-433dafa12886.png)
+
+
+> NOTE: after a few seconds, the chart will automatically open in your web browser.
+
 Consult the documentation and examples for a variety of chart customization options.
 
 ### More Examples
@@ -61,3 +66,5 @@ trace = go.Pie(labels=labels, values=values)
 
 plotly.offline.plot([trace], filename="basic_pie_chart.html", auto_open=True)
 ```
+
+![the resulting chart - a pie chart with four slices](https://user-images.githubusercontent.com/1328807/52388830-38380a80-2a5e-11e9-8e7b-6951e083a265.png)
