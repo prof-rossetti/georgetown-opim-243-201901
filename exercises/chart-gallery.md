@@ -83,13 +83,13 @@ The instructions in the "Research" and "Investigation" sections below can help y
 
 Generally the approach you should try to follow is something like:
 
-  1. Identify the problem or goal (i.e. "how to make charts in Python?")
-  2. Identify potential solutions (e.g. various charting packages)
-  3. Investigate potential solutions to determine popularity and usability
-  4. Choose a package to further investigate:
-     1. See if you can make one of the example charts provided by that package's documentation (without changing any or much of the example code)
-     2. See if you can make the specific kind of chart you're interested in making, after finding a corresponding example provided by that package's documentation (without changing any or much of the example code)
-     3. See if you can pass your desired dataset to the chart instead of the dataset provided by the chart example
+  1. Identify the problem or goal (e.g. "how to make charts in Python?").
+  2. Identify potential solutions (e.g. various charting packages).
+  3. Evaluate potential solutions to determine popularity and usability.
+  4. Choose a package to further investigate, and complete each of the following steps in order before moving on to the next:
+     1. See if you can make one of the example charts provided by that package's documentation (without changing any or much of the example code).
+     2. See if you can make the specific kind of chart you're interested in making (e.g. bar chart), after finding a corresponding example provided by that package's documentation (without changing any or much of the example code).
+     3. See if you can chart your desired dataset instead of the dataset provided by the chart example.
      4. For chart configuration and styling efforts, search the package documentation for information about the kind of change you'd like to make (e.g. "how to format x axis labels as USD?" or "how to display a chart title?"). Then implement the suggested changes one step at a time, using scientific method to make a small change to the working chart code and seeing how the change affects the chart display. Repeat until the chart looks the way you'd like!
 
 
