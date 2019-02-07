@@ -42,6 +42,9 @@ plotly.offline.plot({
 }, auto_open=True)
 ```
 
+![the resulting chart - a boring straight line with four points](https://user-images.githubusercontent.com/1328807/52389188-37a07380-2a60-11e9-9bbf-433dafa12886.png)
+
+
 > NOTE: after a few seconds, the chart will automatically open in your web browser.
 
 Consult the documentation and examples for a variety of chart customization options.
