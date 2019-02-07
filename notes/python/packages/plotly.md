@@ -42,6 +42,8 @@ plotly.offline.plot({
 }, auto_open=True)
 ```
 
+> NOTE: after a few seconds, the chart will automatically open in your web browser.
+
 Consult the documentation and examples for a variety of chart customization options.
 
 ### More Examples
