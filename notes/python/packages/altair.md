@@ -41,6 +41,8 @@ chart = altair.Chart(cars).mark_point().encode(
 chart.serve()
 ```
 
+![the resulting chart - a scatter plot](https://user-images.githubusercontent.com/1328807/52388802-19397880-2a5e-11e9-8bf0-0490527b7017.png)
+
 > NOTE: once you "serve" the chart, you'll see your terminal window get taken over by running a web server. You'll be able to view your chart in a web browser, but when you're done you'll need to quit the web server by pressing control+c in your terminal. After doing so you will regain the ability to type commands in your terminal window.
 
 Example using custom dataset:
@@ -63,6 +65,7 @@ chart = alt.Chart(source).mark_bar().encode(
 chart.serve()
 ```
 
+![the resulting chart - a bar chart](https://user-images.githubusercontent.com/1328807/52388780-0030c780-2a5e-11e9-8772-5f3264e467d1.png)
 > NOTE: it appears altair requires you to specify the data as a [Pandas DataFrame](/notes/python/packages/pandas.md). If you'd rather not use Pandas, consider choosing a different charting library.
 
 

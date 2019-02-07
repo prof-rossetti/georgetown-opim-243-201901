@@ -61,3 +61,5 @@ trace = go.Pie(labels=labels, values=values)
 
 plotly.offline.plot([trace], filename="basic_pie_chart.html", auto_open=True)
 ```
+
+![the resulting chart - a pie chart with four slices](https://user-images.githubusercontent.com/1328807/52388830-38380a80-2a5e-11e9-8e7b-6951e083a265.png)
