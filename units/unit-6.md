@@ -2,7 +2,7 @@
 
 ## Objectives
 
-In this unit, we'll learn how to use Python to process data from the Internet, focusing on JSON-formatted data returned by web service APIs.
+In this unit, we'll learn how to use Python to process data from the Internet, focusing on data returned by web services in JSON format.
 
 ## Slides
 
@@ -10,10 +10,10 @@ In this unit, we'll learn how to use Python to process data from the Internet, f
 
   + [Computer Networks, the Internet, and HTTP](/notes/networks.md)
   + [Web Services and APIs](/notes/apis.md)
-  + [The `requests` Package](/notes/python/modules/requests.md)
+  + [The `requests` Package](/notes/python/packages/requests.md)
   + [The `json` Module](/notes/python/modules/json.md)
-  + Environment Variables
-  + [The `dotenv` Package](/notes/python/modules/dotenv.md)
+  + [Environment Variables](/notes/environment-variables.md)
+  + [The `dotenv` Package](/notes/python/packages/dotenv.md)
 
 ## Activities and Exercises
 
