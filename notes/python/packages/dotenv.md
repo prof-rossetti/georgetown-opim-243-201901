@@ -1,6 +1,6 @@
 # The `dotenv` Package
 
-> Prerequisite: [Environment Variables](/notes/software/environment-variables.md)
+> Prerequisite: [Environment Variables](/notes/environment-variables.md)
 
 The `dotenv` package allows a program to reference environment variables from a project-specific `.env` file. This makes environment variables much easier to manage, especially for Windows users.
 
