@@ -89,11 +89,13 @@ Example XML:
 
 ### Request Parameters
 
-Many APIs allow you to specify URL parameters along with your HTTP request. These URL parameters are appended to the end of the API's base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character `&`.
+Many APIs allow you to specify URL parameters along with your HTTP request. These URL parameters are appended to the end of the API's base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character (`&`).
 
-Example request URL: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo.
+Example request URL with parameters, where `https://www.alphavantage.co/query` is the base URL and `function`, `symbol`, `outputsize`, and `apikey` are the parameter names:
 
-In this example, `https://www.alphavantage.co/query` is the base URL. And `function`, `symbol`, `outputsize`, and `apikey` are the names of URL parameters.
+```
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo
+```
 
 > Note: you might have to register and specify your own API key if you are seeing a message like "The demo API key is for demo purposes only."
 
@@ -107,7 +109,7 @@ In this example, `https://www.alphavantage.co/query` is the base URL. And `funct
 
 ## Representational State Transfer (REST)
 
-Most of today's web services follow an architectural principle called "REST", which involves performing one or more operations (usually the standard CRUD operations) on one or more resources (usually records in a database).
+Most of today's web services follow an architectural pattern called "REST", which involves performing one or more operations (e.g. "create", "read", "update", "destroy") on one or more resources (usually records in a database).
 
 > One of the key characteristics of a RESTful Web service is the explicit use of HTTP methods in a way that follows the protocol as defined by RFC 2616. HTTP GET, for instance, is defined as a data-producing method that's intended to be used by a client application to retrieve a resource, to fetch data from a Web server, or to execute a query with the expectation that the Web server will look for and respond with a set of matching resources.
 >
@@ -119,16 +121,14 @@ Most of today's web services follow an architectural principle called "REST", wh
 >
 > ... - [IBM website ](https://www.ibm.com/developerworks/library/ws-restful/)
 
-When the web service accepts requests to specified URLS, each URL corresponds to a given operation and resource. For example, take these [Ruby on Rails API URL naming conventions for an example "photos" resource](http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions):
+Each web service URL, sometimes also referred to as an **API Endpoint**, corresponds to a given operation and resource. For example, take these [URL naming conventions for an example "photos" resource](http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions):
 
-HTTP Verb | Path | Controller#Action | Used for
+HTTP Verb | Path | Operation | Used for
 ---	| ---	| ---	| ---
-GET | /photos | photos#index | display a list of all photos
-GET | /photos/new | photos#new | return an HTML form for creating a new photo
-POST | /photos | photos#create | create a new photo
-GET	| /photos/:id | photos#show | display a specific photo
-GET	| /photos/:id/edit | photos#edit | return an HTML form for editing a photo
-PATCH/PUT | /photos/:id | photos#update | update a specific photo
-DELETE | /photos/:id | photos#destroy | delete a specific photo
+GET | /photos | List | display a list of all photos
+POST | /photos | Create | create a new photo
+GET	| /photos/:id | Show | display a specific photo
+PATCH/PUT | /photos/:id | Update | update a specific photo
+DELETE | /photos/:id | Destroy | delete a specific photo
 
-> FYI: The `:id` variable represents a given resource's unique identifier. And `Controller#Action` refers to the location and name of some function in the application's source code which performs the requested operation.
+> FYI: The `:id` variable represents a given resource's unique identifier.
