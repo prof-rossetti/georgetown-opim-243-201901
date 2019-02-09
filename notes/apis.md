@@ -2,32 +2,49 @@
 
 > Prerequisite: [Computer Networks](/notes/networks.md)
 
-Humans often interface with software manually, using a **Graphical User Interface (GUI)** which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
+Today, the way most humans are familiar with interacting with computer-based information systems is through visually- and spatially-oriented interfaces known as **Graphical User Interfaces (GUI)**. GUI interactions include clicking, dragging, tapping, and other gestures.
 
-However, many applications also allow programmatic use. By specifying an **Application Programming Interface (API)**, or instructions on how to use the software programmatically, applications allow both humans and other applications to send data to the application and receive data from it.
+But many systems additionally or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interfaces (APIs)**. APIs provide the instructions and mechanisms for a human or computer to programmatically interact with the system.
 
-It is not uncommon for a system to also use its own public API to perform its own desired functionality.
+## Web Services
 
-Most of todays popular APIs are **Web Services** which accept HTTP requests at specified URLs and return responses to fulfill those requests. Here are some example APIs and API providers:
+**Web Services** are APIs which facilitate the transmission of a system's data across the Internet. Web services provide one or more servers which accept HTTP requests at specified URLs and return HTTP responses containing textual information in a machine-readable format.
 
- + [New York Times APIs](http://developer.nytimes.com/docs)
- + [Google APIs](https://developers.google.com/apis-explorer/#p/)
- + [Twitter APIs](https://dev.twitter.com/rest/public)
- + [Facebook Social Graph API](https://developers.facebook.com/docs/graph-api)
- + [Instagram API](https://instagram.com/developer/endpoints/)
- + [Foursquare API](https://developer.foursquare.com/docs/)
- + [GitHub API](https://developer.github.com/v3/)
- + [Yelp API](https://www.yelp.com/developers/documentation/v2/overview)
- + [Flickr API](https://www.flickr.com/services/api/)
- + [Getty Images API](http://developers.gettyimages.com/en/)
- + [US Federal Elections Commission API](https://api.open.fec.gov/developers)
- + [Alpha Vantage (Stock Market) API](https://www.alphavantage.co/documentation/)
+Some notable example web services and providers include:
 
-### Authentication
+  + [New York Times APIs](http://developer.nytimes.com/docs)
+  + [Google APIs](https://developers.google.com/apis-explorer/#p/)
+  + [Twitter APIs](https://dev.twitter.com/rest/public)
+  + [Facebook Social Graph API](https://developers.facebook.com/docs/graph-api)
+  + [Instagram API](https://instagram.com/developer/endpoints/)
+  + [Foursquare API](https://developer.foursquare.com/docs/)
+  + [GitHub API](https://developer.github.com/v3/)
+  + [Yelp API](https://www.yelp.com/developers/documentation/v2/overview)
+  + [Flickr API](https://www.flickr.com/services/api/)
+  + [Getty Images API](http://developers.gettyimages.com/en/)
+  + [US Federal Elections Commission API](https://api.open.fec.gov/developers)
+  + [Alpha Vantage (Stock Market) API](https://www.alphavantage.co/documentation/)
+
+### Requests
+
+#### Authentication
 
 Many web services require developers to first register to obtain valid credentials in the form of an **API Key** (i.e. a secret token string) and subsequently authenticate by providing the key alongside each API request. This allows the service provider to understand who is issuing each request, and can help prevent or mitigate abuse of the service.
 
-### Response Formats
+#### Request Parameters
+
+Many APIs allow you to specify URL parameters along with your HTTP request. These URL parameters are appended to the end of the API's base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character (`&`).
+
+Example request URL with parameters, where `https://www.alphavantage.co/query` is the base URL and `function`, `symbol`, `outputsize`, and `apikey` are the parameter names:
+
+```
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo
+```
+
+> Note: you might have to register and specify your own API key if you are seeing a message like "The demo API key is for demo purposes only."
+
+
+### Responses
 
 The most common format for API response data is JSON, but some APIs alternatively or additionally provide response data in XML or CSV format.
 
@@ -87,27 +104,12 @@ Example XML:
 </teams>
 ```
 
-### Request Parameters
-
-Many APIs allow you to specify URL parameters along with your HTTP request. These URL parameters are appended to the end of the API's base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character (`&`).
-
-Example request URL with parameters, where `https://www.alphavantage.co/query` is the base URL and `function`, `symbol`, `outputsize`, and `apikey` are the parameter names:
-
-```
-https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo
-```
-
-> Note: you might have to register and specify your own API key if you are seeing a message like "The demo API key is for demo purposes only."
 
 
 
 
 
-
-
-
-
-## Representational State Transfer (REST)
+### Representational State Transfer (REST)
 
 Most of today's web services follow an architectural pattern called "REST", which involves performing one or more operations (e.g. "create", "read", "update", "destroy") on one or more resources (usually records in a database).
 
