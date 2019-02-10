@@ -41,7 +41,7 @@ Mac users should be able to manage global environment variables using a hidden f
 
 ```sh
 # ~/.bash_profile
-export NYU_INFO_2335="SecretPassword123"
+export MY_SECRET_MESSAGE="SecretPassword123"
 ```
 
 Then exit and re-open your Terminal for the changes to take effect.
@@ -52,7 +52,7 @@ Windows users can set local environment variables from the command-line using th
 
 ```sh
 # Windows Command Prompt:
-set NYU_INFO_2335="SecretPassword123"
+set MY_SECRET_MESSAGE="SecretPassword123"
 ```
 
 > NOTE: if you close your command prompt and re-open it, you will need to re-set the environment variable.
@@ -90,10 +90,10 @@ You will know you have successfully set an environment variable when you can acc
 
 ```shell
 # Mac Terminal:
-echo $NYU_INFO_2335 #> SecretPassword123
+echo $MY_SECRET_MESSAGE #> SecretPassword123
 
 # Windows Command Prompt:
-echo %NYU_INFO_2335% #> SecretPassword123
+echo %MY_SECRET_MESSAGE% #> SecretPassword123
 ```
 
 To access environment variables from within a Python program, use [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
