@@ -10,11 +10,18 @@ Your objective is to build yourself a tool to automate the process of providing 
 
 Specifically, the system should accept one or more stock or cryptocurrency symbols as information inputs, then it should request real live historical trading data from the Internet, and finally it should provide a recommendation as to whether or not the client should purchase the given stocks or cryptocurrencies.
 
+## Learning Objectives
+
+  1. Create a tool to automate manual efforts and streamline business processes.
+  2. Gain familiarity with APIs and web services, and practice issuing HTTP requests in Python (focusing on GET requests).
+  3. Increase exposure to JSON-formatted data, and practice processing it in Python.
+  4. Leverage built-in Python modules and third-party Python packages to speed development and enhance capabilities.
+
 ## Requirements
 
 ### Repository Requirements
 
-Your project repository should contain an "app" directory with a "robo_advisor.py" file inside.
+Your project repository should contain an "app" directory with a "robo_advisor.py" file inside (i.e. "app/robo_advisor.py").
 
 Your project repository should contain a "README.md" file. The README file should provide instructions to help someone else install, setup, and run your program. This includes instructions for installing package dependencies, for example using Pip. It also includes instructions for setting an environment variable named `ALPHAVANTAGE_API_KEY` (see "Security Requirements" section below).
 
@@ -27,7 +34,7 @@ If your desired approach to setting environment variables uses a ".env" file (se
 .env
 ```
 
-Finally, your project repository should contain a "data" directory with another .gitignore file inside, with the following contents in it to ignore CSV files stored inside the data directory:
+Finally, your project repository should contain a "data" directory with another ".gitignore" file inside, with the following contents in it to ignore CSV files stored inside the data directory:
 
 ```
 # data/.gitignore
@@ -49,7 +56,7 @@ Instead, you should set an environment variable called `ALPHAVANTAGE_API_KEY`, a
 
 You are encouraged to use a "dotenv" approach to setting project-specific environment variables by using a file called ".env" in conjunction with [the `dotenv` package](/notes/python/packages/dotenv.md). If you do, the ".env" file should **absolutely not** be tracked in version control or included in your GitHub repository.
 
-> HINT: you may need to use a [local ".gitignore" file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore), or just don't upload the ".env" file to GitHub.
+> HINT: you may need to use a [local ".gitignore" file](https://help.github.com/articles/ignoring-files/#create-a-local-gitignore) (see "Repository Requirements" section above), or just don't upload the ".env" file to GitHub.
 
 ### Functionality Requirements
 
@@ -122,27 +129,85 @@ You are free to develop your own custom **recommendation** algorithm. This is pe
 
 
 
+## Setup
+
+### From Starter
+
+To setup your project repository, either fork and clone the professor's ["Robo Advisor" Starter Repository](https://github.com/prof-rossetti/robo-advisor-starter-py), or follow the steps below to setup your own from scratch.
+
+### From Scratch
+
+Take this time to create a new repository on GitHub.com called something like "stock-rec-system" or "robo-advisor-project". We'll refer to this as your "remote project repository".
+
+Clone or download the remote project repository onto your local machine, perhaps on your Desktop. We'll refer to this as your "local project repository".
+
+Navigate to your local project repository from the command-line.
+
+Within the local project repository, create a new directory called "app" with a "robo_advisor.py" file inside, to include the following contents:
+
+```py
+# app/robo_advisor.py
+
+# TODO: import some modules and/or packages here
+
+# TODO: write some Python code here to produce the desired functionality...
+
+print("-----------------------)
+print("STOCK SYMBOL: AMZN")
+
+print("-----------------------)
+print("CRUNCHING THE DATA...")
+
+print("-----------------------)
+print("LATEST CLOSING PRICE: $1,259.19")
+
+# ... etc.
+```
+
+Create a new virtual environment named something like "stocks-env" and activate it. Then from inside the virtual environment, execute the Python script to see it print the provided contents.
+
+Finally, make your first commit with a message like "Setup project repository", and push these changes to GitHub. Once you see these changes reflected in your remote project repository on GitHub.com, you are ready to start the project development process.
 
 
 
 
+## Development
 
+As you develop your project repository, incrementally "commit" your work along the way. By the time you are finished with development, your project repository should contain a version history including at least a handful of incremental commits.
+
+### Further Exploration
+
+If you're able to complete the basic project requirements with relative ease, consider addressing one or more of the ["Robo Advisor" Further Exploration Challenges](robo-advisor/further.md) (e.g. processing multiple stocks, visualizing the stock price over time, etc.).
 
 ## Submission
 
-TBA
+To submit your project:
+
+  1. Push your local project repository to GitHub, so you can visit your remote project repository at a URL like `https://github.com/YOUR_USERNAME/robo-advisor-project`.
+  2. Fork the ["upstream" course repository](https://github.com/prof-rossetti/georgetown-opim-243-201901) (or refresh your existing fork).
+  3. Update your forked course repository's ["Robo Advisor" Submissions CSV file](robo-advisor/submissions.csv).
+to include your GitHub username and your project repository's URL.
+  4. Submit a Pull Request for your forked course repository's changes to be accepted into the "upstream" course repository.
+
 
 ## Evaluation
 
-Submissions will be evaluated based on ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
+Project submissions will be evaluated according to the requirements set forth above, as summarized by the rubric below:
 
-Category | Weight
---- | ---
-Repository Requirements | 10%
-Security Requirements | 15%
-Information	Input Requirements | 10%
-Validation Requirements | 25%
-Information	Output Requirements | 20%
-Calculation Requirements | 20%
+Category | Requirement | Weight
+--- | --- | ---
+Repository | Includes README.md file with detailed instructions | 7.5%
+Security | Excludes secret API Key values from the source code | 12.5%
+Validations (Prelim) | Prevents an HTTP request if stock symbol not likely to be valid (e.g. `8888`) | 5%
+Validations | Fails gracefully if encountering a response error | 10%
+Calculations | Displays accurate information | 15%
+Info Outputs | Displays final recommendation, including justification / context | 15%
+Info Outputs | Writes historical prices to CSV file | 10%
+Info Outputs | Formats all prices as USD | 5%
+Dev Process | Submitted via remote Git repository which reflects an incremental revision history | 20%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
+
+If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
+
+In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, evaluators are encouraged to award between 0.5% and 3.0% extra credit "engagement points" to be applied towards the final exam.
