@@ -199,15 +199,15 @@ Category | Requirement | Weight
 Repository | Includes README.md file with detailed instructions | 7.5%
 Security | Excludes secret API Key values from the source code | 12.5%
 Validations (Prelim) | Prevents an HTTP request if stock symbol not likely to be valid (e.g. `8888`) | 5%
-Validations | Fails gracefully if encountering a response error | 10%
+Validations | Fails gracefully if encountering a response error | 7.5%
 Calculations | Displays accurate information | 15%
 Info Outputs | Displays final recommendation, including justification / context | 17.5%
-Info Outputs | Writes historical prices to CSV file | 7.5%
-Info Outputs | Formats all prices as USD | 5%
+Info Outputs | Writes historical prices to CSV file | 10%
+Info Outputs | Formats all prices as USD (doesn't apply to CSV file values) | 5%
 Dev Process | Submitted via remote Git repository which reflects an incremental revision history | 20%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
 If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
 
-In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, evaluators are encouraged to award between 0.5% and 3.0% extra credit "engagement points" to be applied towards the final exam.
+In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, evaluators are encouraged to award between 0.5% and 5.0% extra credit "engagement points" to be applied towards the final exam.
