@@ -46,7 +46,7 @@ response = requests.put(request_url, json=my_data)
 response = requests.delete(request_url)
 ```
 
-> NOTE: if you are looking to try out these other kinds of requests, head on over to the [API Client Exercise](/exercises/api-client/exercise.md), which links to documentation for the "Products API", which provides example URLs you can use.
+> NOTE: if you are looking to try out these other kinds of requests, head on over to the [API Client Exercise](/exercises/api-client.md), which links to documentation for the "Products API", which provides example URLs you can use.
 
 ### Parsing HTTP Responses
 
@@ -60,4 +60,4 @@ print(type(response_data)) #> <class 'list'> or <class 'dict'>
 
 If the response contains data in CSV format, you can use the familiar CSV-processing mechanisms like the [the `csv` module](/notes/python/modules/csv.md) or [the `pandas` package](/notes/python/packages/pandas.md), with some possible modifications for parsing a CSV-formatted string instead of a CSV file.
 
-If the response contains data in HTML OR XML format, you can use [the `BeautifulSoup` package](/notes/python/packages/beautifulsoup.md) to parse it.
+If the response contains data in HTML or XML format, you can use [the `BeautifulSoup` package](/notes/python/packages/beautifulsoup.md) to parse it.

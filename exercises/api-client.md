@@ -1,6 +1,6 @@
 # API Client Exercise
 
-> Prerequisites: [APIs](notes/apis.md), [Web Requests Exercise](/exercises/web-requests.md)
+> Prerequisites: [APIs](/notes/apis.md), [Web Requests Exercise](/exercises/web-requests.md)
 
 ## Business Prompt
 
@@ -22,30 +22,30 @@ After consulting the docs, issue an appropriate HTTP request in Python to satisf
 
 ### List Products
 
-API Documentation: https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#list-products
+API Documentation: [List Products](https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#list-products)
 
 Request information about all products, then loop through and print the "id" and "name" of each.
 
 ### Show a Product
 
-API Documentation: https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#show-product
+API Documentation: [Show Product](https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#show-product)
 
 Choose a product identifier from the list, then request information about that specific product, then print all the product's attributes.
 
 ### Destroy a Product
 
-API Documentation: https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#destroy-product
+API Documentation: [Destroy Product](https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#destroy-product)
 
 Request to delete the previously-selected product from the inventory.
 
 ### Create a new Product
 
-API Documentation: https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#create-product
+API Documentation: [Create Product](https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#create-product)
 
 Request to create a new product in the inventory.
 
 ### Update a Product
 
-API Documentation: https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#update-product
+API Documentation: [Update Product](https://github.com/prof-rossetti/products-api-flask/blob/csv/DOCS.md#update-product)
 
 Request to update the new product you recently created.

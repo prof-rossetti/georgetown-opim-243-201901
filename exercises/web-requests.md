@@ -22,13 +22,13 @@ Students should focus on the JSON challenges below. Any student desiring further
 
 Write a Python program which issues a GET request for this [product.json data](https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-243-201901/master/data/products/1.json), then print the product's "name".
 
-> Hint: the response text will be a JSON object, like a Python dictionary.
+> FYI: the response text will be a JSON object, like a Python dictionary.
 
 #### JSON Challenge 2: Products
 
 Write a Python program which issues a GET request for this [products.json data](https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-243-201901/master/data/products.json), then loop through each product and print its "name" and "id".
 
-> Hint: the response text will be a JSON array of objects, like a Python list of dictionaries.
+> FYI: the response text will be a JSON array of objects, like a Python list of dictionaries.
 
 #### JSON Challenge 3: Gradebook
 

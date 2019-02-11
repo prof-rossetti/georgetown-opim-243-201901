@@ -59,14 +59,14 @@ set MY_SECRET_MESSAGE="SecretPassword123"
 
 #### Setting Locally Using Dotenv File
 
-To set project-specific local environment variables on either Mac or Windows, consider using the "dotenv" approach. Create a special file in your project named `.env` and place inside content like the following:
+To set project-specific local environment variables on either Mac or Windows, consider using the "dotenv" approach. Create a special file in your project named ".env" and place inside content like the following:
 
 ```sh
 # my-project/.env
 MY_SECRET_MESSAGE="SecretPassword123"
 ```
 
-To load these `.env` variables into a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md).
+To load these variables from the ".env" file into a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md).
 
 
 
@@ -96,7 +96,7 @@ echo $MY_SECRET_MESSAGE #> SecretPassword123
 echo %MY_SECRET_MESSAGE% #> SecretPassword123
 ```
 
-To access environment variables from within a Python program, use [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
+To access environment variables from within a Python program, use [the `os` module](/notes/python/modules/os.md#environment-variables).
 
 
 
