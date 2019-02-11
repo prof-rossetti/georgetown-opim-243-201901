@@ -1,4 +1,4 @@
-# Web Requests Exercise
+# "Web Requests" Exercise
 
 > Prerequisite: [The `requests` Package](/notes/python/packages/requests.md)
 

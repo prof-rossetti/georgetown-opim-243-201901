@@ -37,7 +37,7 @@ After setting an environment variable using one of the approaches below, referen
 #### Setting on Mac
 
 Mac users should be able to manage global environment variables using a hidden file called
-`~/.bash_profile`. Open the file with your text editor (e.g. `atom ~/.bash_profile`), and place inside the following contents:
+"~/.bash_profile". Open the file with your text editor (e.g. `code ~/.bash_profile`), and place inside the following contents:
 
 ```sh
 # ~/.bash_profile

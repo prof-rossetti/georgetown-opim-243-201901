@@ -1,4 +1,4 @@
-# API Client Exercise
+# "API Client" Exercise
 
 > Prerequisites: [APIs](/notes/apis.md), [Web Requests Exercise](/exercises/web-requests.md)
 

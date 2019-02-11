@@ -201,8 +201,8 @@ Security | Excludes secret API Key values from the source code | 12.5%
 Validations (Prelim) | Prevents an HTTP request if stock symbol not likely to be valid (e.g. `8888`) | 5%
 Validations | Fails gracefully if encountering a response error | 10%
 Calculations | Displays accurate information | 15%
-Info Outputs | Displays final recommendation, including justification / context | 15%
-Info Outputs | Writes historical prices to CSV file | 10%
+Info Outputs | Displays final recommendation, including justification / context | 17.5%
+Info Outputs | Writes historical prices to CSV file | 7.5%
 Info Outputs | Formats all prices as USD | 5%
 Dev Process | Submitted via remote Git repository which reflects an incremental revision history | 20%
 
