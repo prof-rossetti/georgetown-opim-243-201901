@@ -57,12 +57,24 @@ set MY_SECRET_MESSAGE="SecretPassword123"
 
 > NOTE: if you close your command prompt and re-open it, you will need to re-set the environment variable.
 
+
+#### Setting Locally via the Command Line
+
+To set a script-specific environment variable on either Mac or Windows, its possible to prefix the environment variable before invoking your Python script. For example:
+
+```sh
+MY_SECRET_MESSAGE="SecretPassword123" python path/to/my_script.py
+```
+
+To recognize the environment variable from within a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md).
+
 #### Setting Locally Using Dotenv File
 
 To set project-specific local environment variables on either Mac or Windows, consider using the "dotenv" approach. Create a special file in your project named ".env" and place inside content like the following:
 
 ```sh
 # my-secure-project/.env
+
 MY_SECRET_MESSAGE="SecretPassword123"
 ```
 
