@@ -30,7 +30,7 @@ You can use this package from the command line or from within a script. The exam
 
 ### Testing Python Scripts
 
-To setup this first example, create a new directory on your Desktop called "testing-123" and navigate there from your command line, then create files called `my_script.py` and `my_test.py` and place inside the following contents, respectively:
+To setup this first example, create a new directory on your Desktop called "testing-123" and navigate there from your command line, then create files called "my_script.py" and "my_test.py" and place inside the following contents, respectively:
 
 ```python
 # testing-123/my_script.py
@@ -63,7 +63,7 @@ Once you have setup the example, run `pytest` from the "testing-123" directory.
 
 When testing larger applications, conventions suggest we should separate the application files and test files into their own respective directories, perhaps called "app", and either "test" or "tests".
 
-For example, let's say you have a script called `app/my_script.py` and a corresponding test called either `tests/test_my_script.py` or `tests/my_script_test.py`.
+For example, let's say you have a script called "app/my_script.py" and a corresponding test called either "tests/test_my_script.py" or "tests/my_script_test.py".
 
 Let's set up this example.
 
@@ -81,7 +81,7 @@ Then, move your test file, and modify it to load the application's code:
 ```python
 # testing-123/tests/my_script_test.py
 
-from app.my_script import enlarge # load the enlarge() function from the `app/my_script.py` file
+from app.my_script import enlarge # load the enlarge() function from the app/my_script.py file
 
 def test_enlarge():
     result = enlarge(3)
@@ -90,9 +90,9 @@ def test_enlarge():
 
 If your repository structure looks like this, there are a few more things you need to do to configure `pytest` to run your tests.
 
-For your test to properly load application code, you need to also create a new empty file called `app/__init__.py` to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
+For your test to properly load application code, you need to also create a new empty file called "app/__init__.py" to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
 
-> NOTE: you may also need to add a `tests/__init__.py` file to resolve the error "ImportError while importing test module"
+> NOTE: you may also need to add a tests/__init__.py file to resolve the error "ImportError while importing test module"
 
 Once you have finished setting up this example, run `pytest` from the repository's root directory.
 

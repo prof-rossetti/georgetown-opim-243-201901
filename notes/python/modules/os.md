@@ -57,7 +57,7 @@ os.path.join(os.path.dirname(__file__), "..", "data", "monthly_sales.csv")
 
 ## Environment Variables
 
-> NOTE: wait to follow along with this section until after you have learned about Environment Variables.
+> Prerequisite: [Environment Variables](/notes/environment-variables.md)
 
 Get the entire environment:
 
