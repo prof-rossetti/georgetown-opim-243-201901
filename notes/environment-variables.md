@@ -62,7 +62,7 @@ set MY_SECRET_MESSAGE="SecretPassword123"
 To set project-specific local environment variables on either Mac or Windows, consider using the "dotenv" approach. Create a special file in your project named ".env" and place inside content like the following:
 
 ```sh
-# my-project/.env
+# my-secure-project/.env
 MY_SECRET_MESSAGE="SecretPassword123"
 ```
 

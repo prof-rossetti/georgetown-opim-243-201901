@@ -17,10 +17,10 @@ pip install python-dotenv # note: NOT just "dotenv"
 ## Usage
 
 
-To setup this example, create a new directory on your Desktop named "my-project". Then navigate there from the command-line:
+To setup this example, create a new directory on your Desktop named "my-secure-project". Then navigate there from the command-line:
 
 ```sh
-cd Desktop/my-project/
+cd Desktop/my-secure-project/
 ```
 
 Create two files in the "my-secure-project" directory named ".env" and "my_script.py", respectively, and place inside the following contents:
