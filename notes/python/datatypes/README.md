@@ -49,11 +49,21 @@ isinstance([1,2,3], str) #> False
 Here are a few examples of how to convert between datatypes:
 
 ```python
-# convert strings to numbers:
+# converting to numbers:
+
 int("500") #> 500
+
 float("0.45") #> 0.45
 
-# convert numbers to strings:
+# converting to strings:
+
 str(100) #> "100"
+
 str(0.45) #> "0.45"
+
+# converting to lists:
+
+list("Hello World") #> ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+
+list({"color": "blue", "size": "small"}) #> ['color', 'size']
 ```
