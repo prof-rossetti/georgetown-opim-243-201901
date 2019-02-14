@@ -12,19 +12,17 @@ Use a function to define your own custom, re-usable operation. Like in other lan
 Define a function:
 
 ```python
-def do_stuff(): # NOTE: the trailing parentheses are required.
+def do_stuff(): # NOTE: the trailing parentheses are required
     print("DOING STUFF HERE!")
 ```
 
 Invoke the function:
 
 ```python
-do_stuff() # NOTE: the trailing parentheses are important. If they are omitted, the function will accessed but not be invoked.
+do_stuff() # NOTE: the trailing parentheses are important. If they are omitted, the function will accessed but not be invoked
 ```
 
 If you try to invoke a function before or without defining it, you will see an error like `NameError: name 'do_stuff' is not defined`.
-
-You might see some functions invoked by themselves (e.g. `do_stuff()`) while others are invoked on objects (e.g. `some_object.do_something_else()`). These two approaches illustrate the difference between "functional" and "object-oriented" programming, respectively. To find a comprehensive list of functions available to be called on any given type of object, reference the documentation for that type of object.
 
 ## Parameters (Input Values)
 
@@ -48,33 +46,49 @@ do_stuff_with_param("HELLO!")
 #> ---------
 #> HELLO!
 #> ---------
+
+do_stuff_with_param("HELLO AGAIN!")
+#> ---------
+#> HELLO AGAIN!
+#> ---------
+```
+
+```python
+m = "HELLO!"
+do_stuff_with_param(m)
+#> ---------
+#> HELLO!
+#> ---------
+
+s = "HELLO AGAIN!"
+do_stuff_with_param(s)
+#> ---------
+#> HELLO AGAIN!
+#> ---------
 ```
 
 ### Multiple Parameters
 
-Define a function with multiple parameters:
+Defining a function with multiple parameters:
 
 ```python
 def do_stuff_with_params(message, first_name, last_name):
-    print(message, "says", first_name, last_name)
+    print("'" + message + "', says " + first_name + " " + last_name)
 ```
 
-In this case, `message`, `first_name` and `last_name` are the names of the function's parameters. Invoke it like so:
+The order of the parameters during function definition corresponds with the order they should be passed during function invocation. In this case, `message`, `first_name` and `last_name` are the names of the function's parameters, in that order. So we can invoke the function like so:
 
 ```python
-do_stuff_with_params("HO! HO! HO!", "Santa", "Claus")
-#> HO! HO! HO! says Santa Claus
+do_stuff_with_params("HELLO THERE", "Ophelia", "Clark")
+#> 'HELLO THERE', says Ophelia Clark
 ```
 
-> PRO TIP: if your function uses more than a handful of parameters, especially if some of them are optional, consider re-configuring the function to accept a single dictionary parameter that contains multiple keys, with the key names corresponding to the names of the original parameters.
->
->     def do_stuff_with_params(obj):
->         print(obj["message"], "says", obj["first_name"], obj["last_name"])
->
->     person = {"first_name": "Santa", "last_name": "Claus", "message": "HO! HO! HO!"}
->
->     do_stuff_with_params(person)
->
+It is possible to pass the parameters in a different order, by explicitly specifying the parameter name during function invocation:
+
+```python
+do_stuff_with_params(first_name= "Ophelia", message="HELLO THERE", last_name="Clark")
+#> 'HELLO THERE', says Ophelia Clark
+```
 
 
 ## Return Values
