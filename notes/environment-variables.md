@@ -66,7 +66,7 @@ To set a script-specific environment variable on either Mac or Windows, its poss
 MY_SECRET_MESSAGE="SecretPassword123" python path/to/my_script.py
 ```
 
-To recognize the environment variable from within a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md).
+To access environment variables from within a Python program, use [the `os` module](/notes/python/modules/os.md#environment-variables).
 
 #### Setting Locally Using Dotenv File
 
@@ -78,7 +78,8 @@ To set project-specific local environment variables on either Mac or Windows, co
 MY_SECRET_MESSAGE="SecretPassword123"
 ```
 
-To load these variables from the ".env" file into a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md).
+To load these variables from the ".env" file into a Python program, use [the `dotenv` package](/notes/python/packages/dotenv.md), then access them using [the `os` module](/notes/python/modules/os.md#environment-variables).
+
 
 
 
@@ -109,20 +110,3 @@ echo %MY_SECRET_MESSAGE% #> SecretPassword123
 ```
 
 To access environment variables from within a Python program, use [the `os` module](/notes/python/modules/os.md#environment-variables).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr>
