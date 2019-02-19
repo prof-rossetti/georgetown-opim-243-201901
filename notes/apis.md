@@ -12,7 +12,7 @@ But many systems additionally or alternatively allow programmatic usage through 
 
 Some notable example web services and providers include:
 
-  + [New York Times APIs](http://developer.nytimes.com/docs)
+  + [New York Times APIs](https://developer.nytimes.com/apis)
   + [Google APIs](https://developers.google.com/apis-explorer/#p/)
   + [Twitter APIs](https://dev.twitter.com/rest/public)
   + [Facebook Social Graph API](https://developers.facebook.com/docs/graph-api)
@@ -21,7 +21,6 @@ Some notable example web services and providers include:
   + [GitHub API](https://developer.github.com/v3/)
   + [Yelp API](https://www.yelp.com/developers/documentation/v2/overview)
   + [Flickr API](https://www.flickr.com/services/api/)
-  + [Getty Images API](http://developers.gettyimages.com/en/)
   + [US Federal Elections Commission API](https://api.open.fec.gov/developers)
   + [Alpha Vantage (Stock Market) API](https://www.alphavantage.co/documentation/)
 

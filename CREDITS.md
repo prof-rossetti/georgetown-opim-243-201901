@@ -13,6 +13,7 @@ Thanks to all the students who have contributed their feedback over the years! :
   + [Importing and Exporting VS Code Extensions from the Command Line](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
   + [Monthly Retail Sales Data (CSV Files)](https://github.com/prof-rossetti/monthly-retail-sales-data)
   + [Executive Dashboard Project (Original VBA Version :smiley_cat:)](https://github.com/prof-rossetti/georgetown-opim-557-201810/blob/master/projects/exec-dash.md)
+  + [Robo Advisor Illustration](https://newvitruvian.com/images/hypothesis-clipart-right-choice-5.jpg)
 
 ## Screencasting Notes
 

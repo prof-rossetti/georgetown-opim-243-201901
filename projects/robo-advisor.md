@@ -4,11 +4,14 @@
 
 ## Business Prompt
 
+![a person high-fiving a robot while money rains down from the sky](https://user-images.githubusercontent.com/1328807/52987309-8e933a80-33c8-11e9-9839-766025306633.jpg)
 Assume you own and operate a financial planning business which helps customers make investment decisions.
 
 Your objective is to build yourself a tool to automate the process of providing your clients with stock trading recommendations.
 
 Specifically, the system should accept one or more stock or cryptocurrency symbols as information inputs, then it should request real live historical trading data from the Internet, and finally it should provide a recommendation as to whether or not the client should purchase the given stocks or cryptocurrencies.
+
+
 
 ## Learning Objectives
 
