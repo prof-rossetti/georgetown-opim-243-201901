@@ -1,6 +1,6 @@
 # "Robo Advisor" Project
 
-> Prerequisites: 
+## Prerequisites
 
   + [Dictionaries](/notes/python/datatypes/dictionaries.md)
   + [Web Requests Exercise](/exercises/web-requests.md)
@@ -106,7 +106,7 @@ After writing historical data to a CSV file, the system should perform calculati
   + The **selected stock symbol(s)** (e.g. "Stock: MSFT")
   + The **date and time when the program was executed**, formatted in a human-friendly way (e.g. "Run at: 11:52pm on June 5th, 2018")
   + The **date when the data was last refreshed**, usually the same as the latest available day of daily trading data (e.g. "Latest Data from: June 4th, 2018")
-  + For each stock symbol: its **latest closing price**, its **recent average high price**, and its **recent average low price**, calculated according to the instructions below, and formatted as currency with a dollar sign and two decimal places with a thousands separator as applicable (e.g. "Recent Average High: $1,234.56", etc.)
+  + For each stock symbol: its **latest closing price**, its **recent high price**, and its **recent low price**, calculated according to the instructions below, and formatted as currency with a dollar sign and two decimal places with a thousands separator as applicable (e.g. "Recent High: $1,234.56", etc.)
   + A **recommendation** as to whether or not the client should buy the stock (see guidance below), and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale).
   + A **recommendation explanation**, describing in a human-friendly way the reason why the program produced the recommendation it did (e.g. "because the stock's latest closing price is exceeds threshold XYZ")
 
@@ -116,13 +116,13 @@ After writing historical data to a CSV file, the system should perform calculati
 
 The **latest closing price** should be equal to the stock's "close" price on the latest available day of trading data.
 
-The **recent average high price** should be equal to the maximum daily "high" price over approximately the past 100 available days of trading data.
+The **recent high price** should be equal to the maximum daily "high" price over approximately the past 100 available days of trading data.
 
-The **recent average low price** should be calculated in a similar manner as the **recent average high price**, but it should instead be equal to the minimum of all daily "low" prices.
+The **recent low price** should be calculated in a similar manner as the **recent high price**, but it should instead be equal to the minimum of all daily "low" prices.
 
-> NOTE: By default, the [daily data returned by the AlphaVantage API](https://www.alphavantage.co/documentation/#daily) uses an `outputsize` parameter value of `compact`. This "compact" response should provide daily data covering the previous 100 trading days, which is sufficient to use to calculate the **recent average high** and **recent average low** prices. It is acceptable and recommended to use these default, "compact" responses to calculate these recent average prices.
+> NOTE: By default, the [daily data returned by the AlphaVantage API](https://www.alphavantage.co/documentation/#daily) uses an `outputsize` parameter value of `compact`. This "compact" response should provide daily data covering the previous 100 trading days, which is sufficient to use to calculate the **recent high** and **recent low** prices. It is acceptable and recommended to use these default, "compact" responses to calculate these recent prices.
 
-You are free to develop your own custom **recommendation** algorithm. This is perhaps one of the most fun and creative parts of this project. :smiley: One simple example algorithm would be (in pseudocode): If the stock's latest closing price is less than 20% above its recent average low, "Buy", else "Don't Buy".
+You are free to develop your own custom **recommendation** algorithm. This is perhaps one of the most fun and creative parts of this project. :smiley: One simple example algorithm would be (in pseudocode): If the stock's latest closing price is less than 20% above its recent low, "Buy", else "Don't Buy".
 
 
 
