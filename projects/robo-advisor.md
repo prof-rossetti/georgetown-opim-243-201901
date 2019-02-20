@@ -1,6 +1,11 @@
 # "Robo Advisor" Project
 
-> Prerequisites: [Web Requests Exercise](/exercises/web-requests.md), [Environment Variables](/notes/environment-variables.md)
+> Prerequisites: 
+
+  + [Dictionaries](/notes/python/datatypes/dictionaries.md)
+  + [Web Requests Exercise](/exercises/web-requests.md)
+  + [APIs](/notes/apis.md)
+  + [Environment Variables](/notes/environment-variables.md)
 
 ## Business Prompt
 
