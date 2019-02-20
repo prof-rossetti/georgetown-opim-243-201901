@@ -20,3 +20,7 @@ In this unit, we'll learn how to use Python to process data from the Internet, f
   + ["Web Requests" Exercise](/exercises/web-requests.md)
   + ["API Client" Exercise](/exercises/api-client.md)
   + ["Robo Advisor" Project](/projects/robo-advisor.md)
+
+## Screencasts
+
+  + ["Robo Advisor" Project Walkthrough](https://youtu.be/UXAVOP1oCog) :movie_camera:
