@@ -19,7 +19,7 @@ Some notable example web services and providers include:
   + [Instagram API](https://instagram.com/developer/endpoints/)
   + [Foursquare API](https://developer.foursquare.com/docs/)
   + [GitHub API](https://developer.github.com/v3/)
-  + [Yelp API](https://www.yelp.com/developers/documentation/v2/overview)
+  + [Yelp API](https://www.yelp.com/developers/documentation/)
   + [Flickr API](https://www.flickr.com/services/api/)
   + [US Federal Elections Commission API](https://api.open.fec.gov/developers)
   + [Alpha Vantage (Stock Market) API](https://www.alphavantage.co/documentation/)
