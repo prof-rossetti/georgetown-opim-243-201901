@@ -216,6 +216,6 @@ Dev Process | Submitted via remote Git repository which reflects an incremental 
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
+If experiencing execution error(s) while evaluating the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 4% and 50%, depending on the circumstances and severity of the error(s).
 
 In recognition of deliverables which exhibit functionality above and beyond the basic required functionality, including "further exploration" challenges, evaluators are encouraged to award between 0.5% and 5.0% extra credit "engagement points" to be applied towards the final exam.
