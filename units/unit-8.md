@@ -2,21 +2,21 @@
 
 ## Objectives
 
-In this unit, we'll discuss and practice ways of delivering software products and services to customers.
+In this unit, we'll discuss software products and services, and practice delivering software to end users.
 
-## Slides
+## [Slides](https://docs.google.com/presentation/d/1h4Hnpp3zZaJisjz-xolOpkhP4kZyodAK3ajZCIinIXI/edit?usp=sharing)
 
 ## Discussions and Notes
 
-  + Software:
+  + Software Products and Services:
     + [Business Models](/notes/software.md#business-models)
     + [Distribution Models](/notes/software.md#distribution-models)
     + [Licensing Models](/notes/software.md#licensing-models)
-  + Server Deployment:
-    + [The `git` Utility](/notes/git.md), revisited: [Remote Repositories](/notes/git.md#remote-repositories) and Managing Remote Addresses
+  + Software Service Delivery (via a Server):
     + [Servers](/notes/servers.md)
+    + [The `git` Utility](/notes/git.md), revisited: [Remote Repositories](/notes/git.md#remote-repositories) and Managing Remote Addresses
     + [The `heroku` Utility](/notes/heroku.md)
-  + Serverless Deployment:
+  + Software Service Delivery (Serverless):
     + Google Cloud Functions
 
 ## Activities and Exercises
