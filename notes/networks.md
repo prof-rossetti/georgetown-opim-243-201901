@@ -1,4 +1,4 @@
-# Computer Networks Overview
+# Computer Networks
 
 A **Computer Network** is a system of interconnected computers which use "communications media" to transmit data to each other.
 
