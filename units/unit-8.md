@@ -21,7 +21,6 @@ In this unit, we'll discuss software products and services, and practice deliver
 
 ## Activities and Exercises
 
-  + "Revert, Revert" Exercise
-  + "Refreshing the Fork" Exercise
-  + "Deploying to Production" Exercise
-  + "99 Problems but a Server Ain't One" (a.k.a. "Serverless Deployment") Exercise
+  + ["Refreshing your Fork" Exercise](/exercises/refresh-fork.md)
+  + ["Deploying to Production" Exercise](/exercises/deploy-production.md)
+  + ["Serverless Deployment" Exercise](/exercises/deploy-serverless.md)
