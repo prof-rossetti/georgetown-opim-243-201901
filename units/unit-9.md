@@ -16,6 +16,10 @@ For businesses which provide software products and services, improved code quali
 
   + "Revert, Revert" Exercise
   + "Codebase Cleanup" Exercise
+  + "Testing 1,2,3" Exercise
+
+## Deliverables
+
   + "Testing the Shopping Cart" Assignment
   + "Testing the Exec Dash" Assignment
   + "Testing the Robo Advisor" Assignment
