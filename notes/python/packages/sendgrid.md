@@ -32,15 +32,18 @@ Send yourself an email:
 
 ```python
 import os
+from dotenv import load_dotenv
 import sendgrid
 from sendgrid.helpers.mail import * # source of Email, Content, Mail, etc.
 
-# AUTHENTICATE
+load_dotenv()
 
 SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY", "OOPS, please set env var called 'SENDGRID_API_KEY'")
 MY_EMAIL_ADDRESS = os.environ.get("MY_EMAIL_ADDRESS", "OOPS, please set env var called 'MY_EMAIL_ADDRESS'")
 
-sg = sendgrid.SendGridAPIClient(apikey = SENDGRID_API_KEY)
+# AUTHENTICATE
+
+sg = sendgrid.SendGridAPIClient(apikey=SENDGRID_API_KEY)
 
 # COMPILE REQUEST PARAMETERS (PREPARE THE EMAIL)
 
