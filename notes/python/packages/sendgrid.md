@@ -1,15 +1,16 @@
 # The `sendgrid` Package
 
-The `sendgrid` package provides some useful emailing capabilities. :mailbox_with_mail: :envelope:
-
-This package is especially useful due to its integration with Heroku.
+The `sendgrid` package provides some useful emailing capabilities in its integration with the [SendGrid Email Delivery Service](https://sendgrid.com/solutions/email-api/). :mailbox_with_mail: :envelope:
 
 Reference:
 
   + [Source](https://github.com/sendgrid/sendgrid-python)
   + [Package](https://pypi.python.org/pypi/sendgrid)
   + [Example Usage](https://github.com/sendgrid/sendgrid-python/blob/master/examples/helpers/mail/mail_example.py)
-  + [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid)
+  + [Heroku's SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid)
+  + [SendGrid Account Types, including Free Tier](https://sendgrid.com/pricing/)
+  + [SendGrid Account Signup](https://signup.sendgrid.com/)
+  + [Obtaining API Keys](https://app.sendgrid.com/settings/api_keys)
 
 ## Installation
 
@@ -19,9 +20,13 @@ Install `sendgrid`, if necessary:
 pip install sendgrid
 ```
 
-## Usage
+## Setup
 
-To setup this example, first ensure you have set an environment variable called `SENDGRID_API_KEY` to facilitate authentication with the SendGrid email service. For instructions, follow the [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid#provisioning-the-add-on).
+First, [sign up for a free account](https://signup.sendgrid.com/), then click the link in a confirmation email to verify your account. Then [create an API Key](https://app.sendgrid.com/settings/api_keys) with "full access" permissions. Store this API Key value in an environment variable called `SENDGRID_API_KEY`.
+
+Also set an environment variable called `MY_EMAIL_ADDRESS` and set its value to be the email address you just associated with your SendGrid account (e.g. "abc123@gmail.com").
+
+## Usage
 
 Send yourself an email:
 
@@ -32,26 +37,26 @@ from sendgrid.helpers.mail import * # source of Email, Content, Mail, etc.
 
 # AUTHENTICATE
 
-SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
+SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY", "OOPS, please set env var called 'SENDGRID_API_KEY'")
+MY_EMAIL_ADDRESS = os.environ.get("MY_EMAIL_ADDRESS", "OOPS, please set env var called 'MY_EMAIL_ADDRESS'")
 
 sg = sendgrid.SendGridAPIClient(apikey = SENDGRID_API_KEY)
 
-# COMPILE REQUEST PARAMETERS
+# COMPILE REQUEST PARAMETERS (PREPARE THE EMAIL)
 
+from_email = Email(MY_EMAIL_ADDRESS)
+to_email = Email(MY_EMAIL_ADDRESS)
 subject = "Hello World from the SendGrid Python Library!"
-my_email = Email("my_address@gmail.com")
-from_email = my_email
-to_email = my_email
 content = Content("text/plain", "Hello, Email!")
 mail = Mail(from_email, subject, to_email, content)
 
-# ISSUE REQUEST
+# ISSUE REQUEST (SEND EMAIL)
 
 response = sg.client.mail.send.post(request_body=mail.get())
 
 # PARSE RESPONSE
 
-print(response.status_code)
-print(response.body)
+print(response.status_code) #> 202 means success
+print(response.body) #> this might be empty. it's ok.
 print(response.headers)
 ```
