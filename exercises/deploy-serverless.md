@@ -1,3 +1,0 @@
-# "Serverless Deployment" Exercise
-
-TBA

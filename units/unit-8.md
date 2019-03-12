@@ -2,7 +2,7 @@
 
 ## Objectives
 
-In this unit, we'll discuss software products and services, and practice delivering software to end users.
+In this unit, we'll discuss software products and services, and practice delivering software services to end users.
 
 ## [Slides](https://docs.google.com/presentation/d/1h4Hnpp3zZaJisjz-xolOpkhP4kZyodAK3ajZCIinIXI/edit?usp=sharing)
 
@@ -22,5 +22,7 @@ In this unit, we'll discuss software products and services, and practice deliver
 ## Activities and Exercises
 
   + ["Refreshing your Fork" Exercise](/exercises/refresh-fork.md)
-  + ["Deploying to Production" Exercise](/exercises/deploy-production.md)
-  + ["Serverless Deployment" Exercise](/exercises/deploy-serverless.md)
+  + ["Deploying a Script to Production" Exercise](/exercises/deploy-script-production.md)
+  + "Serverless Script Deployment" Exercise
+  + "Deploying an API to Production" Exercise
+  + "Deploying a Web App to Production" Exercise
