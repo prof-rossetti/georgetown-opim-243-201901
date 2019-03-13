@@ -22,9 +22,9 @@ pip install sendgrid
 
 ## Setup
 
-First, [sign up for a free account](https://signup.sendgrid.com/), then click the link in a confirmation email to verify your account. Then [create an API Key](https://app.sendgrid.com/settings/api_keys) with "full access" permissions. Store this API Key value in an environment variable called `SENDGRID_API_KEY`.
+First, [sign up for a free account](https://signup.sendgrid.com/), then click the link in a confirmation email to verify your account. Then [create an API Key](https://app.sendgrid.com/settings/api_keys) with "full access" permissions.
 
-Also set an environment variable called `MY_EMAIL_ADDRESS` and set its value to be the email address you just associated with your SendGrid account (e.g. "abc123@gmail.com").
+To setup the usage example below, store the API Key value in an environment variable called `SENDGRID_API_KEY`. Also set an environment variable called `MY_EMAIL_ADDRESS` to be the email address you just associated with your SendGrid account (e.g. "abc123@gmail.com").
 
 ## Usage
 

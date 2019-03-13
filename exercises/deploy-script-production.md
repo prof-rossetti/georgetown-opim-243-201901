@@ -2,18 +2,16 @@
 
 ## Objectives
 
-Learn how to "deploy" a Python script to a "production" environment, namely an application server hosted by Heroku. And to schedule regular execution of the script.
+Learn how to "deploy" a Python script to a "production" environment, namely an application server hosted by Heroku, and schedule the server to execute the script at regular intervals.
 
 ## Prerequisites
 
   + [The `pip` Utility for Project-specific Package Management](/notes/pip.md#project-specific-package-management), or an explanation of the `requirements.txt` file
-  + ["Refresh your Fork" Exercise](/exercises/refresh-fork.md)
+  + ["Refreshing your Fork" Exercise](/CONTRIBUTING.md#refreshing-your-fork)
   + [Heroku](/notes/heroku.md) (sign up for a account, install the Heroku CLI, and login via the command line)
-  +[ The `sendgrid` Package](/notes/python/packages/sendgrid.md), including the setup instructions
+  + [The `sendgrid` Package](/notes/python/packages/sendgrid.md), including the setup instructions
 
 ## Instructions
-
-Follow the instructions below to obtain an example Python script, configure an application server, deploy the script to the server, and schedule the script's execution at regular intervals.
 
 ### Repo Setup
 
@@ -64,14 +62,14 @@ python app/send_email.py
 
 ### Server Setup
 
-Once you have verified your ability to run the script locally, its time to copy the source code onto an application server hosted by Heroku.
+Once you have verified your ability to run the script locally, it's time to copy the source code onto an application server hosted by Heroku.
 
 If you haven't yet done so, [install the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install), and make sure you can login and list your applications.
 
 ```sh
 heroku login
 
-heroku apps:list
+heroku apps:list # at this time, results might be empty-ish
 ```
 
 Then use the online [Heroku Dashboard](https://dashboard.heroku.com/) or the command-line (instructions below) to [create a new application server](https://dashboard.heroku.com/new-app), specifying a unique name (e.g. "notification-app-123", but yours will need to be different):
@@ -96,13 +94,13 @@ Verify the app has been created:
 heroku apps:list
 ```
 
-If you created the application server from the command-line within your project repository, this process might have already automatically associated the repository with that server. Check to see whether you see a remote address called "heroku":
+If you created the application server from the command-line within your project repository, this process might have already automatically associated the repository with that server's remote address. Check to see whether you see a remote address called "heroku":
 
 ```sh
 git remote -v
 ```
 
-If you don't see the remote address called "heroku", manually associate the repo with the application server:
+If you don't already see the remote address called "heroku", manually create this association now:
 
 ```sh
 heroku git:remote -a notification-app-123
@@ -116,7 +114,7 @@ git remote -v
 
 ### Server Configuration
 
-Before we copy the script to the remote server, we need to configure the server's environment in a similar way we configured our local environment. But instead of using a ".env" file, we will directly configure the server's environment variables by either clicking "Reveal Config Vars" from the "Resources" tab in your application's Heroku dashboard, or from the command line (instructions below):
+Before we copy the script to the remote server, we need to configure the server's environment in a similar way we configured our local environment. But instead of using a ".env" file, we will directly configure the server's environment variables by either clicking "Reveal Config Vars" from the "Settings" tab in your application's Heroku dashboard, or from the command line (instructions below):
 
 ![a screenshot of setting env vars via the app's online dashboard](https://user-images.githubusercontent.com/1328807/54229588-f249e880-44da-11e9-920a-b11d4c210a99.png)
 
