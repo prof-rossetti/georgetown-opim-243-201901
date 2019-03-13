@@ -23,6 +23,6 @@ In this unit, we'll discuss software products and services, and practice deliver
 
   + ["Refreshing your Fork" Exercise](/CONTRIBUTING.md#refreshing-your-fork)
   + ["Deploying a Script to Production" Exercise](/exercises/deploy-script-production.md)
-  + "Serverless Script Deployment" Exercise
-  + "Deploying an API to Production" Exercise
-  + "Deploying a Web App to Production" Exercise
+  + "Serverless Script Deployment" Exercise - TBA
+  + "Deploying an API to Production" Exercise - TBA
+  + "Deploying a Web App to Production" Exercise - TBA
