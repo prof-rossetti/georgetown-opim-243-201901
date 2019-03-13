@@ -4,16 +4,15 @@ The `tweepy` package provides some useful tweeting capabilities. :bird: :bird:
 
 Reference:
 
-  + [Package](https://pypi.python.org/pypi/tweepy/3.5.0)
+  + [Package](https://pypi.python.org/pypi/tweepy/3.7.0)
   + [Website](http://www.tweepy.org/)
   + [Source](https://github.com/tweepy/tweepy)
-  + [Docs](http://tweepy.readthedocs.io/en/v3.5.0/)
-  + [Auth Tutorial](http://tweepy.readthedocs.io/en/v3.5.0/auth_tutorial.html#auth-tutorial)
-  + [API Reference](http://tweepy.readthedocs.io/en/v3.5.0/api.html#api-reference)
-  + [Pagination](http://tweepy.readthedocs.io/en/v3.5.0/code_snippet.html#pagination)
+  + [Docs](http://tweepy.readthedocs.io/en/v3.7.0/)
+  + [Auth Tutorial](http://tweepy.readthedocs.io/en/v3.7.0/auth_tutorial.html#auth-tutorial)
+  + [API Reference](http://tweepy.readthedocs.io/en/v3.7.0/api.html#api-reference)
+  + [Status Methods](https://tweepy.readthedocs.io/en/3.7.0/api.html#status-methods)
+  + [Pagination](http://tweepy.readthedocs.io/en/v3.7.0/code_snippet.html#pagination)
   + [Twitter Developer Account - Getting Started](https://developer.twitter.com/en/account/get-started)
-
-See also this [example application](https://github.com/s2t2/tweet-tweet-py).
 
 ## Setup
 
