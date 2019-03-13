@@ -1,6 +1,6 @@
 # The `sendgrid` Package
 
-The `sendgrid` package provides some useful emailing capabilities in its integration with the [SendGrid Email Delivery Service](https://sendgrid.com/solutions/email-api/). :mailbox_with_mail: :envelope:
+The `sendgrid` package provides some useful emailing capabilities via the [SendGrid Email Delivery Service](https://sendgrid.com/solutions/email-api/). :mailbox_with_mail: :envelope:
 
 Reference:
 
