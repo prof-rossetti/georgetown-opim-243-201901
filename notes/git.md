@@ -50,6 +50,7 @@ Try downloading [Git for Windows](https://gitforwindows.org/) and following the 
 
 
 
+
 ## Usage (Git Commands Overview)
 
 > NOTE: after executing some commands like `git log` and `git diff`, you can press the "Enter" key to keep reading, and type "q" to quit when you are done.
