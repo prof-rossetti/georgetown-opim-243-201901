@@ -6,6 +6,33 @@ Anyone with a GitHub account can propose changes to files in this repository. Th
 
 Fork the course repository via the GitHub.com online interface to create a copy under the ownership of your own GitHub user. After doing so, you should be able to view your fork online at `https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901`.
 
+Clone your fork to download it onto your computer:
+
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901.git # this is the HTTPS address, but alternatively you can use the SSH address
+cd georgetown-opim-243-201901
+```
+
+By cloning, you should see a remote address called "origin" has already been established between your local repository and your forked remote repo.
+
+```sh
+git remote -v
+#> origin	https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901.git (fetch)
+#> origin	https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901.git (push)
+```
+
+Finally, also establish a relationship between your local repo and the "upstream" remote repo, which will allow you to keep your fork up-to-date:
+
+```sh
+git remote add upstream https://github.com/prof-rossetti/georgetown-opim-243-201901.git # this is the HTTPS address, but alternatively you can use the SSH address
+
+git remote -v
+#> origin	https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901.git (fetch)
+#> origin	https://github.com/YOUR_GITHUB_USERNAME/georgetown-opim-243-201901.git (push)
+#> upstream	https://github.com/prof-rossetti/georgetown-opim-243-201901.git (fetch)
+#> upstream	https://github.com/prof-rossetti/georgetown-opim-243-201901.git (push)
+```
+
 ### Refreshing your Fork
 
 If you have previously forked the course repository and now your fork is out of date / behind the "upstream" course repository, then follow these steps to **refresh your fork** from the command-line (Terminal or Git Bash):
@@ -13,16 +40,10 @@ If you have previously forked the course repository and now your fork is out of 
 ```sh
 git branch # make sure you are on the "master" branch
 
-git remote -v # make sure you see both "upstream" and "origin" remote addresses
+git pull upstream master # update your local repo to reflect the contents of the "upstream" remote repository
 
-git fetch # detect changes in the "upstream" course repository
-
-git pull upstream master # override your local fork to reflect the contents of the "upstream" repository
-
-git push origin master # override your remote fork to reflect the contents of the "upstream" repository
+git push origin master # update your "origin" remote repo to reflect the contents of your local repo
 ```
-
-> NOTE: after fetching, if you see conflicts when you pull or push, run: `git reset --hard upstream master` to do a hard reset.
 
 > WARNING: refreshing your fork will delete any previous changes you have committed there that aren't reflected in the "upstream" course repository. So make sure any outstanding Pull Requests have been merged before refreshing your fork!
 
