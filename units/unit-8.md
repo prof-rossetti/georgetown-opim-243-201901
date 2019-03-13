@@ -21,7 +21,7 @@ In this unit, we'll discuss software products and services, and practice deliver
 
 ## Activities and Exercises
 
-  + ["Refreshing your Fork" Exercise](/exercises/refresh-fork.md)
+  + ["Refreshing your Fork" Exercise](/CONTRIBUTING.md#refreshing-your-fork)
   + ["Deploying a Script to Production" Exercise](/exercises/deploy-script-production.md)
   + "Serverless Script Deployment" Exercise
   + "Deploying an API to Production" Exercise

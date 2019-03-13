@@ -9,6 +9,7 @@ Learn how to "deploy" a Python script to a "production" environment, namely an a
   + [The `pip` Utility for Project-specific Package Management](/notes/pip.md#project-specific-package-management), or an explanation of the `requirements.txt` file
   + ["Refresh your Fork" Exercise](/exercises/refresh-fork.md)
   + [Heroku](/notes/heroku.md) (sign up for a account, install the Heroku CLI, and login via the command line)
+  +[ The `sendgrid` Package](/notes/python/packages/sendgrid.md), including the setup instructions
 
 ## Instructions
 
