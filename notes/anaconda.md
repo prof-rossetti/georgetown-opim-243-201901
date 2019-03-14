@@ -87,8 +87,12 @@ Create a new virtual environment, and name it something like "my-first-env":
 
 ```sh
 conda create -n my-first-env
-# FYI: you can specify a Python version for your new environment with... conda create -n my-first-env python=3.6
-# FYI: you can delete any environment with... conda env remove -n my-first-env
+
+# FYI: you can specify a Python version for your new environment with... 
+# conda create -n my-first-env python=3.6
+
+# FYI: you can delete any environment with... 
+# conda env remove -n my-first-env
 ```
 
 Enter the virtual environment:
