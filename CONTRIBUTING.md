@@ -45,6 +45,8 @@ git pull upstream master # update your local repo to reflect the contents of the
 git push origin master # update your "origin" remote repo to reflect the contents of your local repo
 ```
 
+> NOTE: after fetching, if you see conflicts when you pull or push, run: `git reset --hard upstream master` to do a hard reset.
+
 > WARNING: refreshing your fork will delete any previous changes you have committed there that aren't reflected in the "upstream" course repository. So make sure any outstanding Pull Requests have been merged before refreshing your fork!
 
 
