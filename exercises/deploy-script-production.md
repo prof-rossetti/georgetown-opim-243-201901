@@ -125,8 +125,8 @@ Before we copy the script to the remote server, we need to configure the server'
 heroku config -a notification-app-123 # at this time, results might be empty-ish
 
 # set environment variables:
-heroku config:set SENDGRID_API_KEY="abc123" notification-app-123
-heroku config:set MY_EMAIL_ADDRESS="someone@gmail.com" notification-app-123
+heroku config:set SENDGRID_API_KEY="abc123" -a notification-app-123
+heroku config:set MY_EMAIL_ADDRESS="someone@gmail.com" -a notification-app-123
 ```
 
 At this point, you should be able to verify the production environment has been configured with the proper environment variable values:
