@@ -25,4 +25,4 @@ In this unit, we'll discuss software products and services, and practice deliver
   + ["Deploying a Script to Production" Exercise](/exercises/deploy-script-production.md)
   + "Serverless Script Deployment" Exercise - TBA
   + "Deploying an API to Production" Exercise - TBA
-  + "Deploying a Web App to Production" Exercise - TBA
+  + ["Deploying a Web App to Production" Exercise](https://github.com/prof-rossetti/georgetown-opim-243-201901/blob/master/exercises/deploy-app-production.md)
