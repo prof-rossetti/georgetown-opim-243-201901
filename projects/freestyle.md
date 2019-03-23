@@ -18,9 +18,11 @@ The application's interface should be intuitive to use and simple to understand.
 
 The user should be able to use the application through an interface other than, or in addition to, the command-line. These alternative interfaces include, but are not limited to:
 
-  + A **Native Graphical User Interface (GUI)**, implemented with a package like [`tkinter`](/notes/python/packages/tkinter.md)
-  + A **Web-based Graphical User Interface (GUI)**, implemented with a package like [`flask`](/notes/python/packages/flask.md)
-  + A **Speech-based Interface**, implemented with a package like [`speech_recognition`](/notes/python/packages/speech_recognition.md)
+  + A Native Graphical User Interface (GUI), implemented with a package like [`tkinter`](/notes/python/packages/tkinter.md)
+  + A Web-based Graphical User Interface (GUI), implemented with a package like [`flask`](/notes/python/packages/flask.md)
+  + A Speech-based Interface, implemented with a package like [`speech_recognition`](/notes/python/packages/speech_recognition.md)
+  + An SMS-based Interface (i.e. "Chat Bot"), implemented with a package like [`twilio`](/notes/python/packages/twilio.md)
+  + An Twitter-based Interface (i.e. "Twitter Bot"), implemented with a package like [`tweepy`](/notes/python/packages/tweepy.md)
   + etc., etc...
 
 ### Data Processing
