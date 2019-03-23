@@ -1,75 +1,53 @@
 # Self-Directed (a.k.a. "Freestyle") Project
 
-The Self-Directed Project provides students with the flexibility to follow their own interests by proposing and ultimately implementing their own application software. First students will brainstorm and submit a proposal outlining their project’s scope, objectives, and requirements. Then students will implement the requirements by writing their own Python application. The final project deliverable will include not only the software itself, but also accompanying version history, documentation, and automated tests.
+The "Freestyle" Project provides students with the flexibility to follow their own interests by planning and implementing their own application software.
 
-> NOTE: students may work independently or in teams of up to three members. If students do choose to work in teams, each is expected to contribute to the application's version history, and the team should strive to create an application with a greater scope and/or difficulty level than described below.
+> PAIR PROGRAMMING OPTION: During the proposal phase, students will officially designate whether they would like to work independently, be paired with a random partner, or be paired with a partner of choice. For mutual partner selections, each student should designate the other as their partner. If pairing, students should strive to significantly increase their project's scope, and each student is expected to make significant contributions to the application's source code.
 
 ## Deliverables
 
-### Proposal
+Follow the links below for more information about each deliverable, including submission instructions and evaluation criteria.
 
-TBA
+### [Proposal](freestyle/proposal.md)
 
-### Requirements Document
+### [Requirements Document](freestyle/requirements.md)
 
-TBA
+### [Implementation](freestyle/implementation.md)
 
-### Implementation
+### [Demo](freestyle/demo.md)
 
-TBA
+## Guidelines
 
-### Demonstration
+Each project's requirements will be unique, but students should strive to adhere to the spirit of the guidelines below.
 
-TBA
+### Scope
 
+The scope of the application's functionality should be around one or two times greater than previous OPIM 243 projects like the ["Robo Advisor"](/projects/robo-advisor.md),
 
-## Examples
+### Data Processing
 
-> NOTE: The examples below illustrate reasonable implementations of subject matter and scope for this project, however they may not necessarily deliver on all project requirements. If you have any questions about what is required, defer to the project requirements, not these examples.
+The application should process (read and/or write) data in at least one of the following machine-readable formats:
+CSV, JSON, HTML, XML, SQL, PDF.
 
-Professor's Project Examples:
+The application should store data in a local file, a relational database, or a Google Sheets spreadsheet document.
 
-  + [Student Repository Evaluator](https://github.com/prof-rossetti/repo-evaluator-py)
-  + TBA
-  + TBA
+### User Interface
 
-Notable Student Projects from Summer 2018:
+The application's interface should be intuitive to use and simple to understand. It should provide clear instructions as necessary.
 
-  + [DineCision (Yelp Recommendations) Web App](https://github.com/jessicalee127/DineCision), by @jessicalee127
-  + [Frizz-caster (Weather-based Hairstyle Recommendations)](https://github.com/kangazoom/freestyle-app), by @kangazoom
-  + [Erase Me (Tweet Deletion)](https://github.com/mswolf05/EraseMe), by @mswolf05,
-  + [GMail Inbox Prioritization App](https://github.com/chrisc617/Gmail-API-Prioritization), by @chrisc617
-  + [World Cup Twitter Bot](https://github.com/harshmall/freestyle-app), by @harshmall
-  + [Sports Betting Recommendation System (MLB Website Scraper)](https://github.com/Jared1989/Free-Style), by @Jared1989
-  + [Currency Exchange App](https://github.com/iriskhu/freestyle-project), by @iriskhu
-  + [Recipe App (Google Keep Datastore)](https://github.com/jtheobalds/freestyle_project), by @jtheobalds
-  + [Air Quality App](https://github.com/jaykoo0708/Free_Style_Project_Final-Version), by @jaykoo0708
-  + [Spotify Music App](https://github.com/luyini/My-Spotipy), by @luyini
-  + [Safe for Work Translator (Profanity Filter)](https://github.com/shanshanyue/SFWTranslator), by @shanshanyue
-  + [Movie Showtimes App](https://github.com/matthewjahns/movie-showtimes-app), by @matthewjahns
-  + [Ticketmaster App](https://github.com/sishar444/ticketmaster-app), by @sishar444
-  + [Baby Naming App](https://github.com/cvs212/my-freestyle-project), by @cvs212
+The user should be able to use the application through an interface other than, or in addition to, the command-line. These alternative interfaces include, but are not limited to:
 
-Notable Student Projects from Summer 2017:
+  + A **Native Graphical User Interface (GUI)**, implemented with a package like [`tkinter`](/notes/python/packages/tkinter.md)
+  + A **Web-based Graphical User Interface (GUI)**, implemented with a package like [`flask`](/notes/python/packages/flask.md)
+  + A **Speech-based Interface**, implemented with a package like [`speech_recognition`](/notes/python/packages/speech_recognition.md)
+  + etc.
 
-  + [Shareholder Letter Natural Language Processing App](https://github.com/lkc9015/freestyle_project), by @lkc9015
-  + [Clothing Recommendation App (Yahoo Weather API Client)](https://github.com/SternWW/freestyleproject), by @SternWW
-  + [Birthday News App (New York Times API Client)](https://github.com/tadub/freestyle), by @tadub
-  + [MTA Bus Status App](https://github.com/alpineghost/nyu_freestyle_project), by @alpineghost
-  + [MTA Transit App](https://github.com/bja282/Freestyle), by @bja282
-  + [Weather App (Web Scraper)](https://github.com/lilyyyyyyyyy/web-scraper), by @lilyyyyyyyyy
-  + [Twitter Sentiment Analysis App](https://github.com/annakhazan/twitter-nlp), by @annakhazan
-  + [Google Sheets Fitness Tracker (Google Docs API Client)](https://github.com/adriandahlin/fitness), by @adriandahlin
-  + [Online Shopping Web Scraper](https://github.com/amazonwong/web-scraper-app), by @amazonwong
-  + [Loan Data Machine Learning App](https://github.com/rjzap/freestyle), by @rjzap
-  + [Financial Investing Web App](https://github.com/Freestyle-FinTech/robovest), by @asad8855, @aic262, @MrDamienB, @Cynthia0524, and @yingluwang
-  + [NYC Events Heatmap](https://github.com/danmikus/nyu_python_freestyle), by @danmikus
-  + [Tic Tac Toe Game](https://github.com/rnigam87/Freestyle-Project), by @rnigam87
+### Network and Connectivity
 
-## Submission Instructions
+The application should process data from the Internet by requesting data from, posting data to, or otherwise interfacing with one or more third-party web services (APIs).
 
-TBA
+The application may optionally be accessible to users over the Internet (i.e. production web application).
 
-## Evaluation
+### Hardware Integration
 
-TBA
+The application may optionally be deployed to a remote server (i.e. production web application or scheduled notification service), or incorporate other physical devices such as sensors and scanners.
