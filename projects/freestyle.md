@@ -29,7 +29,7 @@ The scope of the application's functionality should be around one or two times g
 The application should process (read and/or write) data in at least one of the following machine-readable formats:
 CSV, JSON, HTML, XML, SQL, PDF.
 
-The application should store data in a local file, a relational database, or a Google Sheets spreadsheet document.
+The application should store data in a local file, a relational database, or a Google Sheets spreadsheet document (see the [`gspread`](/notes/python/packages/gspread.md) package).
 
 ### User Interface
 
