@@ -20,6 +20,6 @@ For businesses which provide software products and services, improved code quali
 
 ## Deliverables
 
-  + "Testing the Shopping Cart" Assignment
-  + "Testing the Exec Dash" Assignment
-  + "Testing the Robo Advisor" Assignment
+  + ["Shopping Cart" Project, Revisited](/projects/shopping-cart/revisited.md)
+  + ["Executive Dashboard" Project, Revisited](/projects/exec-dash/revisited.md)
+  + ["Robo Advisor" Project, Revisited](/projects/robo-advisor/revisited.md)
