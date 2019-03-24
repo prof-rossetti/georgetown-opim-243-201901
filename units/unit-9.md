@@ -8,6 +8,11 @@ In this unit, we'll become more familiar with the preliminary phases of the Syst
 
 ## Discussions and Notes
 
+  + The Systems Development Lifecycle (SDLC), focusing on:
+    + Planning
+    + Analysis
+    + Design
+  + [Diagramming Tools](/notes/diagramming.md)
   + [Business Process Analysis and Diagramming](/notes/processes.md)
   + System Analysis and Diagramming
 
