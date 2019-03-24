@@ -8,9 +8,12 @@ In this unit, we'll become more familiar with the preliminary phases of the Syst
 
 ## Discussions and Notes
 
+  + [Business Process Analysis and Diagramming](/notes/processes.md)
+  + System Analysis and Diagramming
+
 ## Activities and Exercises
 
-  + "Process Diagramming" Exercise
+  + ["Process Diagramming" Exercise](/exercises/process-diagramming.md)
   + "Data Flow Diagramming" Exercise
 
 ## Deliverables
