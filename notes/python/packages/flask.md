@@ -26,6 +26,8 @@ Follow the [official tutorial](http://flask.pocoo.org/docs/1.0/tutorial/).
 
 See also these example applications by the professor and previous students:
 
+  + [Starter Web App](https://github.com/prof-rossetti/web-app-starter-flask)
+  + [Starter Web App w/ Google Sheets datastore](https://github.com/prof-rossetti/web-app-starter-flask-sheets)
+  + [DineCision App](https://github.com/jessicalee127/DineCision) - includes a web form to capture user location info, then sends a corresponding request to the Yelp API and presents the response back to the user.
   + [Products API (Flask)](https://github.com/prof-rossetti/products-api-flask) - just a JSON API with no front-end interface, uses CSV datastore.
   + [Salad System (Flask)](https://github.com/prof-rossetti/salad-system-flask) - includes a front-end interface, and uses an SQL datastore, although it would be possible to use a CSV datastore instead.
-  + [DineCision App](https://github.com/jessicalee127/DineCision) - includes a web form to capture user location info, then sends a corresponding request to the Yelp API and presents the response back to the user.
