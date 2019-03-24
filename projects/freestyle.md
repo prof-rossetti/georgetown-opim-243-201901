@@ -63,4 +63,9 @@ The application should process data from the Internet by requesting data from, p
 
 ### Hardware Integration
 
-> DIFFICULTY BONUS: The application should be deployed to a remote server (i.e. production web application or scheduled notification service), or incorporate other physical devices such as sensors and scanners.
+The application should be able to be run from a Mac or Windows computer.
+
+> DIFFICULTY BONUS: The application should be deployed to a remote server (i.e. production web application or scheduled notification service).
+
+
+> DIFFICULTY BONUS: The application should incorporate other physical devices such as sensors and scanners.
