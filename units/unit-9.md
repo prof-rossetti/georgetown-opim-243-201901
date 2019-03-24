@@ -8,6 +8,7 @@ In this unit, we'll become more familiar with the preliminary phases of the Syst
 
 ## Discussions and Notes
 
+  + [Project Management](/notes/project-mgmt.md)
   + [The Systems Development Lifecycle (SDLC)](/notes/sdlc.md), focusing on:
     + Planning
     + Analysis
