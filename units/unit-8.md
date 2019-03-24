@@ -12,17 +12,13 @@ In this unit, we'll discuss software products and services, and practice deliver
     + [Business Models](/notes/software.md#business-models)
     + [Distribution Models](/notes/software.md#distribution-models)
     + [Licensing Models](/notes/software.md#licensing-models)
-  + Software Service Delivery (via a Server):
-    + [Servers](/notes/servers.md)
+  + Software Delivery and Distribution:
+    + [Remote Servers](/notes/servers.md)
     + [The `git` Utility](/notes/git.md), revisited: [Remote Repositories](/notes/git.md#remote-repositories) and Managing Remote Addresses
     + [The `heroku` Utility](/notes/heroku.md)
-  + Software Service Delivery (Serverless):
-    + Google Cloud Functions
 
 ## Activities and Exercises
 
   + ["Refreshing your Fork" Exercise](/CONTRIBUTING.md#refreshing-your-fork)
-  + ["Deploying a Script to Production" Exercise](/exercises/deploy-script-production.md)
-  + "Serverless Script Deployment" Exercise - TBA
-  + "Deploying an API to Production" Exercise - TBA
+  + ["Scheduling a Script in Production" Exercise](/exercises/deploy-script-production.md)
   + ["Deploying a Web App to Production" Exercise](https://github.com/prof-rossetti/georgetown-opim-243-201901/blob/master/exercises/deploy-app-production.md)

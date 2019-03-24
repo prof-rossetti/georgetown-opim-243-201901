@@ -2,24 +2,18 @@
 
 ## Objectives
 
-For businesses which provide software products and services, improved code quality leads to fewer user experience errors, higher customer satisfaction and retention, and lower maintenance costs. In this unit, we'll learn ways to control and improve the quality of our applications.
+In this unit, we'll become more familiar with the preliminary phases of the Systems Development Lifecycle (SDLC), focusing on system planning, analysis, design. We'll analyze business processes and employ Design Thinking methods to identify user needs and business opportunities. And we'll learn how to translate these activities into written system requirements.
 
 ## Slides
 
 ## Discussions and Notes
 
-  + Code Refactoring and Simplification
-  + Automated Testing
-  + Continuous Integration
-
 ## Activities and Exercises
 
-  + "Revert, Revert" Exercise
-  + "Codebase Cleanup" Exercise
-  + "Testing 1,2,3" Exercise
+  + "Process Diagramming" Exercise
+  + "Data Flow Diagramming" Exercise
 
 ## Deliverables
 
-  + "Testing the Shopping Cart" Assignment
-  + "Testing the Exec Dash" Assignment
-  + "Testing the Robo Advisor" Assignment
+  + ["Freestyle" Project Proposal](/projects/freestyle/proposal.md)
+  + ["Freestyle" Project Requirements](/projects/freestyle/requirements.md)
