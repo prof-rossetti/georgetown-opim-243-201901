@@ -6,7 +6,7 @@ Businesses can use technology systems to automate and/or simplify (re-engineer) 
 
 **Process Diagrams** depict the flow and scope of a process from start to finish. These diagrams are often accompanied by written descriptions of the various component sub-processes.
 
-![](img/slc-probation-process-diagram.png)
+![](https://user-images.githubusercontent.com/1328807/54886432-41d6cf80-4e5e-11e9-97f0-be61566285b2.png)
 
 ### Shapes
 

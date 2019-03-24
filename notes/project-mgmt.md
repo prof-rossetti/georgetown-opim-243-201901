@@ -1,6 +1,6 @@
 # Project Management
 
-> Prerequisites: [The Systems Development Lifecycle](/notes/information-systems/development-lifecycle.md)
+> See also: [The Systems Development Lifecycle](/notes/sdlc.md)
 
 Software development projects usually involve a team of individuals working collaboratively to implement system requirements and satisfy user needs.
 
