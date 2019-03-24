@@ -2,7 +2,7 @@
 
 The "Freestyle" Project provides students with the flexibility to follow their own interests by planning and implementing their own application software.
 
-> PAIR PROGRAMMING OPTION: During the proposal phase, students will officially designate whether they would like to work independently, be paired with a random partner, or be paired with a partner of choice. For mutual partner selections, each student should designate the other as their partner. If pairing, students should strive to significantly increase their project's scope, and each student is expected to make significant contributions to the application's source code.
+> PAIR PROGRAMMING OPTION: During the proposal phase, students will officially designate whether they would like to work independently, be paired with a random partner, or be paired with a partner of choice. For mutual partner selections, each student should designate the other as their partner. If pairing, students should strive to significantly increase their project's scope / difficulty level, and each student is expected to make significant contributions to the application's source code.
 
 <hr>
 
@@ -34,7 +34,7 @@ Each project's requirements will be unique, but students should strive to genera
 
 ### Scope
 
-The scope of the application's functionality should be around the same as previous OPIM 243 projects like the ["Robo Advisor"](/projects/robo-advisor.md).
+The scope of the application's functionality should be around the same as previous projects.
 
 > DIFFICULTY BONUS: The scope should be two to three times greater than previous projects.
 
@@ -53,7 +53,7 @@ The application's interface should be intuitive to use and simple to understand.
 The application should process (read and/or write) data in at least one of the following machine-readable formats:
 CSV, JSON, HTML, XML, SQL, PDF.
 
-> DIFFICULTY BONUS: The application should store data in a local file, a relational database, or a Google Sheets spreadsheet document (see the [`gspread`](/notes/python/packages/gspread.md) package).
+> DIFFICULTY BONUS: The application should store data in a local file, a relational database, or a Google Sheets spreadsheet document (see [`gspread`](/notes/python/packages/gspread.md) package).
 
 ### Network Integration
 
