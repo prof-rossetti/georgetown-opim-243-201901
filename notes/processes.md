@@ -28,8 +28,8 @@ The act of describing a process in writing and creating a process diagram usuall
 
 ### Current State
 
-![](img/lunch-menu-update-process-diagram-as-is.png)
+![](https://user-images.githubusercontent.com/1328807/54886429-41d6cf80-4e5e-11e9-8772-21cf2f82d893.png)
 
 ### Future State
 
-![](img/lunch-menu-update-process-diagram-to-be.png)
+![](https://user-images.githubusercontent.com/1328807/54886430-41d6cf80-4e5e-11e9-8325-7bb54bba4435.png)

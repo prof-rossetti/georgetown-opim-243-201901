@@ -8,7 +8,7 @@ In this unit, we'll become more familiar with the preliminary phases of the Syst
 
 ## Discussions and Notes
 
-  + The Systems Development Lifecycle (SDLC), focusing on:
+  + [The Systems Development Lifecycle (SDLC)](/notes/sdlc.md), focusing on:
     + Planning
     + Analysis
     + Design
