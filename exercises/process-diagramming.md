@@ -4,18 +4,23 @@
 
 ## Challenges
 
-### Challenge I: Diagramming Organizational Processes
+### Challenge I: Process Diagramming
 
-Revisit your submission for the [Human Software Exercise](/exercises/human-software/exercise.md), and translate one or more of your written process descriptions into process diagrams.
+Pick **two processes or activities you engage in on a daily basis**. One should be the process of brushing your teeth. The other is your choice.
 
-### Challenge II: Diagramming System Processes
+  1. For each process, write instructions in English to communicate to another human (perhaps someone unfamiliar, or even a child) the steps involved in performing that process.
+  2. Translate one or both of your written process descriptions into process diagrams.
 
-Revisit your submission for the [Inventory Management App](/projects/inventory-app/project.md), and/or the [Stocks App](/projects/stocks-app/project.md), and for each: create a process diagram to visually document the system's logic.
+### Challenge II: Process Re-engineering
 
-### Challenge III: Business Process Improvement
+Identify a **business process you think could be improved** in terms of its effectiveness and/or efficiency. Maybe there are "pain points" involved for participants in this process, or it takes too long, or is too prone to manual error, etc.
 
-First, identify a business process you think could be improved in terms of its effectiveness and/or efficiency.
+Current State ("As-is"):
 
-Then write a detailed and organized description of the "as-is" process, and visually document it by creating an "as-is" process diagram.
+  1. Write a detailed and organized description of the current state process.
+  2. Translate the written process description into a process diagram. Optionally include visual designations of the pain points.
 
-Finally, brainstorm ways to improve the process, write a detailed and organized "to-be" process description, and visually document it by creating a "to-be" process diagram.
+Future State ("To-be"):
+
+  1. Brainstorm ways to improve the process, and write a detailed and organized future state process description.
+  2. Translate the written process description into a process diagram.
