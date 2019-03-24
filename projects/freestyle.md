@@ -21,9 +21,6 @@ The user should be able to use the application through an interface other than, 
   + A Native Graphical User Interface (GUI), implemented with a package like [`tkinter`](/notes/python/packages/tkinter.md)
   + A Web-based Graphical User Interface (GUI), implemented with a package like [`flask`](/notes/python/packages/flask.md)
   + A Speech-based Interface, implemented with a package like [`speech_recognition`](/notes/python/packages/speech_recognition.md)
-  + An SMS-based Interface (i.e. "Chat Bot"), implemented with a package like [`twilio`](/notes/python/packages/twilio.md)
-  + An Twitter-based Interface (i.e. "Twitter Bot"), implemented with a package like [`tweepy`](/notes/python/packages/tweepy.md)
-  + etc., etc...
 
 ### Data Processing
 
@@ -36,17 +33,28 @@ The application should store data in a local file, a relational database, or a G
 
 The application should process data from the Internet by requesting data from, posting data to, or otherwise interfacing with one or more third-party web services (APIs).
 
-The application may optionally be accessible to users over the Internet (i.e. a production web application).
+> FURTHER EXPLORATION: The application should be accessible to users over the Internet (i.e. a production web application).
 
 ### Hardware Integration
 
-The application may optionally be deployed to a remote server (i.e. production web application or scheduled notification service), or incorporate other physical devices such as sensors and scanners.
+> FURTHER EXPLORATION: The application should be deployed to a remote server (i.e. production web application or scheduled notification service), or incorporate other physical devices such as sensors and scanners.
 
 ## Deliverables
 
 Follow the links below for more information about each deliverable, including submission instructions and evaluation criteria:
 
-  + [Proposal](freestyle/proposal.md)
-  + [Requirements Document](freestyle/requirements.md)
-  + [Implementation](freestyle/implementation.md)
-  + [Demo](freestyle/demo.md)
+### [Proposal](freestyle/proposal.md)
+
+During the ideation phase, students will brainstorm their application's scope and objectives and submit this information to the professor for approval and further guidance.
+
+### [Requirements Document](freestyle/requirements.md)
+
+After their proposals are approved, students will further define and document their application's requirements and planned functionality. Students will submit a requirements document to include user stories, diagrams, and interface mockups as necessary.
+
+### [Implementation](freestyle/implementation.md)
+
+After defining requirements, students will write Python code to implement some or all of the application's desired functionality. Students will also write Python code to automatically "test" or control the quality of their applications. Students will submit a Git repository containing their application's source code and tests.
+
+### [Demo](freestyle/demo.md)
+
+After coding the application, students will demonstrate selected functionality for the rest of the class. Students will submit a presentation document, including screenshots and screencasts as desired.
