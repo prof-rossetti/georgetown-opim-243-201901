@@ -44,7 +44,7 @@ OPIM 243:
 OPIM 244:
 
   + [Unit 8](/units/unit-8.md) - Software Products and Services
-  + Unit 9 - Planning, Analysis, and Design
+  + [Unit 9](/units/unit-9.md) - Planning, Analysis, and Design
   + Unit 10 - Maintenance and Quality Control
   + Unit 11 - Implementation Sprint
   + Unit 12 - Review
