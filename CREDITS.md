@@ -14,6 +14,8 @@ Thanks to all the students who have contributed their feedback over the years! :
   + [Monthly Retail Sales Data (CSV Files)](https://github.com/prof-rossetti/monthly-retail-sales-data)
   + [Executive Dashboard Project (Original VBA Version :smiley_cat:)](https://github.com/prof-rossetti/georgetown-opim-557-201810/blob/master/projects/exec-dash.md)
   + [Robo Advisor Illustration](https://newvitruvian.com/images/hypothesis-clipart-right-choice-5.jpg)
+  + [IBM Design Thinking Field Guide](https://ibm.ent.box.com/s/dw2j8nnmj99446my8vgw26subrs0ztg9/file/306777128447)
+  + ["Salad System Requirements"](https://github.com/prof-rossetti/salad-system-requirements)
 
 ## Screencasting Notes
 
