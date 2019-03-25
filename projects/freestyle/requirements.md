@@ -4,7 +4,7 @@
 
 ## Instructions
 
-Prepare a written document which describes the results of your project planning, analysis, and design efforts. Let's call this the "Requirements Document".
+Prepare a written document which describes the results of your project planning, analysis, and design efforts. Let's refer to this the "Planning and Requirements Document".
 
 
 Your project planning and requirements document should include detailed responses for each of the sections outlined below:
@@ -27,15 +27,6 @@ Your project planning and requirements document should include detailed response
 
 
 
-
-
-
-
-
-
-
-
-
 ### Problem Statement
 
 Provide a **description of the problem** your project is trying to solve, including **statements of user needs** and **descriptions of "as-is" and "to-be" processes**.
@@ -45,6 +36,8 @@ If you get stuck, think about the following questions:
   + Who are the application's primary users? NOTE: it's fine if you are the primary user.
   + What are the user's needs?
   + What problem does the application solve?
+
+
 
 ### Proposed Solution
 
