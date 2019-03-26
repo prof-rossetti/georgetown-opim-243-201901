@@ -56,9 +56,11 @@ Include a diagram of the process. Let's refer to this as the "Future State Proce
 
 #### Information Requirements
 
-Describe the system's information requirements, in terms of information inputs and outputs. ___________
+Describe the system's information requirements, in terms of information inputs and outputs. What information inputs does the system require in order to achieve its desired functionality? Where do these inputs come from? What is the data format of these inputs? What information outputs does the system produce in the process of achieving its desired functionality? What will be the data format of these outputs?
 
-Include a Data Flow Diagram to help illustrate the flows of information ____________.
+Include a Data Flow Diagram to help illustrate these information requirements.
+
+![A "data flow diagram" depicting a system with inputs flowing in and outputs flowing out.](/img/notes/info-systems/example-data-flow-diagram.png)
 
 #### Functionality Requirements
 
@@ -87,3 +89,12 @@ Will your software be deployed to a remote server (i.e. web app or scheduled ser
 Upload your PDF document [to Canvas](https://georgetown.instructure.com/courses/75384/assignments/203920).
 
 Later, when you create a repository for the ["Freestyle" Project Implementation](/projects/freestyle/implementation.md), you're encouraged to also include this document in that repository in a subdirectory called "planning" or "design", and refer back to it as a guide for your development activities.
+
+## Evaluation
+
+Requirements documents will be evaluated on their ability to ______________________________:
+
+Category | Weight
+--- | ---
+
+This rubric is tentative, and may be subject to adjustments during the grading process.
