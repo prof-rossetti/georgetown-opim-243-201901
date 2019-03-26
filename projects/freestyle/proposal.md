@@ -19,7 +19,7 @@ Here is a [reasonable example](https://github.com/prof-rossetti/repo-evaluator-p
 
 ## Planning
 
-What are you going to build, and why?
+Section header: What are you going to build, and why?
 
 ### Problem Statement
 
@@ -39,7 +39,7 @@ Which solution are you proposing to implement, and why? What are the goals or ob
 
 ## Investigation
 
-How are you going to build it?
+Section header: How are you going to build it?
 
 ### Web Services (APIs)
 
