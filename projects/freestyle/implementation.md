@@ -4,9 +4,7 @@
 
 ## Instructions
 
-After producing a written [Planning and Requirements Document](/projects/freestyle/requirements.md), it's time to implement your proposed solution by executing on your plan.
-
-Write application software in the Python programming language to implement your proposed solution.
+After producing a written [Planning and Requirements Document](/projects/freestyle/requirements.md), it's time to write application software in the Python programming language to implement your proposed solution.
 
 ## Submission Instructions
 
