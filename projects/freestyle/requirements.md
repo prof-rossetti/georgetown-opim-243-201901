@@ -42,6 +42,8 @@ Describe the current state of the problematic process, and identify any pain poi
 
 Include a diagram of the process (i.e. "Current State Process Diagram").
 
+![](https://user-images.githubusercontent.com/1328807/54886429-41d6cf80-4e5e-11e9-8772-21cf2f82d893.png)
+
 #### Potential Solutions
 
 Brainstorm a few potential solutions to the problem you've identified. Keep in mind, these solutions could be technical or non-technical in nature, and may or may not all involve application software. How can each of these potential solutions help the affected users? After identifying and describing a few potential solutions, compare the merits of each. If the best solution might not translate well into the objectives of this Python programming project, consider identifying a different problem which might lend itself more easily to being solved by a technology solution.
@@ -55,6 +57,8 @@ Which solution are you proposing to implement, and why?
 Describe the future state of the process to be implemented by your proposed solution, and identify any areas of simplification and automation.
 
 Include a diagram of the process (i.e. "Future State Process Diagram").
+
+![](https://user-images.githubusercontent.com/1328807/54886430-41d6cf80-4e5e-11e9-8325-7bb54bba4435.png)
 
 #### System Objectives
 
@@ -80,7 +84,7 @@ Describe the mechanisms in which your users will interact with the system.
 
 Include visual representations in the form of mockups, wireframes, flow-charts, storyboards, etc.
 
-![](https://user-images.githubusercontent.com/1328807/55102707-653b8d80-509d-11e9-8fc9-72e7831f5fcc.png)
+![](https://user-images.githubusercontent.com/1328807/55102992-ff9bd100-509d-11e9-8225-98edfd505759.png)
 
 #### Technology Requirements
 
