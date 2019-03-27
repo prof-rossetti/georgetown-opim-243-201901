@@ -4,9 +4,17 @@
 
 ## Instructions
 
-Prepare a written document (in PDF format) which describes the results of your project planning, analysis, and design efforts. Let's refer to this the "Planning and Requirements Document".
+Prepare a written document (in PDF format) which describes the results of your project planning, analysis, and design efforts.
 
-Your project planning and requirements document should include information sufficient to convey _________. If you get stuck, try thinking about responses for each of the sections outlined below:
+The document should include an analysis of the problem, comparison of potential solutions, and functional objectives of your proposed solution. It should convey a thorough understanding of the problem, and a detailed plan to guide future development / implementation efforts.
+
+If the document were to be shared with clients or potential investors, it should reinforce their confidence in your capabilities and planning efforts. If the document were to be shared with a third-party development team, it should convey enough information to instruct the development team what to build.
+
+The document should incorporate embedded illustrations and diagrams as necessary. These may be low-fidelity hand-drawn images, but prefer to deliver higher-fidelity versions produced via a [digital diagramming tool](/notes/diagramming.md).
+
+A reasonable length for this document, including embedded images, is between three and eight pages, with a maximum of around 15 pages.
+
+If you get stuck, try thinking about responses for each of the sections outlined below:
 
   + Problem Statement
     + User Needs
@@ -19,8 +27,6 @@ Your project planning and requirements document should include information suffi
     + Functionality Requirements
     + Interface Requirements
     + Technology Requirements
-
-Include illustrations and diagrams as necessary. For illustrations and diagrams, you may include low-fidelity, hand-drawn images, but prefer to deliver higher-fidelity versions produced via a [digital diagramming tool](/notes/diagramming.md).
 
 ### Problem Statement
 
