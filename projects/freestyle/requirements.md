@@ -21,8 +21,8 @@ If you get stuck, try thinking about responses for each of the sections outlined
     + Current State Processes
     + Potential Solutions
   + Proposed Solution
-    + System Objectives
     + Future State Processes
+    + System Objectives
     + Information Requirements
     + Functionality Requirements
     + Interface Requirements
@@ -30,7 +30,7 @@ If you get stuck, try thinking about responses for each of the sections outlined
 
 ### Problem Statement
 
-What problem would you like to solve, or what opportunity will you address? Why is it a problem? What is the impact of the problem?
+What problem would you like to solve, or what opportunity will you address? Why is it a problem? What is the impact of the problem? Provide an executive summary.
 
 #### User Needs
 
@@ -48,7 +48,7 @@ Brainstorm a few potential solutions to the problem you've identified. Keep in m
 
 ### Proposed Solution
 
-Which solution are you proposing to implement, and why?
+Which solution are you proposing to implement, and why? Provide an executive summary.
 
 #### Future State Processes
 
