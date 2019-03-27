@@ -40,7 +40,7 @@ Who are the individuals affected by the problem? How are they impacted? How coul
 
 Describe the current state of the problematic process, and identify any pain points as applicable.
 
-Include a diagram of the process. Let's refer to this as the "Current State Process Diagram".
+Include a diagram of the process (i.e. "Current State Process Diagram").
 
 #### Potential Solutions
 
@@ -50,15 +50,21 @@ Brainstorm a few potential solutions to the problem you've identified. Keep in m
 
 Which solution are you proposing to implement, and why?
 
-#### System Objectives
-
-What are the goals or objectives of your proposed system? Please briefly describe the system's desired functionality at the highest possible level (e.g. "The system should send me an email every morning to share information about the day's weather forecast...").
-
 #### Future State Processes
 
 Describe the future state of the process to be implemented by your proposed solution, and identify any areas of simplification and automation.
 
-Include a diagram of the process. Let's refer to this as the "Future State Process Diagram".
+Include a diagram of the process (i.e. "Future State Process Diagram").
+
+#### System Objectives
+
+What are the goals or objectives of your proposed system? Please briefly describe the system's desired functionality at the highest possible level (e.g. "The system should send me an email every morning to share information about the day's weather forecast...").
+
+#### Functionality Requirements
+
+After describing the functionality at a high level, also decompose this functionality into smaller logical sub-components, and describe each in more detail. Prefer to use a hierarchical outline with a section for each of the sub-components.
+
+Describe functionality in terms of desired user experience, as well as underlying system responsibilities. When describing system responsibilities, think in terms of information inputs and outputs (see "Information Requirements" section). When describing functionality in terms of user experience, feel free to include interface mockups and illustrations (see "Interface Requirements" section).
 
 #### Information Requirements
 
@@ -68,15 +74,13 @@ Include a Data Flow Diagram to help illustrate these information requirements.
 
 ![A "data flow diagram" depicting a system with inputs flowing in and outputs flowing out.](/img/notes/info-systems/example-data-flow-diagram.png)
 
-#### Functionality Requirements
-
-Describe the system's functionality in greater detail. Decompose the system into various logical components and describe the desired functionality of each. Describe functionality in terms of desired user experience, as well as underlying system responsibilities.
-
 #### Interface Requirements
 
 Describe the mechanisms in which your users will interact with the system.
 
 Include visual representations in the form of mockups, wireframes, flow-charts, storyboards, etc.
+
+![](https://user-images.githubusercontent.com/1328807/55102707-653b8d80-509d-11e9-8fc9-72e7831f5fcc.png)
 
 #### Technology Requirements
 
@@ -85,7 +89,6 @@ Which APIs, if any, does your system require in order to produce its desired fun
 Which third-party Python packages, if any, does your system require in order to produce its desired functionality? What functionality do these packages provide? Why are they necessary or helpful?
 
 Will your software be deployed to a remote server (i.e. web app or scheduled service)? Will your system need to integrate with other hardware like scanners and sensors? Describe these hardware integrations.
-
 
 <hr>
 
