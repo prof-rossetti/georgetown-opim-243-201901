@@ -17,3 +17,5 @@ Software is most commonly distributed in one of two ways: installation or **Soft
 ## Licensing Models
 
 Software distributors develop and maintain software in private or in public. Software is said to be either **Proprietary** if the end user can not see its source code, or **Open Source** if the end user can see its source code. Most software is proprietary. Examples of proprietary software include *Microsoft Word*, *GMail*, and *Google Docs*. Just because software is free to use, does not mean it is open source. Example open source software includes the *Linux* operating system, the *Firefox* web browser, the *WordPress* blogging platform, most database management software like *MySQL*, most programming languages and tools like *Python* and *Ruby*, and any repository you see online on Github. Even if a software distributor does not open-source the end product's source code, it may open-source various tools it used to develop the end product. [Facebook's *React* framework](https://github.com/facebook/react) is a great example of this.
+
+See also: [Software Licensing](/notes/licensing.md).
