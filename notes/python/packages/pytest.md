@@ -69,9 +69,9 @@ pytest
 
 ### Challenge 2: Testing Python Applications
 
-When testing larger applications, conventions suggest we should separate the application files and test files into their own respective directories, perhaps called "app", and either "test" or "tests".
+When testing larger applications, conventions suggest we should move the application and test files into their own separate directories called "app" and "test", respectively.
 
-For example, let's say you have a script called "app/my_script.py" and a corresponding test called either "tests/test_my_script.py" or "tests/my_script_test.py". Let's set up this example. First, move your application file:
+Let's set up this example. First, move your application file into an "app" directory:
 
 ```python
 # testing-123/app/my_script.py
@@ -80,12 +80,12 @@ def enlarge(i):
     return i * 100
 ```
 
-Then, move your test file, and modify it to load the application's code from its new location ("app/my_script" instead of "my_script"):
+Then, move your test file into a "test" directory, and slightly modify its `import` statement to reflect the application's new location:
 
 ```python
-# testing-123/tests/my_script_test.py
+# testing-123/test/my_script_test.py
 
-from app.my_script import enlarge # load the enlarge() function from the app/my_script.py file
+from app.my_script import enlarge # <-- NOTE this modification (app.my_script)
 
 def test_enlarge():
     result = enlarge(3)
