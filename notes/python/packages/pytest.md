@@ -26,9 +26,9 @@ pipenv install pytest --dev # optionally use the --dev flag to denote this packa
 
 ## Usage
 
-The `pytest` package is generally used as a command-line utility for running pre-defined "test" files. The `pytest` CLI is generally invoked from a repository's root directory.
+The `pytest` package is generally used as a command-line utility for running pre-defined files of "test" code.
 
-### Testing Python Scripts
+### Challenge 1: Testing Python Scripts
 
 To setup this first example, create a new directory on your Desktop called "testing-123" and navigate there from your command line, then create files called "my_script.py" and "my_test.py" and place inside the following contents, respectively:
 
@@ -45,29 +45,33 @@ def enlarge(i):
 from my_script import enlarge # load the `enlarge()` function to avoid NameError: name 'enlarge' is not defined
 
 def test_enlarge(): # name this function anything, but hopefully something related to the name of the function it is testing
-    result = enlarge(3)
-    assert result == 300
+    result = enlarge(3) # directly invoke the function we want to test
+    assert result == 300 # describe expectations for desired behavior
 ```
 
-Once you have setup the example, run `pytest` from the "testing-123" directory.
+Once you have setup the example files, create and activate a new Python 3.7 virtual environment, then from within the virtual environment: install the `pytest` package and use it to run the tests:
 
+```sh
+cd testing-123/
 
+# configure virtual environment (first time only)
+conda create -n testing-123-env python=3.7
+conda activate testing-123-env
 
+# install pytest package (first time only)
+pip install pytest
 
+# run the tests:
+pytest
+```
 
+> NOTE: this will generate some files in a new directory called `__pycache__/`. These files should be ignored from version control, using a .gitignore file!
 
-
-
-
-### Testing Python Applications
+### Challenge 2: Testing Python Applications
 
 When testing larger applications, conventions suggest we should separate the application files and test files into their own respective directories, perhaps called "app", and either "test" or "tests".
 
-For example, let's say you have a script called "app/my_script.py" and a corresponding test called either "tests/test_my_script.py" or "tests/my_script_test.py".
-
-Let's set up this example.
-
-First, move your application file:
+For example, let's say you have a script called "app/my_script.py" and a corresponding test called either "tests/test_my_script.py" or "tests/my_script_test.py". Let's set up this example. First, move your application file:
 
 ```python
 # testing-123/app/my_script.py
@@ -76,7 +80,7 @@ def enlarge(i):
     return i * 100
 ```
 
-Then, move your test file, and modify it to load the application's code:
+Then, move your test file, and modify it to load the application's code from its new location ("app/my_script" instead of "my_script"):
 
 ```python
 # testing-123/tests/my_script_test.py
@@ -88,61 +92,69 @@ def test_enlarge():
     assert result == 300
 ```
 
-If your repository structure looks like this, there are a few more things you need to do to configure `pytest` to run your tests:
+Once your repository structure looks like this, if you were to try to run tests again, you'd run into an error `ModuleNotFoundError: No module named 'app'`. We need to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
 
+In some cases this can be achieved by adding a special file called "__init__.py" to the "app" directory. But the professor recommends you take an alternative approach of adding a special file called "conftest.py" to the repository's root directory. Even if the contents of that file are blank, it helps the `pytest` package locate the proper files.
 
+Once you have finished setting up this example, including the "conftest.py" file, run the tests again:
 
-  + TODO: CONFTEST.PY ??
+```py
+pytest #> 1 passed in 0.01 seconds
+```
 
+### Further Exploration
 
-
-
-
-
-For your test to properly load application code, you may need to also create a new empty file called "app/__init__.py" to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
-
-> NOTE: you may also need to add a conftest.py file to the repository's root directory to resolve errors like "ImportError while importing test module".
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Once you have finished setting up this example, run `pytest` from the repository's root directory.
-
-### Caveats
-
-When testing a script, you may need to refactor all code inside it such that nothing is automatically executed when the file is loaded, but the desired functionality is still executed when the file is run from the command-line.
-
-Use the convention `if __name__ == "__main__": ...` to perform a check to determine whether the file is being loaded (e.g. from a test) or whether it is being invoked from the command-line. Your application script should end up looking like this:
+Modify the "my_script.py" such that when it is invoked it will use the `enlarge` function to process user inputs:
 
 ```python
-# testing-123/my_script.py OR testing-123/app/my_script.py, depending on the example
+def enlarge(i):
+    return i * 100
 
+original_number = int(input("Please select a number to be enlarged (e.g. 400): "))
+print("You chose: ", original_number)
+bigger_number = enlarge(original_number)
+print("Enlarged number is: ", bigger_number)
+```
+
+And invoke it as a script:
+
+```sh
+python app/my_script.py
+# OR:
+# python -m app.my_script
+```
+
+Great!. At this time, you should be able to invoke the script successfully, but when you try to re-run tests, you will see an error:
+
+```sh
+pytest #> OSError: reading from stdin while output is captured
+```
+
+When the test file imports the code from the script, it will execute all code in the script's global scope, including the new code which asks for a user input. But it doesn't make sense for our automated test to ask a user for inputs. So we need a way to isolate the script's definition from its invocation. We can use a special convention (`if __name__ == "__main__"`) to check whether the file is being invoked from the command-line, or is being loaded from / imported into another file. This allows us to distinguish between what should happen in each case, and prevents certain functionality from being executed when the script is imported as a module. For more details, see also [Custom Modules in Python](/notes/python/modules/README.md).
+
+Let's make that final change now:
+
+```python
 def enlarge(i):
     return i * 100
 
 if __name__ == "__main__": # "if this script is run from the command-line, then ..."
-    enlarge()
+    original_number = int(input("Please select a number to be enlarged (e.g. 400): "))
+    print("You chose: ", original_number)
+    bigger_number = enlarge(original_number)
+    print("Enlarged number is: ", bigger_number)
 ```
 
-See also [Custom Modules in Python](/notes/python/modules/README.md).
+After making this small change, you should be able to successfully invoke the script from the command-line, as well as import its functionality into tests:
+
+```sh
+python app/my_script.py
+# OR:
+# python -m app.my_script
+```
+
+```sh
+pytest #> 1 passed in 0.01 seconds
+```
+
+Nice job! You're testing like a pro!
