@@ -16,7 +16,7 @@ Most modern programming languages include built-in features and third-party pack
 
 Different people test software for different reasons. Some software development teams track metrics related to "test coverage" because it matters to them what percentage of an application's functions are described by tests. Other developers only test public-facing components of an application's source code. Some developers don't bother to write tests at all.
 
-The professor suggests you use tests to save yourself time, to improve the accuracy of your programs, and to communicate your program's desired functionality to other developers. If you find yourself performing a manual action multiple times, consider automating that action by writing a corresponding test case. If you expect a specific function to operate in a certain way, write down your expectations in a new test. If you find yourself writing comments to describe some part of the source code which isn't clearly understood, make its function plain by describing it in a test.
+The professor suggests you use tests to save yourself time, to improve the quality and maintainability of your programs, and to communicate your program's desired functionality to other developers. If you find yourself performing a manual action multiple times, consider automating that action by writing a corresponding test case. If you expect a specific function to operate in a certain way, write down your expectations in a new test. If you find yourself writing comments to describe some part of the source code which isn't clearly understood, make its function plain by describing it in a test.
 
 Well-tested applications in general tend to be of a higher quality than untested applications, at least because there is intentional effort spent in pursuit of such a goal, but perhaps also because tests serve their purpose.
 
@@ -24,15 +24,15 @@ Written expectations and descriptions of desired functionality mitigate risks of
 
 #### Test-driven Development (TDD)
 
-Sometimes software developers write tests after completing the development process. In other cases, developers write tests before and during the development process. This latter approach is called **Test-driven Development (TDD)**. When following TDD, tests become a bridge between definitions of desired functionality (i.e. "the app should do xyz") and explicit checks for that functionality.
+Sometimes software developers write tests after completing the development process. In other cases, developers write tests before and during the development process. This latter approach is called **Test-driven Development (TDD)**. When following TDD, tests become a bridge between requirements of desired functionality (i.e. "the app should do xyz") and explicit checks for that functionality.
 
 Your professor prefers to practice TDD and a related approach of **Document-driven Development** whereby the software development process follows the testing process which in-turn follows from the process of writing the software's documentation (most likely in a `README.md` file).
 
-The test-driven development process is closely related with the [refactoring process](/notes/software/refactoring.md). When performing the two processes in conjunction with each other, as a best practice developers follow the approach of "Red Light, Green Light, Refactor". This refers to a process of first writing a failing test, then writing functional code to make the test pass, then refactoring the functional code and re-running tests to make sure they are still passing.
+The test-driven development process is closely related with the [refactoring process](/notes/refactoring.md). When performing the two processes in conjunction with each other, as a best practice developers follow the approach of "Red Light, Green Light, Refactor". This refers to a process of first writing a failing test, then writing functional code to make the test pass, then refactoring the functional code and re-running tests to make sure they are still passing.
 
 ### Continuous Integration
 
-Test automation enables and drives automated software release processes referred to as **Continuous Integration (CI)**. Often a new version of the software will not be released unless all automated tests have passed. This helps prevent potential bugs from reaching users.
+Once tests have been automated, they can be configured to run on a separate server anytime a new feature is proposed. This process is called **Continuous Integration (CI)**, and is one of the techniques for preventing bugs and defects from reaching users. A codebase (i.e. Git repository) can be configured to prevent new versions of the software from being "released" or "merged" until / unless accompanying tests have passed.
 
 > In recent years CI has become a best practice for software development and is guided by a set of key principles. Among them are revision control, build automation and automated testing. - [Code Ship website](https://codeship.com/continuous-integration-essentials)
 
