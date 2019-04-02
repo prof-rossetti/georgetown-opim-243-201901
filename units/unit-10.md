@@ -22,8 +22,7 @@ For businesses which provide software products and services, improved code quali
 ## Activities and Exercises
 
   + "Revert, Revert" Exercise
-  + "Codebase Cleanup" Exercise
-  + "Testing 1,2,3" Exercise
+  + ["Testing 1,2,3" Exercise](/notes/python/packages/pytest.md#usage)
 
 ## Deliverables
 

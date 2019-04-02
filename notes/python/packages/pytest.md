@@ -26,7 +26,7 @@ pipenv install pytest --dev # optionally use the --dev flag to denote this packa
 
 ## Usage
 
-You can use this package from the command line or from within a script. The examples below depict usage from the command-line by invoking `pytest` from a repository's root directory.
+The `pytest` package is generally used as a command-line utility for running pre-defined "test" files. The `pytest` CLI is generally invoked from a repository's root directory.
 
 ### Testing Python Scripts
 
@@ -88,11 +88,44 @@ def test_enlarge():
     assert result == 300
 ```
 
-If your repository structure looks like this, there are a few more things you need to do to configure `pytest` to run your tests.
+If your repository structure looks like this, there are a few more things you need to do to configure `pytest` to run your tests:
 
-For your test to properly load application code, you need to also create a new empty file called "app/__init__.py" to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
 
-> NOTE: you may also need to add a tests/__init__.py file to resolve the error "ImportError while importing test module"
+
+  + TODO: CONFTEST.PY ??
+
+
+
+
+
+
+For your test to properly load application code, you may need to also create a new empty file called "app/__init__.py" to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
+
+> NOTE: you may also need to add a conftest.py file to the repository's root directory to resolve errors like "ImportError while importing test module".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Once you have finished setting up this example, run `pytest` from the repository's root directory.
 
@@ -111,3 +144,5 @@ def enlarge(i):
 if __name__ == "__main__": # "if this script is run from the command-line, then ..."
     enlarge()
 ```
+
+See also [Custom Modules in Python](/notes/python/modules/README.md).
