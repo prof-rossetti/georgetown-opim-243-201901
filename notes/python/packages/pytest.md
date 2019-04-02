@@ -62,8 +62,10 @@ conda activate testing-123-env
 pip install pytest
 
 # run the tests:
-pytest
+pytest #> 1 passed in 0.01 seconds
 ```
+
+Nice!
 
 > NOTE: this will generate some files in a new directory called `__pycache__/`. These files should be ignored from version control, using a .gitignore file!
 
@@ -124,13 +126,13 @@ python app/my_script.py
 # python -m app.my_script
 ```
 
-Great!. At this time, you should be able to invoke the script successfully, but when you try to re-run tests, you will see an error:
+Great! At this time, you should be able to invoke the script successfully, but when you try to re-run tests, you will see an error:
 
 ```sh
 pytest #> OSError: reading from stdin while output is captured
 ```
 
-When the test file imports the code from the script, it will execute all code in the script's global scope, including the new code which asks for a user input. But it doesn't make sense for our automated test to ask a user for inputs. So we need a way to isolate the script's definition from its invocation. We can use a special convention (`if __name__ == "__main__"`) to check whether the file is being invoked from the command-line, or is being loaded from / imported by another file. This allows us to distinguish between what should happen in each case, and prevents certain functionality from being executed when the script is imported as a module. For more details, see also [Custom Modules in Python](/notes/python/modules/README.md).
+When the test file imports the code from the script, it will execute all code in the script's global scope, including the new code which asks for a user input. But it doesn't make sense for our automated test to ask a user for inputs, as there is no user involved in the process. So we need a way to isolate the script's definition from its invocation. We can use a special convention (`if __name__ == "__main__"`) to check whether the file is being invoked from the command-line, or is being loaded from / imported by another file. This allows us to distinguish between what should happen in each case, and prevents certain functionality from being executed when the script is imported as a module. For more details, see also [Custom Modules in Python](/notes/python/modules/README.md).
 
 Let's make that final change now:
 
