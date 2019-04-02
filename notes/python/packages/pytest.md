@@ -92,11 +92,11 @@ def test_enlarge():
     assert result == 300
 ```
 
-Once your repository structure looks like this, if you were to try to run tests again, you'd run into an error `ModuleNotFoundError: No module named 'app'`. We need to indicate that code inside the "app" directory can be loaded/imported for use in other program files.
+Once your repository structure looks like this, if you were to try to run tests again, you'd run into an error `ModuleNotFoundError: No module named 'app'`. We need to indicate that scripts inside the "app" directory should be able to be loaded / imported by files in other directories.
 
-In some cases this can be achieved by adding a special file called "__init__.py" to the "app" directory. But the professor recommends you take an alternative approach of adding a special file called "conftest.py" to the repository's root directory. Even if the contents of that file are blank, it helps the `pytest` package locate the proper files.
+In some cases this can be achieved by adding a special file called `__init__.py` to the "app" directory. But for testing purposes, the professor recommends you take the approach of adding a special file called `conftest.py` to the repository's root directory. Even if the contents of that file are blank, it helps the `pytest` package locate the proper files.
 
-Once you have finished setting up this example, including the "conftest.py" file, run the tests again:
+Once you have finished setting up this example, including the `conftest.py` file, run the tests again:
 
 ```py
 pytest #> 1 passed in 0.01 seconds
@@ -130,7 +130,7 @@ Great!. At this time, you should be able to invoke the script successfully, but 
 pytest #> OSError: reading from stdin while output is captured
 ```
 
-When the test file imports the code from the script, it will execute all code in the script's global scope, including the new code which asks for a user input. But it doesn't make sense for our automated test to ask a user for inputs. So we need a way to isolate the script's definition from its invocation. We can use a special convention (`if __name__ == "__main__"`) to check whether the file is being invoked from the command-line, or is being loaded from / imported into another file. This allows us to distinguish between what should happen in each case, and prevents certain functionality from being executed when the script is imported as a module. For more details, see also [Custom Modules in Python](/notes/python/modules/README.md).
+When the test file imports the code from the script, it will execute all code in the script's global scope, including the new code which asks for a user input. But it doesn't make sense for our automated test to ask a user for inputs. So we need a way to isolate the script's definition from its invocation. We can use a special convention (`if __name__ == "__main__"`) to check whether the file is being invoked from the command-line, or is being loaded from / imported by another file. This allows us to distinguish between what should happen in each case, and prevents certain functionality from being executed when the script is imported as a module. For more details, see also [Custom Modules in Python](/notes/python/modules/README.md).
 
 Let's make that final change now:
 
