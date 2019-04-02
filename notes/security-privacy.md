@@ -1,6 +1,6 @@
 # Information Security and Privacy
 
-> Unless otherwise specified, all quotes in this document are based on <ins>Intro to Information Systems (5e)</ins>, by Rainer - chapters 4.1 and 4.5.
+> Unless otherwise specified, all quotes in this document are based on chapters 4.1 and 4.5 of *Intro to Information Systems (5e)*, by Rainer.
 
 **Security** refers to protection from
  "unauthorized access, use, disclosure, disruption, modification, or destruction" of information resources.

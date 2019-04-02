@@ -2,8 +2,6 @@
 
 A software **license** is a document which indicates how others can expect to use the software. In many cases it also contains provisions to specify the copyright holder and to limit the authors from liability.
 
-> Copyright refers to the author's (creators of all sorts such as writers, photographers, artists, film producers, composers, and programmers) exclusive right to reproduce, prepare derivative works, distribute copies, and publicly perform and display their works. These rights may be transferred or assigned in whole or in part in writing by the author. Unless otherwise agreed in writing, work created by an employee is usually owned by the employer. The U.S. Copyright Act gets its authority from Article 1, Section 8, cl. 8 of the U.S. Constitution. - [Library of Congress website](http://www.loc.gov/teachers/usingprimarysources/copyright.html)
-
 The license of a software repository is usually located in the repository's root directory in a file called called "LICENSE", "LICENSE.txt", or "LICENSE.md".
 
 References:
@@ -14,6 +12,8 @@ References:
   + https://choosealicense.com/licenses/
   + https://choosealicense.com/appendix/
   + https://github.com/blog/1530-choosing-an-open-source-license
+
+> Copyright refers to the author's (creators of all sorts such as writers, photographers, artists, film producers, composers, and programmers) exclusive right to reproduce, prepare derivative works, distribute copies, and publicly perform and display their works. These rights may be transferred or assigned in whole or in part in writing by the author. Unless otherwise agreed in writing, work created by an employee is usually owned by the employer. The U.S. Copyright Act gets its authority from Article 1, Section 8, cl. 8 of the U.S. Constitution. - [Library of Congress website](http://www.loc.gov/teachers/usingprimarysources/copyright.html)
 
 ## Open Source Software
 
