@@ -17,12 +17,13 @@ For businesses which provide software products and services, improved code quali
     + [Automated Testing](/notes/testing.md)
     + [Testing in Python](/notes/python/testing.md), focusing on [The `pytest` Package](/notes/python/packages/pytest.md)
     + [Continuous Integration](/notes/testing.md#continuous-integration)
-    + Travis CI
+    + [Travis CI](/notes/travis-ci.md)
 
 ## Activities and Exercises
 
   + "Revert, Revert" Exercise
-  + ["Testing 1,2,3" Exercise](/notes/python/packages/pytest.md#usage)
+  + ["Testing 1,2,3" Exercise](/exercises/testing-123.md)
+  + ["Continuous Integration 1,2,3" Exercise](/exercises/ci-123.md)
 
 ## Deliverables
 

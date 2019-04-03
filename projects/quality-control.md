@@ -1,7 +1,5 @@
 
-# The "Quality Control" Project
-
-> a.k.a. "OPIM 243 Projects, Revisited"
+# OPIM 243 Projects, Revisited
 
 ## Learning Objectives
 
@@ -19,23 +17,27 @@ For each of the previous OPIM 243 Projects, implement the general requirements d
 
 ### Documentation Requirements
 
-Your project repository should contain a "README.md" file. The README file should provide instructions to help someone else install, setup, and run your program. This includes instructions for installing package dependencies, for example using Pip. It also includes instructions for setting environment variables as necessary.
+Your project repository should contain a "README.md" file. The README file should provide instructions to help someone else install, setup, run, and test your program. This includes instructions for installing package dependencies, for example using Pip. It also includes instructions for setting environment variables as necessary.
 
 As you document for your application, strive to make it as easy as possible for someone else (or even your future self) to install it, use it, and understand what it is about.
 
 ### Licensing Requirements
 
-[Choose a license](/notes/licensing.md) and include a "LICENSE" or "LICENSE.md" file in the root directory of your repository.
+[Choose a software license](/notes/licensing.md), and include a corresponding file called "LICENSE" or "LICENSE.md" in the root directory of your repository.
 
 ### Security Requirements
 
-TBA
+If your program requires sensitive information like secret passwords, API keys, or other credentials, those secret values should absolutely not be included in the source code or its revision history.
+
+Use environment variables in conjunction with a ".env" file and a ".gitignore" file to read sensitive information from the software's operating environment while excluding them from the source code.
 
 ### Quality Requirements
 
 #### Code Simplification
 
-TBA
+Scan your application's codebase for duplication of terms, and refactor to remove that duplication.
+
+Also, your codebase should be reasonably organized and well documented with comments, to help others (and your future self) understand the code.
 
 #### Automated Tests
 
@@ -52,7 +54,7 @@ As you think about ways to test your application, consider asking yourself quest
 
 #### Continuous Integration
 
-TBA
+Configure your GitHub repository to integrate with a continuous integration (CI) platform like [Travis CI](________), such that automated tests are run on a CI server whenever new code is pushed to the remote GitHub repository.
 
 ## Submission Instructions
 
