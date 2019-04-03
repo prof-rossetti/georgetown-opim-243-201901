@@ -8,7 +8,7 @@ We have the opportunity to build products that change the world in positive ways
 
 Even so, sometimes our creations can be used in unintended and unfortunate ways:
 
-> Facebook told congressional investigators on Wednesday that it sold political ads during the 2016 U.S. presidential election to a so-called Russian troll farm that was looking to target American voters... Facebook sells its advertising through a self-service ad model, through which buyers can choose demographic, geographic and interest-based targets... Due to the volume of these ad buys, Facebook said it was unable to identify the inauthentic nature of these ad buys at the time. - [CNN](http://money.cnn.com/2017/09/06/media/facebook-russia-ads-2016-election/index.html) on September 7 2017
+> Facebook told congressional investigators on Wednesday that it sold political ads during the 2016 U.S. presidential election to a so-called Russian troll farm that was looking to target American voters... Facebook sells its advertising through a self-service ad model, through which buyers can choose demographic, geographic and interest-based targets... Due to the volume of these ad buys, Facebook said it was unable to identify the inauthentic nature of these ad buys at the time. - [CNN](http://money.cnn.com/2017/09/06/media/facebook-russia-ads-2016-election/index.html) on September 7, 2017
 
 > San Francisco-based company reached an agreement with California’s housing agency amid complaints of guests being rejected for their race... On social media, black Airbnb users reported experiences of facing a rejection by a host, who later accepted them when they changed their profile to a white person. Earlier this month, an Asian American woman’s account of discrimination in California went viral after she said a host cancelled on her last minute specifically because of her race, leaving her stranded in a storm. ... Harvard Business School professor Ben Edelman previously found that black users were 16% less likely to be accepted than identical guests with white names... - [The Guardian](https://www.theguardian.com/technology/2017/apr/27/airbnb-government-housing-test-black-discrimination) on April 27, 2017
 
@@ -35,6 +35,12 @@ Specific categories of malware include:
   + **Ransomware** - cripples computer systems and demands a ransom in return for restoring the systems to normal operations
 
 Recent malware attacks in the news:
+
+> Arizona Beverages, one of the largest beverage suppliers in the U.S., is recovering after a massive ransomware attack last month, TechCrunch has learned.
+>
+> The company, famous for its iced tea beverages, is still rebuilding its network almost two weeks after the attack hit, wiping hundreds of Windows computers and servers and effectively shutting down sales operations for days until incident response was called in, according to a person familiar with the matter.
+>
+> More than 200 servers and networked computers displayed the same message: "Your network was hacked and encrypted." The company’s name was in the ransom note, indicating a targeted attack... The ransom note asked to email the attacker "to get the ransom amount." - [TechCrunch](https://techcrunch.com/2019/04/02/arizona-beverages-ransomware/) on April 2, 2019
 
 > Last Friday, the City of Atlanta was struck by a ransomware attack that took much of the city's internal and external services offline. As of today, many of those services have been restored, but two public portals remain offline. On Saturday, the automated dispatch network for Baltimore's 911 system was also taken offline by an apparent ransomware attack. And yesterday, Boeing's Charleston facility—which manufactures components for Boeing's 777 and other commercial jets, and for the Air Force's KC-46 tanker—was struck by what was initially reported to be WannaCry malware. - [Ars Technica](https://arstechnica.com/information-technology/2018/03/baltimores-911-system-boeing-join-atlanta-in-week-of-crypto-malware-outbreaks/) on March 29, 2018
 
