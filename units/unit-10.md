@@ -8,11 +8,14 @@ For businesses which provide software products and services, improved code quali
 
 ## Discussions and Notes
 
-  + Management Considerations:
+  + Management of Software Products and Services, continued:
     + [Software Licensing](/notes/licensing.md) and Open Source
-    + Collaboration and [`git` Branch Operations](/notes/git.md#branch-operations)
     + [Security and Privacy](/notes/security-privacy.md)
     + [Ethics](/notes/ethics.md)
+  + Developer Collaboration:
+    + [Git Branch Operations]((/notes/git.md#branch-operations))
+    + GitHub Pull Request Workflow
+    + GitHub Pull Request Reviews
   + System Maintenance:
     + [Code Refactoring and Simplification](/notes/refactoring.md)
     + [Automated Testing](/notes/testing.md)
@@ -22,7 +25,7 @@ For businesses which provide software products and services, improved code quali
 
 ## Activities and Exercises
 
-  + "Revert, Revert" Exercise
+  + ["Revert, Revert" Exercise](/exercises/revert-revert.md)
   + ["Testing 1,2,3" Exercise](/exercises/testing-123.md)
   + ["Continuous Integration 1,2,3" Exercise](/exercises/ci-123.md)
 
