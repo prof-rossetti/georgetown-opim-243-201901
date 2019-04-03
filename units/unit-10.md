@@ -9,7 +9,8 @@ For businesses which provide software products and services, improved code quali
 ## Discussions and Notes
 
   + Management Considerations:
-    + [Software Licensing](/notes/licensing.md)
+    + [Software Licensing](/notes/licensing.md) and Open Source
+    + Collaboration and [`git` Branch Operations](/notes/git.md#branch-operations)
     + [Security and Privacy](/notes/security-privacy.md)
     + [Ethics](/notes/ethics.md)
   + System Maintenance:

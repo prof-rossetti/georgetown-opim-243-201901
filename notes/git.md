@@ -168,3 +168,27 @@ git push origin master # uploads local repo contents to remote address
 Sometimes after pulling, you may see merge conflicts, in which case you might need to perform a "rebase" before being able to push. The rebase process can be difficult, so feel free to ask the professor for help.
 
 After pushing successfully, you should be able to visit your remote repository on GitHub and see your code there.
+
+
+### Collaboration
+
+#### Branch Operations
+
+Branches offer separate namespaces for different versions of your code. This allows a single developer to try different approaches without affecting some known working version of the code. It also facilitates developer collaboration by allowing each developer a space to work, and by enabling Pull Request operations and reviews on GitHub.
+
+The default branch is called "master", but developers usually do their work on a branch corresponding with some development goal (e.g. "my-new-feature"):
+
+```sh
+# determine which branch you're on:
+git branch
+
+# create and switch to a new branch named "my-new-feature":
+git checkout -b my-new-feature
+
+# switch between existing branches:
+git checkout master
+git checkout my-new-feature
+
+# after committing some changes, push the branch up to GitHub:
+git push origin my-new-feature
+```
