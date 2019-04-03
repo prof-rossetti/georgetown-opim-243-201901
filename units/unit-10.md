@@ -13,7 +13,7 @@ For businesses which provide software products and services, improved code quali
     + [Security and Privacy](/notes/security-privacy.md)
     + [Ethics](/notes/ethics.md)
   + Developer Collaboration:
-    + [Git Branch Operations]((/notes/git.md#branch-operations))
+    + [Git Branch Operations](/notes/git.md#branch-operations)
     + GitHub Pull Request Workflow
     + GitHub Pull Request Reviews
   + System Maintenance:

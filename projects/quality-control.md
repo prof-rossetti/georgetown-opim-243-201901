@@ -54,7 +54,11 @@ As you think about ways to test your application, consider asking yourself quest
 
 #### Continuous Integration
 
-Configure your GitHub repository to integrate with a continuous integration (CI) platform like [Travis CI](________), such that automated tests are run on a CI server whenever new code is pushed to the remote GitHub repository.
+Configure your GitHub repository to integrate with a continuous integration (CI) platform like [Travis CI](/notes/travis-ci.md), such that automated tests are run on a CI server whenever new code is pushed to the remote GitHub repository.
+
+### Dev Process Requirements
+
+Develop your updates [on a branch](/notes/git.md#branch-operations), push that branch to GitHub in order to create a Pull Request, where you can further review your proposed changes and allow automated tests to run and pass on the CI server before finally "merging" the code into the master branch.
 
 ## Submission Instructions
 
@@ -72,6 +76,6 @@ Security | Excludes sensitive information and credentials | 15%
 Quality | Simplified to remove or minimize code duplication | 15%
 Quality | Contains relevant automated tests | 20%
 Quality | Deployed to a continuous integration (CI) server | 10%
-Maintainability | Submitted via Git repository which reflects an incremental revision history | 15%
+Dev Process | Submitted via Git repository which reflects an incremental revision history, branch operations, and Pull Request workflow | 15%
 
 If experiencing execution error(s) while evaluating or testing the application's required functionality, evaluators are advised to reduce the project's grade by anywhere between 15% and 50%, depending on the circumstances and severity of the error(s).
