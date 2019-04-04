@@ -41,7 +41,7 @@ Also, your codebase should be reasonably organized and well documented with comm
 
 #### Automated Tests
 
-Implement automated tests using the `pytest` package. See project-specific guidance for more details.
+Implement automated tests using the `pytest` package. See project-specific guidance for more details. Try to implement at least one of the basic challenges and one of the intermediate challenges.
 
 As you think about ways to test your application, consider asking yourself questions like the following:
 
