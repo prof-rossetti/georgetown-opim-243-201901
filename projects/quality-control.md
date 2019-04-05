@@ -15,6 +15,12 @@ For each of the previous OPIM 243 Projects, implement the general requirements d
   + ["Executive Dashboard" Project, Revisited](/projects/exec-dash/revisited.md)
   + ["Robo Advisor" Project, Revisited](/projects/robo-advisor/revisited.md)
 
+See also the professor's example solutions:
+
+  + [Testing the "Shopping Cart"](https://github.com/s2t2/shopping-cart-screencast/pull/2/files)
+  + [Testing the "Exec Dash"](https://github.com/s2t2/exec-dash-starter-py/pull/1/files)
+  + [Testing the "Robo Advisor"](https://github.com/s2t2/robo-advisor-screencast/pull/1/files)
+
 ### Documentation Requirements
 
 Your project repository should contain a "README.md" file. The README file should provide instructions to help someone else install, setup, run, and test your program. This includes instructions for installing package dependencies, for example using Pip. It also includes instructions for setting environment variables as necessary.
@@ -41,7 +47,7 @@ Also, your codebase should be reasonably organized and well documented with comm
 
 #### Automated Tests
 
-Implement automated tests using the `pytest` package. See project-specific guidance for more details.
+Implement automated tests using the `pytest` package. See project-specific guidance for more details. Try to implement at least one of the basic challenges and one of the intermediate challenges.
 
 As you think about ways to test your application, consider asking yourself questions like the following:
 
