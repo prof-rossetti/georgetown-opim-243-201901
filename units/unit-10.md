@@ -28,6 +28,7 @@ For businesses which provide software products and services, improved code quali
   + ["Revert, Revert" Exercise](/exercises/revert-revert.md)
   + ["Testing 1,2,3" Exercise](/exercises/testing-123.md)
   + ["Continuous Integration 1,2,3" Exercise](/exercises/ci-123.md)
+  + ["Quality Control" Exercise](https://github.com/prof-rossetti/quality-control-exercise-py)
 
 ## Deliverables
 
