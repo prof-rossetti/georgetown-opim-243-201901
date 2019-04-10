@@ -40,6 +40,12 @@ os.listdir("/path/to/Desktop")
 
 ## File Operations
 
+Delete a file:
+
+```py
+os.remove("demofile.txt")
+```
+
 Detect whether a specific file exists:
 
 ```py
