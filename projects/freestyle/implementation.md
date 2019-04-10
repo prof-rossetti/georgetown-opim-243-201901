@@ -6,11 +6,7 @@
 
 After producing a written [Planning and Requirements Document](/projects/freestyle/requirements.md), it's time to write application software in the Python programming language to implement your proposed solution.
 
-Also adhere to the requirements below.
-
-
-
-
+In addition to addressing your system's written functionality requirements, the implementation should adhere to the requirements below.
 
 ### Documentation Requirements
 
