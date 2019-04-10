@@ -40,7 +40,7 @@ First, in your client application's developer settings, you'll need to specify a
 
 Note your Spotify username, and store in an environment varible called `SPOTIFY_USERNAME`.
 
-After setting the username, setup the code provided in the "Authorized Usage" section below, and invoke the provided `get_token()` function to obtain a Spotify user auth token, and store the result in an environment variable called `SPOTIFY_AUTH_TOKEN`.
+After setting the redirect URL and username, setup the code provided in the "Authenticated Usage" section below, invoke the provided `get_token()` function to obtain an access token, and store the result in an environment variable called `SPOTIFY_AUTH_TOKEN`.
 
 > NOTE: this step also seems to download a file called `.cache-USERNAME` to the root directory of the repo. it looks like this:
 >
@@ -55,7 +55,7 @@ After setting the username, setup the code provided in the "Authorized Usage" se
 > }
 > ```
 >
-> Either move or delete this file, or ignore it from version control by adding an entry like `.cache-*` to your repository's ".gitignore" file.
+> Since this file contains secret credentials, ignore it from version control by adding an entry like `.cache-*` to your repository's ".gitignore" file.
 
 After setting these additional environment variables, you should be able to issue requests on behalf of the user (see the provided `get_playlists()` function below).
 
