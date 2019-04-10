@@ -46,8 +46,8 @@ OPIM 244:
   + [Unit 8](/units/unit-8.md) - Software Products and Services
   + [Unit 9](/units/unit-9.md) - Planning, Analysis, and Design
   + [Unit 10](/units/unit-10.md) - Maintenance and Quality Control
-  + Unit 11 - Implementation Sprint
-  + Unit 12 - Review
+  + [Unit 11](/projects/freestyle/implementation.md) - Implementation Sprint
+  + [Unit 12](/projects/freestyle/demo.md) - Demo Days
 
 ## Resources
 
