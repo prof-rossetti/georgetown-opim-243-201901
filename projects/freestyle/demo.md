@@ -9,7 +9,7 @@
 
 ## Instructions
 
-Prepare a five minute presentation to share your project with the rest of the class. It should be in Google Sheets format, and should generally include the following slides / components:
+Prepare a five minute presentation to share your project with the rest of the class. It should be in Google Slides format, and should generally include the following slides / components:
 
   1. Introduction
   2. Problem Statement
