@@ -26,9 +26,9 @@ But if an environment variable's value is sensitive (i.e. secret password or API
 
 ### Skipping Tests which issue HTTP Requests
 
-Avoiding HTTP requests during testing helps decrease the burden on the web servers which process the requests. Ideally, we'd use strategies for "mocking" the results of HTTP requests (i.e. pretending to make a request and returning a static pre-prepared response instead). But when you're just starting out with automated testing, it's fine for your tests to issue live HTTP requests.
+Avoiding HTTP requests during testing helps increase the speed of those tests and decrease the burden on web servers responsible for processing those requests. Ideally, we'd use strategies for "mocking" the results of HTTP requests (i.e. pretending to make a request and returning a pre-prepared example response instead).
 
-If any of your tests do issue HTTP requests, prefer to run them locally but exclude them from being run on the CI server. For each test you'd like to skip from being run on the server, use `@pytest.mark.skipif` to denote that test should be skipped if a given condition is met, for example if there is an environment variable setting of `CI="true"`:
+But when you're just starting out with automated testing, it's fine for your tests to issue live HTTP requests. If any of your tests do issue HTTP requests, prefer to run them locally but exclude them from being run on the CI server. For each test you'd like to skip from being run on the server, use `@pytest.mark.skipif` to denote that test should be skipped if a given condition is met, for example if there is an environment variable setting of `CI="true"`:
 
 ```py
 # test/robo_advisor_test.py
@@ -42,10 +42,10 @@ from app.my_script import get_response
 # see: https://docs.travis-ci.com/user/environment-variables/#default-environment-variables
 CI_ENV = os.environ.get("CI") == "true"
 
-@pytest.mark.skipif(CI_ENV==True, reason="to avoid issuing HTTP requests on the CI server"
+@pytest.mark.skipif(CI_ENV==True, reason="to avoid issuing HTTP requests on the CI server" # skips this test on CI
 def test_get_response():
     symbol = "NFLX"
-    parsed_response = get_response(symbol) # issues an HTTP request (see function definition)
+    parsed_response = get_response(symbol) # issues an HTTP request (see function definition below)
 
     assert isinstance(parsed_response, dict)
     assert parsed_response["Meta Data"]["2. Symbol"] == symbol
@@ -59,6 +59,6 @@ import requests
 
 def get_response(stock_symbol)
     url = f"https://my-api.com/stocks?symbol={stock_symbol}"
-    response = requests.get(url)
+    response = requests.get(url) # issues an HTTP request
     return json.loads(response.text)
 ```
