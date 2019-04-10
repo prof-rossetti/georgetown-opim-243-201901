@@ -26,10 +26,6 @@ After defining requirements, students will write Python code to implement some o
 
 After coding the application, students will demonstrate selected functionality for the rest of the class. Students will submit a presentation document, including screenshots and screencasts as desired.
 
-### [Peer Review](freestyle/peer-review.md)
-
-On Demo Day, students will evaluate each other's projects in an effort to discern which rise to the top in terms of their impressiveness and impact.
-
 <hr>
 
 ## Guidelines
