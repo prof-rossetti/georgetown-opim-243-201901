@@ -76,14 +76,16 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 load_dotenv() # load environment variables
 
-print("CLIENT ID:", os.environ.get("SPOTIPY_CLIENT_ID"))
-print("CLIENT SECRET:", os.environ.get("SPOTIPY_CLIENT_SECRET"))
+print("CLIENT ID:", os.environ.get("SPOTIPY_CLIENT_ID")) # env var used implicitly by the spotipy package
+print("CLIENT SECRET:", os.environ.get("SPOTIPY_CLIENT_SECRET"))  # env var used implicitly by the spotipy package
 
+# FYI, this client configuration approach expects / implicitly uses env vars named SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET
 client_credentials_manager = SpotifyClientCredentials()
-client = spotipy.Spotify(client_credentials_manager=client_credentials_manager) # checks for env vars SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET by default
+client = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-results = client.search(q="Springsteen on Broadway", limit=20)
-for i, track in enumerate(results['tracks']['items']):
+response = client.search(q="Springsteen on Broadway", limit=20)
+
+for i, track in enumerate(response['tracks']['items']):
     print(' ', i, track['name'])
 ```
 
@@ -103,9 +105,9 @@ import spotipy.util as util
 
 load_dotenv() # load environment variables
 
-CLIENT_ID = os.environ.get("SPOTIPY_CLIENT_ID", "OOPS")
-CLIENT_SECRET = os.environ.get("SPOTIPY_CLIENT_SECRET", "OOPS")
-REDIRECT_URL = os.environ.get("SPOTIPY_REDIRECT_URI", "OOPS")
+print("CLIENT ID:", os.environ.get("SPOTIPY_CLIENT_ID")) # env var used implicitly by the spotipy package
+print("CLIENT SECRET:", os.environ.get("SPOTIPY_CLIENT_SECRET")) # env var used implicitly by the spotipy package
+print("REDIRECT URL:", os.environ.get("SPOTIPY_REDIRECT_URI")) # env var used implicitly by the spotipy package
 USERNAME = os.environ.get("SPOTIFY_USERNAME", "OOPS")
 AUTH_TOKEN = os.environ.get("SPOTIFY_AUTH_TOKEN", "OOPS")
 
@@ -124,18 +126,10 @@ def get_token():
 def get_playlists():
     client = spotipy.Spotify(auth=AUTH_TOKEN)
 
-    playlists = client.current_user_playlists()
+    response = client.current_user_playlists()
 
-    while playlists:
-        print(type(playlists))
-
-        for i, playlist in enumerate(playlists['items']):
-            print(f"{i + 1 + playlists['offset']} {playlist['uri']} {playlist['name']}")
-
-        if playlists["next"]:
-            playlists = client.next(playlists)
-        else:
-            playlists = None
+    for i, playlist in enumerate(response['items']):
+        print(f"{i + 1 + response['offset']} {playlist['uri']} {playlist['name']}")
 
 if __name__ == "__main__":
 
