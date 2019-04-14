@@ -30,38 +30,36 @@ pip install spotipy
 
 Create a [Spotify API Client application](https://developer.spotify.com/dashboard/applications/), note its credentials, then store them in environment variables called `SPOTIPY_CLIENT_ID` and `SPOTIPY_CLIENT_SECRET`, respectively.
 
-If your app doesn't need to make authenticated requests on behalf of the user, this setup should be sufficient. Feel free to move on to the "Unauthenticated Usage" example below.
+If your app doesn't need to make authenticated requests on behalf of the user, this setup should be sufficient. Feel free to move on to the "Basic Usage" example below.
 
 ### User Authentication
 
-However if your app does need to make authenticated requests on behalf of the user, there are a few more setup steps involved.
+However, if your app does need to make authenticated requests on behalf of the user, there are a few more setup steps.
 
 First, in your client application's developer settings, you'll need to specify a redirect URL. If you're not sure which URL to designate, feel free to choose your GitHub repository URL, or a local URL like `http://localhost:5000/auth/spotify/callback`. Store the value in an environment variable called `SPOTIPY_REDIRECT_URL`.
 
 Note your Spotify username, and store in an environment varible called `SPOTIFY_USERNAME`.
 
-After setting the redirect URL and username, setup the code provided in the "Authenticated Usage" section below, invoke the provided `get_token()` function to obtain an access token, and store the result in an environment variable called `SPOTIFY_AUTH_TOKEN`.
+After setting the redirect URL and username, setup the code provided in the "Authenticated Usage" section below, and invoke the provided `get_token()` function. This process will download a file called `.cache-USERNAME` to the root directory of the repo. It looks like this:
 
-> NOTE: this step also seems to download a file called `.cache-USERNAME` to the root directory of the repo. it looks like this:
->
-> ```json
-> {
->     "access_token": "_____",
->     "token_type": "Bearer",
->     "expires_in": 3600,
->     "refresh_token": "______",
->     "scope": "playlist-read-private",
->     "expires_at": 1554651631
-> }
-> ```
->
-> Since this file contains secret credentials, ignore it from version control by adding an entry like `.cache-*` to your repository's ".gitignore" file.
+```json
+{
+    "access_token": "_____",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "______",
+    "scope": "playlist-read-private",
+    "expires_at": 1554651631
+}
+```
 
-After setting these additional environment variables, you should be able to issue requests on behalf of the user (see the provided `get_playlists()` function below).
+Since this file contains secret credentials, ignore it from version control by adding an entry like `.cache-*` to your repository's ".gitignore" file.
+
+Subsequent requests (see the provided `get_playlists()` function below) will use the auth token from this credentials file to avoid additional user logins.
 
 ## Usage
 
-### Unauthenticated Usage
+### Basic Usage
 
 Example request which doesn't require authentication (i.e. a song search):
 
@@ -109,22 +107,17 @@ print("CLIENT ID:", os.environ.get("SPOTIPY_CLIENT_ID")) # env var used implicit
 print("CLIENT SECRET:", os.environ.get("SPOTIPY_CLIENT_SECRET")) # env var used implicitly by the spotipy package
 print("REDIRECT URL:", os.environ.get("SPOTIPY_REDIRECT_URI")) # env var used implicitly by the spotipy package
 USERNAME = os.environ.get("SPOTIFY_USERNAME", "OOPS")
-AUTH_TOKEN = os.environ.get("SPOTIFY_AUTH_TOKEN", "OOPS")
 
 # requires user interaction
-# do this initially to get a valid token, then store that token in an env var called SPOTIFY_AUTH_TOKEN to enable programmatic usage
 def get_token():
     AUTH_SCOPE = "playlist-read-private"
     token = util.prompt_for_user_token(USERNAME, AUTH_SCOPE)
-    # alternatively specify where the credentials file should be stored...
-    #user_credentials_filepath = os.path.join(os.path.dirname(__file__), "..", "credentials", "spotify_user.json")
-    #token = util.prompt_for_user_token(USERNAME, AUTH_SCOPE, cache_path=user_credentials_filepath)
     return token
 
 # requires user auth
-# and requires token configuration, i.e. get_token() and setting result as SPOTIFY_USER_AUTH_TOKEN env var
 def get_playlists():
-    client = spotipy.Spotify(auth=AUTH_TOKEN)
+    token = get_token()
+    client = spotipy.Spotify(auth=token)
 
     response = client.current_user_playlists()
 
@@ -132,8 +125,6 @@ def get_playlists():
         print(f"{i + 1 + response['offset']} {playlist['uri']} {playlist['name']}")
 
 if __name__ == "__main__":
-
-    # get_token()
 
     get_playlists()
 ```
